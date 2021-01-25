@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd6b749d-55a4-4e10-a933-8d97bfe2f9df">
+  <name>ПроверкаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка контрагентов</value>
+  </synonym>
+  <methodName>CommonModule.ПроверкаКонтрагентов.ПроверитьКонтрагентовРегламентноеЗадание</methodName>
+  <key>1</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

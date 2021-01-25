@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7098d41-a978-4c77-937c-8deebdfe0bcd">
+  <name>СохранитьРезультатПроверкиКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить результат проверки контрагента</value>
+  </synonym>
+  <source>
+    <types>DefinedType.КонтрагентОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПроверкаКонтрагентов.СохранитьРезультатПроверкиКонтрагентаПриЗаписи</handler>
+</mdclass:EventSubscription>

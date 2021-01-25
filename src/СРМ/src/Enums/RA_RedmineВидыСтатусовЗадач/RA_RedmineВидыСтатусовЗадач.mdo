@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb5f325f-c4fe-47e1-8181-fa1ed5a81143">
+  <producedTypes>
+    <refType typeId="f305c028-be55-4d9c-8c4e-b3eebbe33568" valueTypeId="86471235-e0ae-41b2-82d5-5717e1545ea3"/>
+    <listType typeId="d2a59a3e-f94c-487a-85dc-58843b710c68" valueTypeId="ed93dce0-7211-4948-b350-906c20fbd2cb"/>
+    <managerType typeId="39d99c75-691a-406a-8c4e-64b9d93165ad" valueTypeId="cbeeb483-a8ef-4b58-9c16-91a61da5f791"/>
+  </producedTypes>
+  <name>RA_RedmineВидыСтатусовЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды статусов задач</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d6d156bc-a862-4b9a-9735-4f9f2a87066a">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92fa3925-e972-4222-95ef-64e49610d6a1">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e9842ef-47dc-4562-8364-2ae298ac0d40">
+    <name>Решена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Решена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c840234-edfd-406f-9e83-dd7a1403f607">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

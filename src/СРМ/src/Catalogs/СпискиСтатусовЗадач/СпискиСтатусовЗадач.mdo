@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64538b87-976c-4de9-bd50-4e1b321dd191">
+  <producedTypes>
+    <objectType typeId="1e80a66a-fce0-435e-a8fd-1eba8972ace8" valueTypeId="72955d3c-597f-4cb0-b931-92a732a2d9a9"/>
+    <refType typeId="d53f78f0-4b6c-44b6-911c-8628f115f039" valueTypeId="898b5601-cbaa-4c67-a679-ff318d06763b"/>
+    <selectionType typeId="73dbd862-f0fb-4cbf-94c8-18d3c4fc8ec6" valueTypeId="2e6dc30d-f7b0-4ed8-ac8b-d8b52485b204"/>
+    <listType typeId="e2836108-1fc8-4bd9-a989-ee55f2ccc9e0" valueTypeId="a1e0f377-34aa-41a1-bfbc-d1977aeaebf9"/>
+    <managerType typeId="5b546184-a00a-4aa4-9f1f-82ff9b404647" valueTypeId="1d461ed0-1542-4348-93ba-ccac5787ff63"/>
+  </producedTypes>
+  <name>СпискиСтатусовЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки статусов задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпискиСтатусовЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Список статусов задач</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2df2c423-f3e7-47cc-9b84-dec2b8d25e55">
+      <name>ВРаботе</name>
+      <description>В работе</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="fb92fb05-21e5-4b6e-bd23-5bac04ec560d">
+      <name>Выполненные</name>
+      <description>Выполненные</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="b3cf0abf-6656-45b2-a7c8-acd153c16352">
+      <name>Закрытые</name>
+      <description>Закрытые</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="d3fa0e97-e0c2-41bc-8218-b3a4f611a649">
+      <name>КВыполнению</name>
+      <description>К выполнению</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="931275da-0e89-46ce-82d4-e81bf0b59f10">
+      <name>НеВыполненные</name>
+      <description>Не выполненные</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="e38f7b99-d8ff-4e6a-ab93-44b1f4387fd7">
+      <name>Новые</name>
+      <description>Новые</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e27f8ada-853e-49d1-8ec8-14f70fb9f4e2">
+      <name>Отклоненные</name>
+      <description>Отклоненные</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="89e504f0-79d1-4408-acc6-070c768601ab">
+      <name>Открытые</name>
+      <description>Открытые</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпискиСтатусовЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СпискиСтатусовЗадач.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СпискиСтатусовЗадач.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="40ddf9ab-1d26-4d06-90c5-eebb01134db8">
+    <name>РеквизитДопУпорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb404cdb-e1cc-4b09-bdf5-49b6bf0f25d1">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf2aa7e7-bbbb-4734-ba26-93abac85f02f">
+    <name>СписокСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список статусов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a9bd1a92-fac3-452d-86e8-a3aa8ce4bc45">
+    <producedTypes>
+      <objectType typeId="38a59056-f7a4-4886-93cf-412b633f27dc" valueTypeId="62e0d89c-ed23-4683-ae80-f20d92940828"/>
+      <rowType typeId="788eda85-447d-4318-99a3-fb525aa11ce0" valueTypeId="2ddcdef0-e84f-4242-91b7-3608e968d362"/>
+    </producedTypes>
+    <name>Статусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы</value>
+    </synonym>
+    <attributes uuid="99160791-7df4-4822-8777-0ed38df4bbb9">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатусыЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="62f4785b-8717-42c0-a7a3-e51962f96e2e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="69ad12e8-3b09-4386-9402-3c3fe06b9b1e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="10f284f1-860b-4fe2-8b29-735207876f30">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

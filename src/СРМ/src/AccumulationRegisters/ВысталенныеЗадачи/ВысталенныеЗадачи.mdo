@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3cd48b6-205a-11eb-a489-00f48df11581">
+  <producedTypes>
+    <selectionType typeId="f3cd48a6-205a-11eb-a489-00f48df11581" valueTypeId="f3cd48ac-205a-11eb-a489-00f48df11581"/>
+    <listType typeId="f3cd48ad-205a-11eb-a489-00f48df11581" valueTypeId="f3cd48ae-205a-11eb-a489-00f48df11581"/>
+    <managerType typeId="f3cd48a4-205a-11eb-a489-00f48df11581" valueTypeId="f3cd48a5-205a-11eb-a489-00f48df11581"/>
+    <recordSetType typeId="f3cd48af-205a-11eb-a489-00f48df11581" valueTypeId="f3cd48b0-205a-11eb-a489-00f48df11581"/>
+    <recordKeyType typeId="f3cd48b1-205a-11eb-a489-00f48df11581" valueTypeId="f3cd48b2-205a-11eb-a489-00f48df11581"/>
+    <recordType typeId="f3cd48a2-205a-11eb-a489-00f48df11581" valueTypeId="f3cd48a3-205a-11eb-a489-00f48df11581"/>
+  </producedTypes>
+  <name>ВысталенныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Высталенные задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2d8209e8-205b-11eb-a489-00f48df11581">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0863dd8e-205c-11eb-a489-00f48df11581">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="76e68b18-205b-11eb-a489-00f48df11581">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="118251c6-205b-11eb-a489-00f48df11581">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.RA_RedmineЗадачи</types>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="23a2fa18-205b-11eb-a489-00f48df11581">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

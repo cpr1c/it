@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479d9428-02fd-47d2-a869-a3695b315724">
+  <producedTypes>
+    <selectionType typeId="d4fe40a3-1c36-487f-bde1-ee8969fe12d1" valueTypeId="2e5beb02-e08c-47dc-8f16-e551e85f4434"/>
+    <listType typeId="e1de754b-2696-4a5b-86b8-94bed178c431" valueTypeId="2a754800-d275-49e2-b4e1-fdaf287c8a48"/>
+    <managerType typeId="cb4197db-6201-4713-998b-805fc1b50ebe" valueTypeId="ba5c80e7-ae9f-4e57-b849-a29f616ffb96"/>
+    <recordSetType typeId="48187bf3-e3a2-45f6-be06-d36065d79a7c" valueTypeId="eb607caf-a989-467d-a67d-4c69f381a618"/>
+    <recordKeyType typeId="a61f2cfe-4fb8-4e1d-8b69-2cbc4e650f8c" valueTypeId="85c94df9-120e-4b24-a537-bd4169f7febe"/>
+    <recordType typeId="942983fe-4baf-4c14-8df1-5357981fabfd" valueTypeId="5f67253f-9021-46b6-a776-204252cbdcbf"/>
+    <recordManagerType typeId="de5bd269-9507-4102-b829-e63359440897" valueTypeId="ccedb23c-8671-467c-a258-4fef79b4a35c"/>
+  </producedTypes>
+  <name>ПричиныИзмененияАдресныхСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины изменения адресных сведений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="838b4840-86e3-4bf3-8b95-1e58ef60e97a">
+    <name>СодержитОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержит описание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="36d258b5-bfda-4b40-88a8-1e0abf351805">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cc95b010-ca42-4b54-9c50-0551b2c690ed">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="829fb3c0-6d96-4765-adc6-f177344a4a33">
+    <name>КодСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код субъекта РФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9241e7fe-e3e8-4ddd-ac6c-4edb1a1b2f71">
+    <name>ИзмененныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененный объект</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

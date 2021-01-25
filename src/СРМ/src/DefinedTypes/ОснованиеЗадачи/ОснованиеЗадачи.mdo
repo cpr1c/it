@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8e010eb-8622-4f54-8efa-c99a52f08be7">
+  <producedTypes>
+    <containerType typeId="ceed8f40-27c0-4b72-8ae1-21dc5e3f7e7e" valueTypeId="5095db01-7afe-4122-8653-d31ff8fabd54"/>
+  </producedTypes>
+  <name>ОснованиеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание задачи</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
+    <types>DocumentRef.ЗапланированноеВзаимодействие</types>
+    <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
+    <types>DocumentRef.ТелефонныйЗвонок</types>
+    <types>DocumentRef.Встреча</types>
+    <types>DocumentRef.СообщениеSMS</types>
+    <types>CatalogRef.Уроки</types>
+  </type>
+</mdclass:DefinedType>

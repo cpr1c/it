@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f35612cf-c71f-11e9-478f-64809943c784">
+  <producedTypes>
+    <selectionType typeId="f35612c4-c71f-11e9-478f-64809943c784" valueTypeId="f35612c5-c71f-11e9-478f-64809943c784"/>
+    <listType typeId="f35612c6-c71f-11e9-478f-64809943c784" valueTypeId="f35612c7-c71f-11e9-478f-64809943c784"/>
+    <managerType typeId="f35612c2-c71f-11e9-478f-64809943c784" valueTypeId="f35612c3-c71f-11e9-478f-64809943c784"/>
+    <recordSetType typeId="f35612c8-c71f-11e9-478f-64809943c784" valueTypeId="f35612c9-c71f-11e9-478f-64809943c784"/>
+    <recordKeyType typeId="f35612ca-c71f-11e9-478f-64809943c784" valueTypeId="f35612cc-c71f-11e9-478f-64809943c784"/>
+    <recordType typeId="f35612b8-c71f-11e9-478f-64809943c784" valueTypeId="f35612b9-c71f-11e9-478f-64809943c784"/>
+    <recordManagerType typeId="f35612cd-c71f-11e9-478f-64809943c784" valueTypeId="f35612ce-c71f-11e9-478f-64809943c784"/>
+  </producedTypes>
+  <name>СвязанныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные задачи</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="60427bbe-c720-11e9-478f-64809943c784">
+    <name>ТипСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип связи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСвязиЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a6a76e0c-c720-11e9-478f-64809943c784">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ae359112-c720-11e9-478f-64809943c784">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fbcd549c-c71f-11e9-478f-64809943c784">
+    <name>Задача1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача1</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="072a718a-c720-11e9-478f-64809943c784">
+    <name>Задача2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача2</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

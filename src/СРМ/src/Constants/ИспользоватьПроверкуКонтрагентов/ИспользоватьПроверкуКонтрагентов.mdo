@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="252eb146-0d23-46ae-9feb-ee04531dd7d8">
+  <producedTypes>
+    <managerType typeId="58e09662-57e9-4841-942f-d09dd5c5a612" valueTypeId="052565cc-7e53-4ced-ab4e-4ac8d59441ee"/>
+    <valueManagerType typeId="764241f8-a8af-4715-9256-4f7ccbf1ba2d" valueTypeId="d1c9dd1a-0b35-4e1c-95ab-cd18e528d29b"/>
+    <valueKeyType typeId="506f72fa-afa3-54b4-a884-a590ddfc147c" valueTypeId="d3f793db-dfdd-5d66-bc8c-0e450b92507a"/>
+  </producedTypes>
+  <name>ИспользоватьПроверкуКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис проверки данных по контрагенту</value>
+  </synonym>
+  <comment>0 - проверку никогда не включали; 1 - проверка включена; 2 - проверку отключили</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

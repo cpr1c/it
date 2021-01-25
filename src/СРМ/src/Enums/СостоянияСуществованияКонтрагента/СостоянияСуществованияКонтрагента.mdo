@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="618b8843-7413-4634-bd65-18d904c2582f">
+  <producedTypes>
+    <refType typeId="5a2ffc90-5110-4cf8-a772-59559a7d3fc1" valueTypeId="d661e6fc-2279-4547-be91-d7b7621d95d9"/>
+    <listType typeId="89a801f6-8d58-4564-8b15-a3cd8a19cef7" valueTypeId="0a54024d-785c-438e-a818-8e0fd5e3bf1c"/>
+    <managerType typeId="d9f8ab7a-4d6e-4d04-bb69-abe2798c187a" valueTypeId="73a8fa0c-e9f2-4c90-b3ca-f04c2d01fd80"/>
+  </producedTypes>
+  <name>СостоянияСуществованияКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния существования контрагента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="253b97a6-4e04-40d0-a39e-99500d54accb">
+    <name>КонтрагентЕстьВБазеФНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент есть в базе ФНС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46cf1217-4b49-4c35-9c2b-4739dd1b8bf5">
+    <name>НеДействуетИлиИзмененКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не действует или изменен КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db367faa-e417-40ff-a082-e93421d464ca">
+    <name>КонтрагентОтсутствуетВБазеФНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент отсутствует в базе ФНС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55ad14cb-7647-4d16-ae68-ac45e4a39c01">
+    <name>КонтрагентСодержитОшибкиВДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент содержит ошибки в данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0363f45-9d63-4f0b-b7fc-95cb0d1660af">
+    <name>КППНеСоответствуетДаннымБазыФНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП не соответствует данным базы ФНС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8a16236-89bc-4493-9b8e-fd5d3f9298a7">
+    <name>КонтрагентНеПодлежитПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент не подлежит проверке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b12a0998-905e-4956-af8b-6460dc945c10">
+    <name>ПустойИННИлиКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустой ИНН или КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a958a2b-e914-4321-9e95-3203e8011b8c">
+    <name>НеверныйИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неверный ИНН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="176181ff-58af-4392-817e-49e37caa73ce">
+    <name>НевернаяДлинаИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неверная длина ИНН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="917d059b-91d9-4f74-8c10-d0016162f77e">
+    <name>НевернаяДлинаКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неверная длина КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95fd99eb-b139-4b7a-93db-70419e9a809b">
+    <name>ИПНеМожетИметьКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП не может иметь КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c60b9f4f-870f-4478-b2b4-e8afa9324d54">
+    <name>НевернаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неверная дата (ранее 01.01.1991 или позднее текущей даты)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e31d2420-266e-408a-a4bf-673194a555d3">
+    <name>НедопустимыеСимволыВИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недопустимые символы в ИНН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31418550-c525-448b-a054-6b055aa11267">
+    <name>НедопустимыеСимволыВКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недопустимые символы в КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2003c769-556e-41a6-a7a6-4c5c7263e48d">
+    <name>НекорректныйФорматДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Некорректный формат даты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

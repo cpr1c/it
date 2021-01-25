@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="008bb0f2-c0f2-11e9-c588-64809943c784">
+  <name>УстановитьАвтоматическиЗаполняемыеРеквизитыПередЗаписьюСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить автоматически заполняемые реквизиты перед записью справочников</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.КомментарииЗадач</types>
+    <types>CatalogObject.СрочностиЗадач</types>
+    <types>CatalogObject.СтатусыЗадач</types>
+    <types>CatalogObject.ВидыДеятельности</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.УправлениеЗадачами.УстановитьАвтоматическиЗаполняемыеРеквизитыПередЗаписьюСправочниковПередЗаписью</handler>
+</mdclass:EventSubscription>

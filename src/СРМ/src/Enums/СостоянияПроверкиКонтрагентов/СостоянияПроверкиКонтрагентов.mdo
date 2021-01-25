@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b49ea672-5d01-46c2-8ece-2511afeb740d">
+  <producedTypes>
+    <refType typeId="34e155cf-d923-4d6d-8a7c-c47fa599427b" valueTypeId="a8fbccb4-1417-4903-9767-2258a29323ee"/>
+    <listType typeId="c7d8c7eb-5564-4a18-b88f-3c9a6482105d" valueTypeId="300c5ee8-250b-40d6-8d9a-c6569efaed84"/>
+    <managerType typeId="3422a8c9-1173-4dfc-8749-7447fc0251b0" valueTypeId="22b4377d-90ba-4647-a4c0-a4b4b141d754"/>
+  </producedTypes>
+  <name>СостоянияПроверкиКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния проверки контрагентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="77bb5aba-1364-4db9-aa93-69f001ce2709">
+    <name>ПроверкаНеИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка не используется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d14528d6-c2dd-4184-98c5-0b444a2bd98b">
+    <name>ПроверкаВПроцессе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка в процессе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48f81387-a409-4163-85b8-ad563cb6cf2e">
+    <name>ПроверкаВыполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="739df12e-1b6b-45c6-802b-658641fb9e90">
+    <name>НетДоступаКВебСервису</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет доступа к веб сервису</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

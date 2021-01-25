@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc08b41e-2726-11ea-6b9b-00f48df11581">
+  <producedTypes>
+    <objectType typeId="dc08b414-2726-11ea-6b9b-00f48df11581" valueTypeId="dc08b415-2726-11ea-6b9b-00f48df11581"/>
+    <refType typeId="dc08b416-2726-11ea-6b9b-00f48df11581" valueTypeId="dc08b417-2726-11ea-6b9b-00f48df11581"/>
+    <selectionType typeId="dc08b418-2726-11ea-6b9b-00f48df11581" valueTypeId="dc08b419-2726-11ea-6b9b-00f48df11581"/>
+    <listType typeId="dc08b41a-2726-11ea-6b9b-00f48df11581" valueTypeId="dc08b41b-2726-11ea-6b9b-00f48df11581"/>
+    <managerType typeId="dc08b41c-2726-11ea-6b9b-00f48df11581" valueTypeId="dc08b41d-2726-11ea-6b9b-00f48df11581"/>
+  </producedTypes>
+  <name>ВидыСобытийОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий оповещений</value>
+  </synonym>
+  <inputByString>Catalog.ВидыСобытийОповещений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыСобытийОповещений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d557502c-2734-11ea-6b9b-00f48df11581">
+      <name>ДобавленКомментарийДляКонтактаОбращения</name>
+      <description>Добавлен комментарий для контакта обращения</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="4e49e8d6-2727-11ea-6b9b-00f48df11581">
+      <name>ДобавленКонтакт</name>
+      <description>Добавлен контакт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="619863a4-2727-11ea-6b9b-00f48df11581">
+      <name>ДобавленНаблюдатель</name>
+      <description>Добавлен наблюдатель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="20abd556-2727-11ea-6b9b-00f48df11581">
+      <name>ДобавленаЗадача</name>
+      <description>Добавлена задача</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="78c42720-2727-11ea-6b9b-00f48df11581">
+      <name>ДобавленаСтатьяБазыЗнаний</name>
+      <description>Добавлена статья базы знаний</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="550e7bd2-2727-11ea-6b9b-00f48df11581">
+      <name>ИзмененКонтакт</name>
+      <description>Изменен контакт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="26bfd26c-2727-11ea-6b9b-00f48df11581">
+      <name>ИзмененаЗадача</name>
+      <description>Изменена задача</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="a60367c8-2727-11ea-6b9b-00f48df11581">
+      <name>ИзмененаСтатьяБазыЗнаний</name>
+      <description>Изменена статья базы знаний</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="69773000-2727-11ea-6b9b-00f48df11581">
+      <name>УдаленНаблюдатель</name>
+      <description>Удален наблюдатель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4700e056-2732-11ea-6b9b-00f48df11581">
+  <name>ПриЗаписиОбъектаФормированиеОпововещенийКОтправке</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи объекта формирование опововещений к отправке</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КомментарииЗадач</types>
+    <types>DocumentObject.Задача</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОповещенияСервер.ПриЗаписиОбъектаФормированиеОпововещенийКОтправкеПриЗаписи</handler>
+</mdclass:EventSubscription>

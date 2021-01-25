@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdc6a80d-3f10-4e04-9215-23ef5f7b90cf">
+  <producedTypes>
+    <objectType typeId="8f754b4a-f8e4-4678-bc9a-e6c29e171848" valueTypeId="647d5063-69f0-40d8-aae7-d94488176d9c"/>
+    <refType typeId="4909261f-22d8-45b0-ada0-deac2d2a2441" valueTypeId="24fb6208-e7ee-44b0-b9b1-608998ba0ccf"/>
+    <selectionType typeId="c7a1e1bf-5380-49d6-99f8-1808fed4fead" valueTypeId="b18ab9eb-64c9-4981-b63b-22e5ba399fa9"/>
+    <listType typeId="ddaf2169-b315-44bc-bc9f-8a32cb7fead9" valueTypeId="d1660f52-40d5-4905-8712-4d4a0ae8cdfc"/>
+    <managerType typeId="64380ffe-0c7d-4f28-9ccd-1439b238e3fd" valueTypeId="2858d4cc-338f-45aa-b3f0-22f77bfa1f86"/>
+  </producedTypes>
+  <name>ЦПР_ВидыПодключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды подключений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦПР_ВидыПодключений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦПР_ВидыПодключений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f1059c59-2ed3-457a-b08a-b02af5d4c225">
+      <name>AmmyAdmin</name>
+      <description>Ammy admin</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="40410ef7-deb2-4a2a-8c19-8970d1778318">
+      <name>HTTP</name>
+      <description>HTTP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="33a1c0b8-9593-4bf9-9b83-3f34a45c5436">
+      <name>RDP</name>
+      <description>RDP</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="bd7764e5-8a20-45ee-83eb-166b0c62caf4">
+      <name>TeamViewer</name>
+      <description>Team viewer</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="2a7f0771-9f8a-42e8-bc39-785b0643c82d">
+      <name>UltraVNC</name>
+      <description>Ultra VNC</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="6906b77c-485a-4b5d-a0d3-7e0f0982e993">
+      <name>VNC</name>
+      <description>VNC</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="f8db9d85-942f-419b-affe-95ed7ca33dc8">
+      <name>VPN</name>
+      <description>VPN</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="96c72307-8d3d-48be-a988-679b19123ef2">
+      <name>База1С</name>
+      <description>База 1С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="fd5e50a3-1d26-45bf-b2d6-5ec73a5f9438">
+      <name>Роутер</name>
+      <description>Роутер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="2a3c28e1-ebaa-4d16-85e1-eed0eaf0b299">
+      <name>Хранилище1С</name>
+      <description>Хранилище 1С</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЦПР_ВидыПодключений.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f0be6a2b-1862-4274-bda1-c79bfc6f03c1">
+    <name>ТипПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип подключения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЦПР_ТипыПодключений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97641b5c-941d-4412-8cc7-0cd7c41f7d5b">
+    <name>БезЛогина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без логина</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="cc230478-d871-11e8-258a-64809943c784">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae39b176-bebd-4a57-8d72-22e1774be6e9">
+  <name>ЗаписатьВерсиюДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать версию документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Встреча</types>
+    <types>DocumentObject.НазначениеОпросов</types>
+    <types>DocumentObject.ЭлектронноеПисьмоВходящее</types>
+    <types>DocumentObject.Спринт</types>
+    <types>DocumentObject.ЗапланированноеВзаимодействие</types>
+    <types>DocumentObject.Анкета</types>
+    <types>DocumentObject.Трудозатраты</types>
+    <types>DocumentObject.СообщениеSMS</types>
+    <types>DocumentObject.ПланОбучения</types>
+    <types>DocumentObject.ТелефонныйЗвонок</types>
+    <types>DocumentObject.Задача</types>
+    <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВерсионированиеОбъектовСобытия.ЗаписатьВерсиюДокумента</handler>
+</mdclass:EventSubscription>

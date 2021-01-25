@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80048d97-e917-4d03-bb49-e797e63f7fd2">
+  <name>ОбновлениеВнешнихКомпонентССайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление внешних компонент с сайта 1С</value>
+  </synonym>
+  <methodName>CommonModule.ВнешниеКомпонентыСлужебный.ОбновитьВсеКомпонентыССайта</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

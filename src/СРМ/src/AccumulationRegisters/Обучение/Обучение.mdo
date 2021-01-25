@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38935fdc-a997-4ea7-a638-1cbb0505bcc0">
+  <producedTypes>
+    <selectionType typeId="ba683dfb-d8db-41fa-aeaf-ba0aee04ee2f" valueTypeId="fd03b367-e9b6-47ab-b045-0c99b8b3e76a"/>
+    <listType typeId="50897e30-a702-40c3-9621-be4a8abe556d" valueTypeId="b32e055b-855c-4221-9ce9-2095c5e401e4"/>
+    <managerType typeId="bb351323-6160-463e-8e27-07cd8d0d2928" valueTypeId="7021f02c-77d0-4013-9861-69459eac06d4"/>
+    <recordSetType typeId="a96adc37-c34d-48d8-957a-eba743c4a624" valueTypeId="a28ac255-b238-4a3e-a2f6-2f11d933c94b"/>
+    <recordKeyType typeId="cbe8d7bd-f70d-4c5b-bbf4-b9a2eafd230b" valueTypeId="000190d4-bcd2-45f3-849e-7ded7baedc23"/>
+    <recordType typeId="13f58305-0f18-4524-8f89-463321722cb3" valueTypeId="829689ff-76f6-4435-b5f9-3297fba7a4f5"/>
+  </producedTypes>
+  <name>Обучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обучение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0ad61173-972c-43ce-8082-3c55348e2336">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="afd80293-7b12-46de-93ea-999b812251c3">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="23a137bb-7ad2-49eb-80fa-abb2b0f18a11">
+    <name>УдалитьСодержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить содержание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="edbd4ed6-3ed9-4a7b-99d4-30a3308dacc1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="10bb61c1-2b92-48e3-9790-c5e7c02bddc3">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Курсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="268f5a30-792b-4678-adf1-9fc287d3d6a6">
+    <name>Урок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Урок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Уроки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fc4953df-516a-4fd5-8c25-e9fe32d0f33e">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

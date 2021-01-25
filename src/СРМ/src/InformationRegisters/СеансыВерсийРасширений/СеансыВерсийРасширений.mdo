@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fae4675c-dcdc-42fc-911d-07c3c577b8b8">
+  <producedTypes>
+    <selectionType typeId="37f0d392-22cc-4cb0-93b6-3d77dcf0c9c1" valueTypeId="2ad7360e-d2ec-40e5-a610-6528ab5807cb"/>
+    <listType typeId="31bb78e4-795a-4745-bc18-3111d3445a70" valueTypeId="dccd77ef-e236-4b89-85b9-34e63dfe8634"/>
+    <managerType typeId="217c4524-67bc-4f7e-8bb9-3c94eb180cb4" valueTypeId="8093e4f0-dc6a-4e76-97a1-cf683db85f65"/>
+    <recordSetType typeId="0b36b1bf-3341-4d4c-a14a-62ef848bcc52" valueTypeId="bcb06711-a5b2-42e0-960e-838f2db85e0b"/>
+    <recordKeyType typeId="0361fdf2-be03-49d1-b67f-27cf8cc59d8b" valueTypeId="41501f60-7265-425d-b37c-df5fe44fd89c"/>
+    <recordType typeId="cd1a15e0-8894-4d9c-b917-49c6a1a65c69" valueTypeId="27a702ac-d4cb-4807-ac38-49a2a42b7b18"/>
+    <recordManagerType typeId="9abea5d4-9945-4247-a28d-baeb279ca26e" valueTypeId="18c5960e-6404-4c9e-8523-f73a956bb03a"/>
+  </producedTypes>
+  <name>СеансыВерсийРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сеансы версий расширений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СеансыВерсийРасширений.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СеансыВерсийРасширений.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f1050611-4f82-411b-97f2-bcd8a5c914bf">
+    <name>ВерсияРасширений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия расширений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииРасширений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обобщенная версия метаданных набора расширений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="efacf22d-b474-4d49-af8b-6d3784aa5cf2">
+    <name>НомерСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сеанса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f818b937-9ac3-4a0c-ba50-26c060984f09">
+    <name>НачалоСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало сеанса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f385778d-96cb-4e09-884d-533739b393b1">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5bdaa783-e965-4d59-b7b7-a1e86ddb89f7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

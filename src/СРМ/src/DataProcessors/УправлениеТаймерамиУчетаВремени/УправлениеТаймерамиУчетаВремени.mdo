@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd8560f3-e253-4607-a1cf-0d7c64d1216c">
+  <producedTypes>
+    <objectType typeId="c3a80677-ee45-4c04-8695-c669ff0e5bc9" valueTypeId="0b890769-9c30-420f-a7a4-51e7ce09fb4b"/>
+    <managerType typeId="4dcdcc87-3ec0-4240-b3d0-c7406927093e" valueTypeId="46b3ed12-f849-4fa3-91cf-25b0684a572c"/>
+  </producedTypes>
+  <name>УправлениеТаймерамиУчетаВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление таймерами учета времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеТаймерамиУчетаВремени.Form.Форма</defaultForm>
+  <tabularSections uuid="10ed90e6-b500-47a9-8468-539743a159a2">
+    <producedTypes>
+      <objectType typeId="233007f0-1f54-41b3-ad81-5e8407b114a0" valueTypeId="227a56b0-e191-4099-bf81-ca9fae6a7007"/>
+      <rowType typeId="b0f66d31-2d88-44b7-bb72-50fc9ff07e23" valueTypeId="3558252c-7036-4b15-8fba-d879fd3e797e"/>
+    </producedTypes>
+    <name>Таймеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймеры</value>
+    </synonym>
+    <attributes uuid="964085f4-bee2-4e46-b900-beda4b0a48f3">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6ed92c58-cda5-4c16-a7c5-8fa05fa14dca">
+      <name>Предмет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предмет</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ПредметУчетаТрудозатрат</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="662b8b4a-eac1-4620-a183-b7d5d73dca34">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f63ca841-0cbe-486d-a706-9594a0b772d0">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="21298ae6-b7e1-4cf7-a7a8-6b2c1e789e75">
+      <name>Часов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8cbdf43c-6a0f-4707-ba6f-b47cbd46e576">
+      <name>СчетчикЗапусков</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счетчик запусков</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4a954b4d-1d37-4d38-b12d-b1e33d18e46e">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="60160e26-966c-4756-9a98-566ea014f615">
+      <name>ВидДеятельности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид деятельности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыДеятельности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2ded0281-940f-4e5f-93e7-71bc306f4536">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f53033fb-6b40-4593-b92b-8b9ff590b0e0">
+    <name>МоиТаймеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои таймеры</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut>Ctrl+Alt+W</shortcut>
+  </commands>
+</mdclass:DataProcessor>

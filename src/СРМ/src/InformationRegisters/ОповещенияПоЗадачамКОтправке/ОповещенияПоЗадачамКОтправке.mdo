@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a85b7a5-20cf-11ea-0691-00f48df11581">
+  <producedTypes>
+    <selectionType typeId="1a85b792-20cf-11ea-0691-00f48df11581" valueTypeId="1a85b793-20cf-11ea-0691-00f48df11581"/>
+    <listType typeId="1a85b794-20cf-11ea-0691-00f48df11581" valueTypeId="1a85b79a-20cf-11ea-0691-00f48df11581"/>
+    <managerType typeId="1a85b790-20cf-11ea-0691-00f48df11581" valueTypeId="1a85b791-20cf-11ea-0691-00f48df11581"/>
+    <recordSetType typeId="1a85b79b-20cf-11ea-0691-00f48df11581" valueTypeId="1a85b79c-20cf-11ea-0691-00f48df11581"/>
+    <recordKeyType typeId="1a85b79d-20cf-11ea-0691-00f48df11581" valueTypeId="1a85b79e-20cf-11ea-0691-00f48df11581"/>
+    <recordType typeId="1a85b786-20cf-11ea-0691-00f48df11581" valueTypeId="1a85b787-20cf-11ea-0691-00f48df11581"/>
+    <recordManagerType typeId="1a85b79f-20cf-11ea-0691-00f48df11581" valueTypeId="1a85b7a4-20cf-11ea-0691-00f48df11581"/>
+  </producedTypes>
+  <name>ОповещенияПоЗадачамКОтправке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения по задачам к отправке</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОповещенияПоЗадачамКОтправке.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОповещенияПоЗадачамКОтправке.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="37518fec-20d0-11ea-0691-00f48df11581">
+    <name>ИнициаторСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор события</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.КомментарииЗадач</types>
+      <types>CatalogRef.ЗадачаПрисоединенныеФайлы</types>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aa9e17ac-20d2-11ea-0691-00f48df11581">
+    <name>ДанныеСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные события</value>
+    </synonym>
+    <comment>JSON</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="171b7cca-2732-11ea-6b9b-00f48df11581">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1a863bb6-20cf-11ea-0691-00f48df11581">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="22dc16d2-20cf-11ea-0691-00f48df11581">
+    <name>НастройкаОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка оповещения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиОповещенийПоЗадачам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dfcded48-2727-11ea-6b9b-00f48df11581">
+    <name>ВидСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид события</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСобытийОповещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1a8645a2-20cf-11ea-0691-00f48df11581">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a8664ce-20cf-11ea-0691-00f48df11581">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1a868788-20cf-11ea-0691-00f48df11581">
+    <name>ЭлектронныеСообщенияКотправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные сообщения котправке</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="1a869b7e-20cf-11ea-0691-00f48df11581">
+    <name>ОтправитьСообщенияДоступныеКОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить сообщения доступные к отправке</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <modifiesData>true</modifiesData>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

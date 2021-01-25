@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b876a8e-143d-4a96-b70c-d133dbd3d270">
+  <producedTypes>
+    <objectType typeId="17594331-dce9-4a6b-b187-2e42a25a537b" valueTypeId="50a29015-4154-491a-8467-1c85d1f1d263"/>
+    <refType typeId="0a6fb685-c4d6-4b84-802e-a536050fbd30" valueTypeId="2c2b83f1-0c55-45dd-b5a0-dd715b6009a3"/>
+    <selectionType typeId="793ddedb-7b59-4cf6-bfb7-7eb36d6c1d52" valueTypeId="6b766dfd-fcd1-43a4-ad81-07869e8fe3a9"/>
+    <listType typeId="a9a62398-d73a-4ab4-bead-b7a76a4eda7d" valueTypeId="0e34b214-8f3e-4dee-999f-ccea90f4e707"/>
+    <managerType typeId="0ab7adb8-bbdb-4bf4-b324-53740550d91d" valueTypeId="31b7593a-a934-4967-91c5-e5d133d55f68"/>
+  </producedTypes>
+  <name>ЦПР_МестоположенияТочекПодключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местоположения точек подключений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦПР_МестоположенияТочекПодключений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦПР_МестоположенияТочекПодключений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Партнеры</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЦПР_МестоположенияТочекПодключений.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="26e01aa4-d872-11e8-258a-64809943c784">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

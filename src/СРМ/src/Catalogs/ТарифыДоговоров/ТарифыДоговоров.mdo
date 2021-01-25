@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66dd0310-2b54-11eb-cb82-e86a6452d1f2">
+  <producedTypes>
+    <objectType typeId="66dd02fc-2b54-11eb-cb82-e86a6452d1f2" valueTypeId="66dd02fd-2b54-11eb-cb82-e86a6452d1f2"/>
+    <refType typeId="66dd0306-2b54-11eb-cb82-e86a6452d1f2" valueTypeId="66dd0307-2b54-11eb-cb82-e86a6452d1f2"/>
+    <selectionType typeId="66dd0308-2b54-11eb-cb82-e86a6452d1f2" valueTypeId="66dd0309-2b54-11eb-cb82-e86a6452d1f2"/>
+    <listType typeId="66dd030a-2b54-11eb-cb82-e86a6452d1f2" valueTypeId="66dd030b-2b54-11eb-cb82-e86a6452d1f2"/>
+    <managerType typeId="66dd030c-2b54-11eb-cb82-e86a6452d1f2" valueTypeId="66dd030d-2b54-11eb-cb82-e86a6452d1f2"/>
+  </producedTypes>
+  <name>ТарифыДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы договоров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТарифыДоговоров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТарифыДоговоров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8ac76860-2b54-11eb-cb82-e86a6452d1f2">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

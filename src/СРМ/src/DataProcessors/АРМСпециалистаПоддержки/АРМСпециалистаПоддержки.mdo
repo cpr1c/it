@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8245fb2-cbde-11e9-6e9c-64809943c784">
+  <producedTypes>
+    <objectType typeId="e8245f94-cbde-11e9-6e9c-64809943c784" valueTypeId="e8245f95-cbde-11e9-6e9c-64809943c784"/>
+    <managerType typeId="e8245f96-cbde-11e9-6e9c-64809943c784" valueTypeId="e8245f97-cbde-11e9-6e9c-64809943c784"/>
+  </producedTypes>
+  <name>АРМСпециалистаПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ специалиста поддержки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АРМСпециалистаПоддержки.Form.Форма</defaultForm>
+  <forms uuid="2228c234-cbdf-11e9-6e9c-64809943c784">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2e3259b7-765f-4652-9803-a91fea7cbf5e">
+    <name>АРМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>АРМ</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut>Ctrl+Alt+D</shortcut>
+  </commands>
+</mdclass:DataProcessor>

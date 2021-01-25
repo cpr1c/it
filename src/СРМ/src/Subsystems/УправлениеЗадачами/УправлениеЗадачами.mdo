@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc56a848-c0e7-11e9-c588-64809943c784">
+  <name>УправлениеЗадачами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление задачами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СписокЗадач32</picture>
+  </picture>
+  <content>Document.Задача</content>
+  <content>Catalog.Проекты</content>
+  <content>Enum.ВариантыОформленияТекста</content>
+  <content>Constant.ВариантОформленияТекста</content>
+  <content>Catalog.СтатусыЗадач</content>
+  <content>Document.Трудозатраты</content>
+  <content>CommonModule.УправлениеЗадачами</content>
+  <content>EventSubscription.УстановитьАвтоматическиЗаполняемыеРеквизитыПередЗаписьюДокументов</content>
+  <content>EventSubscription.УстановитьАвтоматическиЗаполняемыеРеквизитыПередЗаписьюСправочников</content>
+  <content>Catalog.СрочностиЗадач</content>
+  <content>Catalog.ВидыДеятельности</content>
+  <content>AccumulationRegister.Трудозатраты</content>
+  <content>Constant.УдалитьСтатусПоУмолчанию</content>
+  <content>eb4f6140-c27a-11e9-9e97-64809943c784</content>
+  <content>Catalog.КомментарииЗадач</content>
+  <content>CommonModule.ТаймерыСервер</content>
+  <content>CommonModule.ТаймерыКлиент</content>
+  <content>eb699bd8-c25b-11e9-0f90-64809943c784</content>
+  <content>CommonModule.РаботаСФормамиСервер</content>
+  <content>fd267c46-c248-11e9-0b89-64809943c784</content>
+  <content>CommonModule.УправлениеЗадачамиКлиент</content>
+  <content>InformationRegister.Таймеры</content>
+  <content>c8266dcd-cef8-454b-8aa1-b2168c4cd25a</content>
+  <content>CommonCommand.ОбработатьНажатиеКнопкиТаймера</content>
+  <content>InformationRegister.СвязанныеЗадачи</content>
+  <content>DataProcessor.АРМСпециалистаПоддержки</content>
+  <content>DocumentJournal.Взаимодействия</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>InformationRegister.ПартнерыФизическихЛиц</content>
+  <content>DataProcessor.УправлениеТаймерамиУчетаВремени</content>
+  <content>Document.Спринт</content>
+  <content>Catalog.Заметки</content>
+  <content>InformationRegister.НапоминанияПользователя</content>
+  <content>Catalog.СпискиСтатусовЗадач</content>
+  <content>Report.АнализЗадач</content>
+  <content>Report.АнализТрудозатрат</content>
+  <content>CommonCommand.ПанельОтчетовУправлениеЗадачами</content>
+  <subsystems>Настройки</subsystems>
+  <subsystems>Оповещения</subsystems>
+  <subsystems>ЗакрытиеМесяца</subsystems>
+</mdclass:Subsystem>

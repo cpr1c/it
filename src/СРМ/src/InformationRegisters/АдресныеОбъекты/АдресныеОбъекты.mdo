@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9f393e5-04d3-4330-afb0-aa73caf0c5cd">
+  <producedTypes>
+    <selectionType typeId="69d8bbff-c9ae-4741-a898-6cecbc12686f" valueTypeId="e3cdc2d2-5e78-412a-ada7-e6917a30cd73"/>
+    <listType typeId="3fb42011-5642-4563-8f13-ee8ad45b339d" valueTypeId="88e09b26-0e73-4cde-a525-f6cf47a82654"/>
+    <managerType typeId="1e72dff5-a047-47fa-8ddb-4641a271e552" valueTypeId="6556b9c3-8b57-4e3b-a2c9-14c076895610"/>
+    <recordSetType typeId="fbe9e274-8c4d-4562-b9c5-fccfa6ac6068" valueTypeId="cbc25b0a-7cba-40a4-9322-32ae5c4b0274"/>
+    <recordKeyType typeId="b121e46f-93e2-4778-8e34-791750784536" valueTypeId="92c71179-c33a-4d53-a537-c694d1f0d188"/>
+    <recordType typeId="e0d8f377-dc8a-4a40-9eff-cb53857495aa" valueTypeId="cf12cb3c-ee5d-40e0-b2ec-d74378c21dc8"/>
+    <recordManagerType typeId="b0fdf404-baaf-47c3-b886-3cb1ad0a455a" valueTypeId="92af3a54-725f-4539-9c8e-788f8976f8c3"/>
+  </producedTypes>
+  <name>АдресныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адресные объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="0d7c3192-b15b-4d40-83f9-b76c6f8e654f">
+    <name>РодительскийИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительский идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор родительского объекта (региона, района, города, населенного пункта) используется для связи с вышестоящими административно-территориальными адресными объектами.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fe07f268-bcfd-40c6-adf3-79df859ff731">
+    <name>МуниципальныйРодительскийИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Муниципальный родительский идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор родительского объекта (региона, района, города, населенного пункта) используется для связи с вышестоящими муниципальными адресными объектами.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1a1c88ff-b0c4-42c3-bf10-ebdf4de935b7">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>120</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="15e90374-99d9-48f7-b7d6-ec160cdb378f">
+    <name>Сокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сокращение объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="ad5b6b8e-c2b5-45aa-8e07-50ae8877ac8f">
+    <name>КодКЛАДР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код КЛАДР</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код адресного объекта в КЛАДР</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c470f57-c920-435a-a013-ff83a737cf3a">
+    <name>ДополнительныеАдресныеСведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные адресные сведения</value>
+    </synonym>
+    <comment>Служебный идентификатор комбинации кодов ОКАТО и т.п.</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный идентификатор комбинации кодов ОКАТО, ОКТМО и т.п.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a5e13e12-72b7-477d-8d80-06015fa5dece">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уровень объекта в ФИАС </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="068e6f32-a2b6-4ade-9b9e-db3eac8b09c1">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>Глобальный уникальный идентификатор адресного объекта ФНС</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Глобальный уникальный идентификатор адресного объекта ФНС в ФИАС</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="f29738d5-ad22-47bf-9053-497763674486">
+    <name>КодСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код субъекта РФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код субъекта РФ в ФИАС</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3701531a-b408-455f-a49d-652d3fcab4ef">
+    <name>АктуализацияУстаревшегоКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуализация устаревшего классификатора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63e229aa-2638-45f1-9c5e-f821d9397ac3">
+    <name>ЗагрузкаАдресногоКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка адресного классификатора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e425f71-ef7d-4936-9f1b-7dceca99ca95">
+    <name>ОчисткаАдресногоКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистка адресного классификатора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ef098c52-fcfa-4f0f-85b0-aba0d5aa46b2">
+    <name>СведенияОбАдресномКлассификаторе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об адресном классификаторе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c6777ffe-1fb2-4807-8624-43f47a4e3947">
+    <name>КлассификаторСубъектовРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор субъектов РФ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="91c8e02d-ec9c-41d6-a2b1-ec1e906c055a">
+    <name>АдресныеСокращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресные сокращения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="be42c5c6-b604-4180-a3d7-24b2348c8d5e">
+    <name>ЗагрузитьАдресныйКлассификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить адресный классификатор</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="6223c072-bff3-4ea8-96a1-ac2a5bbe9f99">
+    <name>ПодключитьИнтернетПоддержку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключить интернет-поддержку</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="6fd083fe-a132-4f63-b38f-4891004aca8a">
+    <name>ОчиститьАдресныйКлассификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистить адресный классификатор</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

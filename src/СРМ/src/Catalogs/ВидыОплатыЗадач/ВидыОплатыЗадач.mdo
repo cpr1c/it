@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c22bbe8c-20e2-11eb-1385-00f48df11581">
+  <producedTypes>
+    <objectType typeId="c22bbe7c-20e2-11eb-1385-00f48df11581" valueTypeId="c22bbe7d-20e2-11eb-1385-00f48df11581"/>
+    <refType typeId="c22bbe7e-20e2-11eb-1385-00f48df11581" valueTypeId="c22bbe7f-20e2-11eb-1385-00f48df11581"/>
+    <selectionType typeId="c22bbe86-20e2-11eb-1385-00f48df11581" valueTypeId="c22bbe87-20e2-11eb-1385-00f48df11581"/>
+    <listType typeId="c22bbe88-20e2-11eb-1385-00f48df11581" valueTypeId="c22bbe89-20e2-11eb-1385-00f48df11581"/>
+    <managerType typeId="c22bbe8a-20e2-11eb-1385-00f48df11581" valueTypeId="c22bbe8b-20e2-11eb-1385-00f48df11581"/>
+  </producedTypes>
+  <name>ВидыОплатыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оплаты задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОплатыЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыОплатыЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="df1ac280-20e2-11eb-1385-00f48df11581">
+      <name>Абонент</name>
+      <description>Абонент</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="d8638882-20e2-11eb-1385-00f48df11581">
+      <name>Бесплатная</name>
+      <description>Бесплатная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="dc10f9f6-20e2-11eb-1385-00f48df11581">
+      <name>Гарантия</name>
+      <description>Гарантия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="cdf2e172-20e2-11eb-1385-00f48df11581">
+      <name>Платная</name>
+      <description>Платная</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

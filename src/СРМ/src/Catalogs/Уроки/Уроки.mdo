@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="947a9e99-b08f-465c-a4f4-c021ed824de8">
+  <producedTypes>
+    <objectType typeId="ff6f8f9b-a445-41ca-8548-5498afef62db" valueTypeId="2d8d1cb8-48f3-4cf6-9091-6254c40a4511"/>
+    <refType typeId="d688ee95-4bc4-403f-832e-c53320d16e92" valueTypeId="1074d210-f1f5-47ca-bdc7-3dec7ebbfe48"/>
+    <selectionType typeId="711bfddd-9970-4991-9a8d-94f871dbdf9b" valueTypeId="c0bbab41-97e6-4e2e-bfe1-6e479c2ad8ab"/>
+    <listType typeId="a5f4418c-f108-43f3-a9e4-596385ecd904" valueTypeId="bb1bfbae-4448-4556-9222-97e01d45a2f6"/>
+    <managerType typeId="b1b0fee3-12cc-4d94-9189-1c73fdcbddd4" valueTypeId="b1807a86-2744-44b7-ba92-4b8d6194f5a3"/>
+  </producedTypes>
+  <name>Уроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уроки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Уроки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Уроки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="88941f8c-709c-438c-9838-4383050e8d82">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aec91183-80d4-4a74-9cce-db1c2a030f85">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

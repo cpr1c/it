@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f71065f-f3f2-4f84-8d9c-9bc4ebbebcd3">
+  <producedTypes>
+    <objectType typeId="efca8dda-def3-4432-9c41-bddce2d366e6" valueTypeId="b7af7c59-77eb-40db-b91a-6d9513831ce6"/>
+    <managerType typeId="bac321bf-8ff4-4165-a1a6-734c8bb77359" valueTypeId="bd804465-4fed-4562-8fd5-c26a91ab6097"/>
+  </producedTypes>
+  <name>АнализТрудозатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ трудозатрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализТрудозатрат.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="033f0096-d211-4402-8a9c-106122dc74a6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

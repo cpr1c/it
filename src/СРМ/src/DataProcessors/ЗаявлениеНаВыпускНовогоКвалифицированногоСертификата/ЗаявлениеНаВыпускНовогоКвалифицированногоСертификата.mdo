@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b5b44c-5f24-4b2a-982c-4489b18db7f0">
+  <producedTypes>
+    <objectType typeId="4e8135c3-b673-47dc-810a-6cdf2a5b8eb9" valueTypeId="5e3baa3c-979c-46ea-aa30-e1e8639a06a8"/>
+    <managerType typeId="4f8691c9-53a8-409c-82be-f72a9ee5c5ef" valueTypeId="e74d7241-bba2-49a9-8e25-0abf1a5f4b7d"/>
+  </producedTypes>
+  <name>ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление на выпуск нового квалифицированного сертификата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="5bc04a9a-6a0a-4607-b8eb-743b87143ae7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e057e428-99c1-419d-a169-697c1e825e94">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </templates>
+  <templates uuid="784a60bd-4070-476d-9b8b-f607c76dc52b">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </templates>
+  <templates uuid="904d5bd0-3843-4aaa-86a3-f8e12282e5c0">
+    <name>ИменаРегионовРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена регионов РФ по рекомендациям для СКПЭП</value>
+    </synonym>
+    <comment>Дата актуальности - 24.03.2014 (http://www.gnivc.ru/inf_provision/classifiers_reference/ssrf/)</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ce1ffc4e-56c2-45ce-80e8-8b96d00316bc">
+    <name>КомпонентаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента обмена</value>
+    </synonym>
+    <templateType>AddIn</templateType>
+  </templates>
+  <templates uuid="90420fe9-f75a-4bcc-8e1a-9d665a61ecef">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="080ea7fe-c0f1-11e9-c588-64809943c784">
+  <name>УстановитьАвтоматическиЗаполняемыеРеквизитыПередЗаписьюДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить автоматически заполняемые реквизиты перед записью документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Трудозатраты</types>
+    <types>DocumentObject.Задача</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.УправлениеЗадачами.УстановитьАвтоматическиЗаполняемыеРеквизитыПередЗаписьюДокументовПередЗаписью</handler>
+</mdclass:EventSubscription>

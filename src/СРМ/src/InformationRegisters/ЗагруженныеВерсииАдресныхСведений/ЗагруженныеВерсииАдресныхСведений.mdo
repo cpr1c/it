@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fddfb2fd-4d58-4bc6-b196-720425a8c029">
+  <producedTypes>
+    <selectionType typeId="6fb34c1f-a135-4767-9541-a2dfeb75e84e" valueTypeId="552987a4-cf82-4add-a257-afc5a6ff490a"/>
+    <listType typeId="6eaaeefe-0cd8-47c6-bb7c-c4c4f1628e32" valueTypeId="97682924-ec79-4e7a-9b42-2074ea7b8411"/>
+    <managerType typeId="2d197f41-3aa8-473d-be11-ce2751f8d071" valueTypeId="dbd21a6f-a95b-42df-805d-32def7ba506a"/>
+    <recordSetType typeId="f684b293-3488-4b08-b4dd-5f7a1f4fafb0" valueTypeId="6de8c244-69c8-4400-88b7-314ee902a75a"/>
+    <recordKeyType typeId="3bbf8426-bc68-42af-87b7-ef8cc74ce80b" valueTypeId="1533f263-0f0b-417f-b404-dd1b9544b76d"/>
+    <recordType typeId="41367d3b-89b1-4a9f-a13f-6812a878efea" valueTypeId="48bda2a1-973e-4522-bf62-2390bc0d1f53"/>
+    <recordManagerType typeId="853e9d3f-01c4-4152-b7d4-086d739cb611" valueTypeId="858ad26e-d355-4bb4-b90d-50f7a2840aa4"/>
+  </producedTypes>
+  <name>ЗагруженныеВерсииАдресныхСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загруженные версии адресных сведений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ce075cf1-1778-4671-aa40-166e6c41adc8">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="eddb111f-7622-44a3-b7d8-97faec67b23c">
+    <name>ДатаВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата версии</value>
+    </synonym>
+    <comment>Дата загруженной версии в UTC</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="84872892-842e-4d7d-a3cd-576c42343a7a">
+    <name>ДатаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата загрузки</value>
+    </synonym>
+    <comment>Дата записи в базу в UTC</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="78ad6047-473d-494b-a2ba-81e062b567e6">
+    <name>КодСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код субъекта РФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

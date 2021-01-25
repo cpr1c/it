@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a4b3983-20a8-11ea-0691-00f48df11581">
+  <producedTypes>
+    <selectionType typeId="3a4b3978-20a8-11ea-0691-00f48df11581" valueTypeId="3a4b3979-20a8-11ea-0691-00f48df11581"/>
+    <listType typeId="3a4b397a-20a8-11ea-0691-00f48df11581" valueTypeId="3a4b397b-20a8-11ea-0691-00f48df11581"/>
+    <managerType typeId="3a4b3970-20a8-11ea-0691-00f48df11581" valueTypeId="3a4b3971-20a8-11ea-0691-00f48df11581"/>
+    <recordSetType typeId="3a4b397c-20a8-11ea-0691-00f48df11581" valueTypeId="3a4b397d-20a8-11ea-0691-00f48df11581"/>
+    <recordKeyType typeId="3a4b397e-20a8-11ea-0691-00f48df11581" valueTypeId="3a4b397f-20a8-11ea-0691-00f48df11581"/>
+    <recordType typeId="3a4b396e-20a8-11ea-0691-00f48df11581" valueTypeId="3a4b396f-20a8-11ea-0691-00f48df11581"/>
+    <recordManagerType typeId="3a4b3980-20a8-11ea-0691-00f48df11581" valueTypeId="3a4b3982-20a8-11ea-0691-00f48df11581"/>
+  </producedTypes>
+  <name>ПартнерыФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партнеры физических лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4009ef4e-20a8-11ea-0691-00f48df11581">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="495d4b68-20a8-11ea-0691-00f48df11581">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

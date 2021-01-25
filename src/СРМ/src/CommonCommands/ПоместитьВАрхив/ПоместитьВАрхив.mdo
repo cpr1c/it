@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf45e36c-6c18-11e8-7483-d8cb8a9d0185">
+  <name>ПоместитьВАрхив</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поместить в архив</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.ЦПР_ТочкиПодключения</types>
+    <types>CatalogRef.ЦПР_Подключения</types>
+    <types>CatalogRef.Партнеры</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

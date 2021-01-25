@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3d6badb-9299-4e96-9aba-dcf5e221fa66">
+  <producedTypes>
+    <objectType typeId="d9b12a7c-d949-4456-8644-06602fd7db12" valueTypeId="ff20b500-3dc1-434a-b668-9477aace96e0"/>
+    <managerType typeId="2c372f81-5156-49b7-868b-b9af1578554d" valueTypeId="41e42082-34df-43c6-b159-e10836fa8d9f"/>
+  </producedTypes>
+  <name>RA_АнализЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Redmine: Отчет по задачам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.RA_АнализЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="a178df5f-6a52-45a0-a1d1-b7bfabbe83f3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

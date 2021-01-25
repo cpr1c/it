@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aabf62d4-9a7b-444b-ba64-946d01437c90">
+  <name>УстановитьСтатусИзмененияПометкиУдаленияОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить статус изменения пометки удаления объекта</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ЦПР_Подключения</types>
+    <types>CatalogObject.Курсы</types>
+    <types>CatalogObject.Навыки</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.ЦПР_ТочкиПодключения</types>
+    <types>CatalogObject.Партнеры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ЗаметкиПользователя.УстановитьСтатусИзмененияПометкиУдаленияОбъекта</handler>
+</mdclass:EventSubscription>

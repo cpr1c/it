@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cf9be9d-2bd0-481d-8b0b-a34c737357bf">
+  <producedTypes>
+    <objectType typeId="bd674c1c-2bce-4e23-8447-56644652e771" valueTypeId="75ae6545-23b9-4c30-9c8c-dafe09b9550e"/>
+    <managerType typeId="2cfc1953-0368-4a94-a66f-715a41c3a043" valueTypeId="45249703-eab3-4bc6-a07d-5d9389a142c7"/>
+  </producedTypes>
+  <name>RA_АнализТрудозатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Redmine: Отчет по трудозатратам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.RA_АнализТрудозатрат.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="470dac12-ed0f-4d10-817a-55260db54a69">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="46e734e3-046a-4bdd-9bd9-85476669382f">
+    <name>ПродолжительностьРаботыПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжительность работы пользователей</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

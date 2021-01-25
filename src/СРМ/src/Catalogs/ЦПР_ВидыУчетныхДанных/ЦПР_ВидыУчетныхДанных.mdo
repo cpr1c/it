@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c2dc572-6795-44bf-a5f5-0ee3d20e7ef4">
+  <producedTypes>
+    <objectType typeId="868d1da1-06e9-4afa-8aff-86aec50fc399" valueTypeId="af92c735-ed59-4294-b2ca-180690b5d637"/>
+    <refType typeId="b0374510-d943-4ef0-8400-290f2ba58b5e" valueTypeId="f3039788-2612-4554-b3eb-8adbe9e045f4"/>
+    <selectionType typeId="9188f5a9-77a3-4589-b03f-b24dbae426e3" valueTypeId="0cd347de-67d6-4157-b871-6291ba3e6079"/>
+    <listType typeId="e552ae39-7bb5-4034-b5e3-f1abcf1edd2a" valueTypeId="f7bfdc9f-1a44-4db3-8ef5-aeac9e7749af"/>
+    <managerType typeId="208fdce7-299c-4cd7-ade2-28c0ef79e8bd" valueTypeId="463d14f9-46af-4f3f-a544-b8d314664ef1"/>
+  </producedTypes>
+  <name>ЦПР_ВидыУчетныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды учетных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦПР_ВидыУчетныхДанных.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦПР_ВидыУчетныхДанных.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2a1be420-92a2-4bdb-8d1f-ee4600e5f9d3">
+      <name>Администратор</name>
+      <description>Администратор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЦПР_ВидыУчетныхДанных.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="12018a8c-d872-11e8-258a-64809943c784">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49eff96e-6035-446b-b748-9997d3af97e6">
+  <name>RA_ОткрытьВRedmine</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть в redmine</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.RA_RedmineЗадачи</types>
+    <types>CatalogRef.RA_RedmineТрудозатраты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbdecf86-20cf-11ea-0691-00f48df11581">
+  <producedTypes>
+    <objectType typeId="cbdecf7c-20cf-11ea-0691-00f48df11581" valueTypeId="cbdecf7d-20cf-11ea-0691-00f48df11581"/>
+    <refType typeId="cbdecf7e-20cf-11ea-0691-00f48df11581" valueTypeId="cbdecf7f-20cf-11ea-0691-00f48df11581"/>
+    <selectionType typeId="cbdecf80-20cf-11ea-0691-00f48df11581" valueTypeId="cbdecf81-20cf-11ea-0691-00f48df11581"/>
+    <listType typeId="cbdecf82-20cf-11ea-0691-00f48df11581" valueTypeId="cbdecf83-20cf-11ea-0691-00f48df11581"/>
+    <managerType typeId="cbdecf84-20cf-11ea-0691-00f48df11581" valueTypeId="cbdecf85-20cf-11ea-0691-00f48df11581"/>
+  </producedTypes>
+  <name>НастройкиОповещенийПоЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки оповещений по задачам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиОповещенийПоЗадачам.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиОповещенийПоЗадачам.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиОповещенийПоЗадачам.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="decdabd0-20cf-11ea-0691-00f48df11581">
+    <name>ВидОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оповещения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОповещенийПоЗадачам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb17b6d2-20cf-11ea-0691-00f48df11581">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c383352-20d0-11ea-0691-00f48df11581">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e45f4874-20d4-11ea-0691-00f48df11581">
+    <name>ШаблонСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон сообщения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="80203941-50f2-4084-8630-d885aa458628">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

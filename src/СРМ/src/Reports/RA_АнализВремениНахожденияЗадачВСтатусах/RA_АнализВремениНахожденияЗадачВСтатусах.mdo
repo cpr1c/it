@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a5d7065-2dd5-4643-98b5-a2a042c3e2fe">
+  <producedTypes>
+    <objectType typeId="ed3fc85b-b1c4-4100-b5b1-0363b3150f7d" valueTypeId="fd0fdb2f-986d-4f0f-ad75-5cb198ea4e16"/>
+    <managerType typeId="39f0beb8-05be-4dd7-a59e-dd64cf06ca66" valueTypeId="0bdf223d-01f9-4184-8bf6-aade0ccc51dc"/>
+  </producedTypes>
+  <name>RA_АнализВремениНахожденияЗадачВСтатусах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Redmine: Отчет по времени нахождения задач в статусах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.RA_АнализВремениНахожденияЗадачВСтатусах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="9645113e-1c9c-4cba-947a-e70f52c72de9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a8afc1-7fdf-4e6b-8e16-75741f791323">
+  <producedTypes>
+    <objectType typeId="7fa58bc9-d5e7-4f27-8b51-8c95ea28cd83" valueTypeId="b05ed2c5-f0fd-4911-a8aa-63b0e9a69610"/>
+    <refType typeId="5bf7d8f2-2776-4019-bfed-3b3a9ed0a163" valueTypeId="663433de-7f3f-473d-8339-e679587633b6"/>
+    <selectionType typeId="216c18fb-ee51-43e2-8104-f135b4a4f434" valueTypeId="f326408a-2b02-495b-ae69-c734b1807b16"/>
+    <listType typeId="578d1619-735d-4dc1-af33-e03489abc1fe" valueTypeId="bddb6318-b3f2-446d-ae5a-034d27aecd4f"/>
+    <managerType typeId="e216f56c-7d0a-4e80-afa4-54fdea6b8898" valueTypeId="ec65b7dd-5581-45fb-ab14-6f4a95b3fd45"/>
+  </producedTypes>
+  <name>ЦПР_ТочкиПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки подключения</value>
+  </synonym>
+  <comment>Справчоник определяющий иерархию подключений. Кодной точке подключений может быть несколько подключений</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦПР_ТочкиПодключения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦПР_ТочкиПодключения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЦПР_ТочкиПодключения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЦПР_ТочкиПодключения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1d288e0d-daf8-4186-b5a9-271895b2adac">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32ae9586-c312-4269-ac8f-2cd18cff9d29">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтактныеЛицаПартнеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ЦПР_ТочкиПодключения.Attribute.Партнер</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a237fb3-97ab-456b-ac9c-4b2e66795469">
+    <name>УдалитьВидПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить вид подключения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦПР_ВидыПодключений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0856884f-71b0-40e6-9bf4-684a72978b8a">
+    <name>УдалитьАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9513904-403b-488c-a974-5985cfea45ec">
+    <name>УдалитьПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d5dcefd-0264-45b6-a823-f3b43cb07377">
+    <name>УдалитьПредварительноеПодключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить предварительное подключение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦПР_ТочкиПодключения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0df54021-a7db-4429-a023-a2d3591f4b08">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f668fb4-5ac9-4631-9cdd-165be8c7daa6">
+    <name>Местоположение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местоположение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦПР_МестоположенияТочекПодключений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ЦПР_ТочкиПодключения.Attribute.Партнер</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="815bbf0a-6c17-11e8-7483-d8cb8a9d0185">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8fe1e45c-0bbc-49d4-8d9c-fcf67693e55b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4be3bd59-4329-43eb-ac48-d2c5c6b23f90">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
