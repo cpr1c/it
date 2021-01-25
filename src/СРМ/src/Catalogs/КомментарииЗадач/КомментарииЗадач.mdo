@@ -268,22 +268,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d4d30d26-2120-11eb-908b-00f48df11581">
-    <name>ТекстСообщенияHTML</name>
+  <attributes uuid="fb0af26f-ba59-4e82-b561-26fc7914ee47">
+    <name>ТекстСообщенияФормат</name>
     <synonym>
       <key>ru</key>
-      <value>Текст сообщения HTML</value>
+      <value>Текст сообщения формат</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>EnumRef.ВариантыОформленияТекста</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
