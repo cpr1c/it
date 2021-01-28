@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac4dc078-3e0c-4563-8082-4344f7dee52e">
+  <producedTypes>
+    <objectType typeId="3c6d3099-d3ee-40a5-bdaa-5806e9b6613e" valueTypeId="2942f198-2f13-4c0f-b108-4126543df298"/>
+    <refType typeId="230423c8-3404-47a2-af7e-2cd46dd3a350" valueTypeId="6be265be-7e31-4f71-9676-c7ce898473eb"/>
+    <selectionType typeId="77ac2195-823a-4915-91a5-a5e10b1ab23f" valueTypeId="3bf0ae43-26ba-4020-b292-d698144fa524"/>
+    <listType typeId="54dc2359-3aaa-4d66-a21c-d5cdf609001f" valueTypeId="ae9fc159-8cc1-4968-9f1f-56ccadedd9d1"/>
+    <managerType typeId="cda8b850-9e52-4e94-9bfc-bf45f6cc6846" valueTypeId="e0a9c92a-0158-4edc-9fd9-cdc0d6b0fa60"/>
+  </producedTypes>
+  <name>НаборыОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы оповещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыОповещений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НаборыОповещений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="dd8a0e99-0dd9-48d8-a3d2-b88f4e8287bc">
+      <name>ВсеСобытия</name>
+      <description>Все события</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="21044f21-f9be-4857-85b2-114153f644d3">
+    <producedTypes>
+      <objectType typeId="5c0b2f37-a131-4100-a016-1554c361b794" valueTypeId="a5f0fb0f-be56-4245-bc36-985f14891b0c"/>
+      <rowType typeId="eca38e5d-d1a1-4486-8482-079f3e98d27a" valueTypeId="a81e1a9f-8e04-422b-82ce-b1ac82e885e5"/>
+    </producedTypes>
+    <name>События</name>
+    <synonym>
+      <key>ru</key>
+      <value>События</value>
+    </synonym>
+    <attributes uuid="87a0dca9-c961-4093-91c5-3dbdf111f13e">
+      <name>Событие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Событие</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СобытияОповещений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
