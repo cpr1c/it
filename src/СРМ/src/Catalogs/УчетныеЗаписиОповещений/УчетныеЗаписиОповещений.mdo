@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39bc3228-d8f2-423e-a7b6-91ce11686626">
+  <producedTypes>
+    <objectType typeId="53f68c7a-bd41-489b-8aab-2194b5610e91" valueTypeId="4d6f7de9-386b-41b4-b9bf-df4b8b740a11"/>
+    <refType typeId="1734e67a-8f68-4679-8b8e-fe87d1d7cd3f" valueTypeId="18602bdd-018d-4691-b25e-09c0bf6d7e16"/>
+    <selectionType typeId="39ffe542-ee6a-42bb-8e5a-90f8f3289ea0" valueTypeId="a912c928-3b28-4034-ab05-7b5c274285b1"/>
+    <listType typeId="def3f299-ca57-46c7-9c24-472b2788db15" valueTypeId="ab57c3a1-551e-496d-a393-fd097528d605"/>
+    <managerType typeId="a78121fe-c3c8-423f-8f9a-e12f46edef0f" valueTypeId="d09ad834-bd51-4706-904a-7248b259e8e6"/>
+  </producedTypes>
+  <name>УчетныеЗаписиОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи оповещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчетныеЗаписиОповещений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УчетныеЗаписиОповещений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4e47898a-d026-4b6c-aefa-cda9ac71cab1">
+    <name>Канал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КаналыОповещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b95bc46-b0ae-46e9-8abc-80020c64a3b0">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

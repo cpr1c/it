@@ -40,67 +40,59 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.НастройкиОповещенийПоЗадачам.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="decdabd0-20cf-11ea-0691-00f48df11581">
-    <name>ВидОповещения</name>
+  <tabularSections uuid="f1c8533b-73b9-4da9-91d3-93c47f0f660b">
+    <producedTypes>
+      <objectType typeId="2b6e1db2-473b-44df-b134-4a8cf7c5fdae" valueTypeId="759fe77b-b617-4728-8304-91c08976752f"/>
+      <rowType typeId="c67986a3-ca90-49b9-bba8-b28b40ea6161" valueTypeId="929fa9ee-df8e-413d-b6c4-14701748738b"/>
+    </producedTypes>
+    <name>НастройкиТранспорта</name>
     <synonym>
       <key>ru</key>
-      <value>Вид оповещения</value>
+      <value>Настройки транспорта</value>
     </synonym>
-    <type>
-      <types>EnumRef.КаналыОповещений</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="fb17b6d2-20cf-11ea-0691-00f48df11581">
-    <name>УчетнаяЗапись</name>
-    <synonym>
-      <key>ru</key>
-      <value>Учетная запись</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9c383352-20d0-11ea-0691-00f48df11581">
-    <name>Использование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Использование</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="e45f4874-20d4-11ea-0691-00f48df11581">
-    <name>ШаблонСообщения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Шаблон сообщения</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ШаблоныСообщений</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
+    <attributes uuid="30d5b999-7da7-41c0-863d-4d43743f1187">
+      <name>УчетнаяЗаписьОповещений</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учетная запись оповещений</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчетныеЗаписиОповещений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fee01b18-7d52-4407-9f2f-133d45d2a43d">
+      <name>ШаблонСообщения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон сообщения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ШаблоныСообщений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="96f17835-db70-4ab7-82f1-aa9629387a67">
+      <name>НаборСобытий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор событий</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НаборыСобытийОповещений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="80203941-50f2-4084-8630-d885aa458628">
     <name>ФормаЭлемента</name>
     <synonym>
