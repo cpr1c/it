@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54d2a308-d67a-4a64-8771-d49715df6cca">
+  <name>ПередЗаписьюЗадачиФормированиеДанныйДляОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью задачи формирование данный для оповещений</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Задача</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОповещенияПоЗадачамПодпискиНаСобытия.ПередЗаписьюЗадачиФормированиеДанныйДляОповещенийПередЗаписью</handler>
+</mdclass:EventSubscription>
