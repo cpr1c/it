@@ -15,8 +15,6 @@
     <value>Оповещения по задачам к отправке</value>
   </synonym>
   <editType>InDialog</editType>
-  <defaultRecordForm>InformationRegister.ОповещенияПоЗадачамКОтправке.Form.ФормаЗаписи</defaultRecordForm>
-  <defaultListForm>InformationRegister.ОповещенияПоЗадачамКОтправке.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -50,25 +48,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <resources uuid="37518fec-20d0-11ea-0691-00f48df11581">
-    <name>ИнициаторСобытия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Инициатор события</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ФизическиеЛица</types>
-      <types>CatalogRef.КомментарииЗадач</types>
-      <types>CatalogRef.ЗадачаПрисоединенныеФайлы</types>
-      <types>DocumentRef.Задача</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="aa9e17ac-20d2-11ea-0691-00f48df11581">
     <name>ДанныеСобытия</name>
     <synonym>
@@ -100,6 +79,117 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="d7f16aa7-a881-4b7a-acdd-7d64336a6382">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c22cefc-3d1c-4b31-adfb-c023793d1ce2">
+    <name>ШаблонСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон сообщения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a143d1bd-f2b8-4cbe-8587-5cc9f23344bb">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиОповещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fc38d7ec-c828-4c03-be1b-06f6f2946ab0">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c925044-d86f-45fe-ac03-34bf7724877e">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5f1dc1f-818d-4db9-b664-4649ce18a85e">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="33421c3c-8175-4fc6-82af-e7c168d57599">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="1a863bb6-20cf-11ea-0691-00f48df11581">
     <name>Идентификатор</name>
     <synonym>
@@ -117,30 +207,14 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="22dc16d2-20cf-11ea-0691-00f48df11581">
-    <name>НастройкаОповещения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Настройка оповещения</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.НастройкиОповещенийПоЗадачам</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
   <dimensions uuid="dfcded48-2727-11ea-6b9b-00f48df11581">
-    <name>ВидСобытия</name>
+    <name>Событие</name>
     <synonym>
       <key>ru</key>
-      <value>Вид события</value>
+      <value>Событие</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВидыСобытийОповещений</types>
+      <types>EnumRef.СобытияОповещений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -152,45 +226,23 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="1a8645a2-20cf-11ea-0691-00f48df11581">
-    <name>ФормаСписка</name>
+  <dimensions uuid="443be85b-6068-4002-b92e-5788727cede2">
+    <name>ИнициаторСобытия</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>Инициатор события</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="1a8664ce-20cf-11ea-0691-00f48df11581">
-    <name>ФормаЗаписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <commands uuid="1a868788-20cf-11ea-0691-00f48df11581">
-    <name>ЭлектронныеСообщенияКотправке</name>
-    <synonym>
-      <key>ru</key>
-      <value>Электронные сообщения котправке</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-    <shortcut></shortcut>
-  </commands>
-  <commands uuid="1a869b7e-20cf-11ea-0691-00f48df11581">
-    <name>ОтправитьСообщенияДоступныеКОтправке</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отправить сообщения доступные к отправке</value>
-    </synonym>
-    <group>ActionsPanelTools</group>
-    <commandParameterType/>
-    <modifiesData>true</modifiesData>
-    <representation>Auto</representation>
-    <shortcut></shortcut>
-  </commands>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.КомментарииЗадач</types>
+      <types>CatalogRef.ЗадачаПрисоединенныеФайлы</types>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
 </mdclass:InformationRegister>
