@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчетныеЗаписиОповещений.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="4e47898a-d026-4b6c-aefa-cda9ac71cab1">
     <name>Канал</name>
     <synonym>
@@ -53,6 +54,7 @@
     </synonym>
     <type>
       <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+      <types>CatalogRef.УчетныеЗаписиRocketChat</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -60,4 +62,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="ce2a8ca2-5d83-4395-9064-c0915c95c4cf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
