@@ -254,6 +254,97 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="02d5d3d8-2469-4938-9ece-92e31397be2f">
+    <name>ОтправитьСообщениеКонтакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить сообщение контакту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="aa316813-904b-40e9-8da7-688eb23ef587">
+    <producedTypes>
+      <objectType typeId="1f149603-1d5b-4d63-a938-3a75c4738b7a" valueTypeId="8306fa41-e13e-4d4b-a3b8-c6f2cfbb26a7"/>
+      <rowType typeId="8251a1ce-1677-49c0-bfc4-4edca5d59cd4" valueTypeId="376ed67b-268f-457a-a504-695fb9b6a000"/>
+    </producedTypes>
+    <name>ДополнительныеПолучателиОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные получатели оповещения</value>
+    </synonym>
+    <attributes uuid="50f0e715-d0d6-4e70-b9e8-64f73d296f47">
+      <name>Адрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="039b914f-d76b-4281-8912-bf34d163927a">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64a31ea5-802e-4fae-9bed-315d8fd1c1c1">
+      <name>Контакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контакт</value>
+      </synonym>
+      <type>
+        <types>DefinedType.КонтактВзаимодействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="80f01af7-b168-4750-80ca-bc6f7ef0de11">
+      <name>ВариантОтправки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант отправки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="cd0834f8-c29a-11e9-9e97-64809943c784">
     <name>ФормаЭлемента</name>
     <synonym>
