@@ -238,36 +238,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7ef2a410-20af-11ea-0691-00f48df11581">
-    <name>Контакт</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контакт</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ФизическиеЛица</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="777b6a2e-20c7-11ea-0691-00f48df11581">
-    <name>ОтправитьСообщениеКонтакту</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отправить сообщение контакту</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="fb0af26f-ba59-4e82-b561-26fc7914ee47">
     <name>ТекстСообщенияФормат</name>
     <synonym>
@@ -284,88 +254,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="eb027b7d-20ae-11ea-0691-00f48df11581">
-    <producedTypes>
-      <objectType typeId="eb027b72-20ae-11ea-0691-00f48df11581" valueTypeId="eb027b73-20ae-11ea-0691-00f48df11581"/>
-      <rowType typeId="eb027b74-20ae-11ea-0691-00f48df11581" valueTypeId="eb027b7c-20ae-11ea-0691-00f48df11581"/>
-    </producedTypes>
-    <name>ПолучателиКопий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Получатели копий</value>
-    </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="eb027f96-20ae-11ea-0691-00f48df11581">
-      <name>Адрес</name>
-      <synonym>
-        <key>ru</key>
-        <value>Адрес</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Адреса электронной почты получателя копии</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <indexing>Index</indexing>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="eb0284aa-20ae-11ea-0691-00f48df11581">
-      <name>Представление</name>
-      <synonym>
-        <key>ru</key>
-        <value>Представление</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Текстовое описание получателя копии</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <indexing>Index</indexing>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="eb0288a6-20ae-11ea-0691-00f48df11581">
-      <name>Контакт</name>
-      <synonym>
-        <key>ru</key>
-        <value>Контакт</value>
-      </synonym>
-      <type>
-        <types>DefinedType.КонтактВзаимодействия</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Ссылка на контакт-получатель копии письма </value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <indexing>Index</indexing>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
   <forms uuid="cd0834f8-c29a-11e9-9e97-64809943c784">
     <name>ФормаЭлемента</name>
     <synonym>
