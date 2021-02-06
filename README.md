@@ -1,5 +1,7 @@
 # it
 
+[![Join telegram chat](https://img.shields.io/badge/chat-telegram-blue?style=flat&logo=telegram)](https://t.me/itcrm_chat) 
+
 СРМ для ИТ в сфере 1С. Учет задач, Подключений, Лицензий и т.п 
 
 Система находится в разработке. Не все может работать
