@@ -1,7 +1,9 @@
 # it
 
 [![Join telegram chat](https://img.shields.io/badge/chat-telegram-blue?style=flat&logo=telegram)](https://t.me/itcrm_chat) 
-
+[![Last release](https://img.shields.io/github/v/release/cpr1c/it?include_prereleases&label=last%20release&style=badge)](https://github.com/cpr1c/it/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues-raw/cpr1c/it?style=badge)](https://github.com/cpr1c/it/issues)
+[![License](https://img.shields.io/github/license/cpr1c/it?style=badge)](https://github.com/cpr1c/it/blob/main/LICENSE)
 СРМ для ИТ в сфере 1С. Учет задач, Подключений, Лицензий и т.п 
 
 Система находится в разработке. Не все может работать
