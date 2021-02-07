@@ -2224,6 +2224,39 @@
               <name>СписокЗадачКоманднаяПанель</name>
               <id>381</id>
               <items xsi:type="form:Button">
+                <name>СписокЗадачCatalogКомментарииЗадачCommandДобавитьКомментарий</name>
+                <id>498</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.СписокЗадач.CurrentData.Ссылка</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>СписокЗадачCatalogКомментарииЗадачCommandДобавитьКомментарийРасширеннаяПодсказка</name>
+                  <id>499</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Catalog.КомментарииЗадач.Command.ДобавитьКомментарий</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
                 <name>СписокЗадачДокументЗадачаПринятьЗадачу</name>
                 <id>452</id>
                 <visible>true</visible>
@@ -2347,6 +2380,39 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>CommonCommand.СоздатьЗаметкуПоПредмету</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СписокЗадачDocumentЗадачаCommandДобавитьТрудозатраты</name>
+                <id>496</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.СписокЗадач.CurrentData.Ссылка</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>СписокЗадачDocumentЗадачаCommandДобавитьТрудозатратыРасширеннаяПодсказка</name>
+                  <id>497</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Document.Задача.Command.ДобавитьТрудозатраты</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
