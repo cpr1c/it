@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <workingAreaTemplate>TwoColumnsVariableWidth</workingAreaTemplate>
   <columns>
     <items>
       <form>DataProcessor.АРМСпециалистаПоддержки.Form.Форма</form>
@@ -8,13 +9,8 @@
         <common>true</common>
       </visibility>
     </items>
-    <items>
-      <form>Catalog.ЦПР_ТочкиПодключения.Form.ФормаСписка</form>
-      <height>10</height>
-      <visibility>
-        <common>true</common>
-      </visibility>
-    </items>
+  </columns>
+  <columns>
     <items>
       <form>Catalog.Заметки.Form.МоиЗаметки</form>
       <height>10</height>
