@@ -2666,117 +2666,6 @@
               <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
-          <items xsi:type="form:FormGroup">
-            <name>ГруппаРабочееПростанствоЗадачПраво</name>
-            <id>647</id>
-            <items xsi:type="form:FormGroup">
-              <name>ГруппаТекущийТаймер</name>
-              <id>649</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <title>
-                <key>ru</key>
-                <value>Группа текущий таймер</value>
-              </title>
-              <extendedTooltip>
-                <name>ГруппаТекущийТаймерРасширеннаяПодсказка</name>
-                <id>650</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>HorizontalIfPossible</group>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>Auto</currentRowUse>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormGroup">
-              <name>ГруппаТаймерыПоЗадачам</name>
-              <id>651</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <title>
-                <key>ru</key>
-                <value>Группа таймеры по задачам</value>
-              </title>
-              <width>15</width>
-              <horizontalStretch>false</horizontalStretch>
-              <extendedTooltip>
-                <name>ГруппаТаймерыПоЗадачамРасширеннаяПодсказка</name>
-                <id>652</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>HorizontalIfPossible</group>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>Auto</currentRowUse>
-              </extInfo>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Группа рабочее простанство задач право</value>
-            </title>
-            <horizontalStretch>false</horizontalStretch>
-            <extendedTooltip>
-              <name>ГруппаРабочееПростанствоЗадачПравоРасширеннаяПодсказка</name>
-              <id>648</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>UsualGroup</type>
-            <extInfo xsi:type="form:UsualGroupExtInfo">
-              <group>Vertical</group>
-              <showLeftMargin>true</showLeftMargin>
-              <united>true</united>
-              <throughAlign>Auto</throughAlign>
-              <currentRowUse>Auto</currentRowUse>
-            </extInfo>
-          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6937,7 +6826,6 @@
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -7079,7 +6967,6 @@
             <autoMaxHeight>true</autoMaxHeight>
           </extInfo>
         </items>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -7127,7 +7014,6 @@
       <items xsi:type="form:Button">
         <name>ДобавитьНовуюЗадачу</name>
         <id>348</id>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -7158,7 +7044,6 @@
       <items xsi:type="form:Button">
         <name>УстановитьНапоминание</name>
         <id>350</id>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -7186,6 +7071,44 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПанельДействийТаймеры</name>
+        <id>653</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа рабочее простанство задач право</value>
+        </title>
+        <horizontalStretch>false</horizontalStretch>
+        <extendedTooltip>
+          <name>ГруппаПанельДействийТаймерыРасширеннаяПодсказка</name>
+          <id>654</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -7200,6 +7123,7 @@
       </toolTip>
       <width>25</width>
       <horizontalStretch>false</horizontalStretch>
+      <verticalStretch>true</verticalStretch>
       <extendedTooltip>
         <name>ПанельДействийРасширеннаяПодсказка</name>
         <id>116</id>
@@ -7984,6 +7908,7 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -7993,7 +7918,6 @@
       <common>true</common>
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
-    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>NotificationProcessing</event>
