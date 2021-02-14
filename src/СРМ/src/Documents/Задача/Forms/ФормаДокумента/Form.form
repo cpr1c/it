@@ -2110,6 +2110,76 @@
               <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаНаблюдатели</name>
+            <id>300</id>
+            <items xsi:type="form:Button">
+              <name>ДобавитьНаблюдателя</name>
+              <id>304</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ДобавитьНаблюдателяРасширеннаяПодсказка</name>
+                <id>305</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Hyperlink</type>
+              <commandName>Form.Command.ДобавитьНаблюдателя</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Наблюдатели</value>
+            </title>
+            <extendedTooltip>
+              <name>ГруппаНаблюдателиРасширеннаяПодсказка</name>
+              <id>301</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>Vertical</group>
+              <behavior>Collapsible</behavior>
+              <collapsed>true</collapsed>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <showTitle>true</showTitle>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4749,6 +4819,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОткрытьФормуНовогоКомментария</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьНаблюдателя</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить наблюдателя</value>
+    </title>
+    <id>7</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьНаблюдателя</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
