@@ -52,9 +52,18 @@
     </synonym>
     <type>
       <types>String</types>
+      <types>Number</types>
+      <types>Date</types>
+      <types>Boolean</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
       <stringQualifiers>
-        <length>10</length>
+        <length>1000</length>
       </stringQualifiers>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
