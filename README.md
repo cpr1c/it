@@ -2,6 +2,7 @@
 
 [![Join telegram chat](https://img.shields.io/badge/chat-telegram-blue?style=flat&logo=telegram)](https://t.me/itcrm_chat) 
 [![Last release](https://img.shields.io/github/v/release/cpr1c/it?include_prereleases&label=last%20release&style=badge)](https://github.com/cpr1c/it/releases/latest)
+[![download](https://img.shields.io/github/downloads/cpr1c/it/total)](https://github.com/cpr1c/tools_ui_1c/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues-raw/cpr1c/it?style=badge)](https://github.com/cpr1c/it/issues)
 [![License](https://img.shields.io/github/license/cpr1c/it?style=badge)](https://github.com/cpr1c/it/blob/main/LICENSE)
 
