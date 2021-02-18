@@ -55,6 +55,42 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппаФильтрыПоПроектам</name>
           <id>352</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаБыстрыеОтборыСпискаПроектов</name>
+            <id>661</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Группа быстрые отборы списка проектов</value>
+            </title>
+            <extendedTooltip>
+              <name>ГруппаБыстрыеОтборыСпискаПроектовРасширеннаяПодсказка</name>
+              <id>662</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>HorizontalIfPossible</group>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <throughAlign>DontUse</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
           <items xsi:type="form:Table">
             <name>Проекты</name>
             <id>354</id>
@@ -453,6 +489,7 @@
               <topLevelParent xsi:type="core:UndefinedValue"/>
               <showRoot>true</showRoot>
               <allowRootChoice>true</allowRootChoice>
+              <userSettingsGroup>ГруппаБыстрыеОтборыСпискаПроектов</userSettingsGroup>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
