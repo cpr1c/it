@@ -218,4 +218,36 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="c40d5495-0c24-4e57-a826-535690c2f551">
+    <name>ДобавитьВИзбранные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить в избранные</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Проекты</types>
+    </commandParameterType>
+    <modifiesData>true</modifiesData>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.БыстрыйДоступДобавить</picture>
+    </picture>
+  </commands>
+  <commands uuid="dbc4539b-f4f6-4b17-bf01-e5483a1de9f3">
+    <name>УбратьИзИзбранного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Убрать из избранного</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Проекты</types>
+    </commandParameterType>
+    <modifiesData>true</modifiesData>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.БыстрыйДоступУдалить</picture>
+    </picture>
+  </commands>
 </mdclass:Catalog>

@@ -204,6 +204,72 @@
                 </extInfo>
               </items>
               <items xsi:type="form:Button">
+                <name>ПроектыCatalogПроектыCommandДобавитьВИзбранные</name>
+                <id>663</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.Проекты.CurrentData.Ref</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПроектыCatalogПроектыCommandДобавитьВИзбранныеРасширеннаяПодсказка</name>
+                  <id>664</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Catalog.Проекты.Command.ДобавитьВИзбранные</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>ПроектыCatalogПроектыCommandУбратьИзИзбранного</name>
+                <id>665</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.Проекты.CurrentData.Ref</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ПроектыCatalogПроектыCommandУбратьИзИзбранногоРасширеннаяПодсказка</name>
+                  <id>666</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Catalog.Проекты.Command.УбратьИзИзбранного</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
                 <name>ПроектыОбщаяКомандаОбработатьНажатиеКнопкиТаймера</name>
                 <id>464</id>
                 <visible>true</visible>
@@ -475,8 +541,11 @@
             <enableDrag>true</enableDrag>
             <fileDragMode>AsFileRef</fileDragMode>
             <rowPictureDataPath xsi:type="form:DataPath">
-              <segments>Проекты.DefaultPicture</segments>
+              <segments>Проекты.ИдентификаторКартинкиИзбранностиПроекта</segments>
             </rowPictureDataPath>
+            <rowsPicture xsi:type="core:PictureRef">
+              <picture>CommonPicture.БыстрыйДоступ</picture>
+            </rowsPicture>
             <behaviorOnHorizontalCompression>HideItemsByImportance</behaviorOnHorizontalCompression>
             <extInfo xsi:type="form:DynamicListTableExtInfo">
               <autoRefresh>true</autoRefresh>
@@ -492,24 +561,115 @@
               <userSettingsGroup>ГруппаБыстрыеОтборыСпискаПроектов</userSettingsGroup>
             </extInfo>
           </items>
-          <items xsi:type="form:FormField">
-            <name>ПоказыватьАрхивныеПроекты</name>
-            <id>655</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаПроектыФильтрыФлагами</name>
+            <id>667</id>
+            <items xsi:type="form:FormField">
+              <name>ПоказыватьАрхивныеПроекты</name>
+              <id>655</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ПоказыватьАрхивныеПроекты</segments>
+              </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ПоказыватьАрхивныеПроектыПриИзменении</name>
+              </handlers>
+              <extendedTooltip>
+                <name>ПоказыватьАрхивныеПроектыРасширеннаяПодсказка</name>
+                <id>657</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ПоказыватьАрхивныеПроектыКонтекстноеМеню</name>
+                <id>656</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>CheckBoxField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>ТолькоМоиПроекты</name>
+              <id>669</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ТолькоМоиПроекты</segments>
+              </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ТолькоМоиПроектыПриИзменении</name>
+              </handlers>
+              <extendedTooltip>
+                <name>ТолькоМоиПроектыРасширеннаяПодсказка</name>
+                <id>671</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ТолькоМоиПроектыКонтекстноеМеню</name>
+                <id>670</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>CheckBoxField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПоказыватьАрхивныеПроекты</segments>
-            </dataPath>
-            <handlers>
-              <event>OnChange</event>
-              <name>ПоказыватьАрхивныеПроектыПриИзменении</name>
-            </handlers>
+            <title>
+              <key>ru</key>
+              <value>Группа проекты фильтры флагами</value>
+            </title>
             <extendedTooltip>
-              <name>ПоказыватьАрхивныеПроектыРасширеннаяПодсказка</name>
-              <id>657</id>
+              <name>ГруппаПроектыФильтрыФлагамиРасширеннаяПодсказка</name>
+              <id>668</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -522,22 +682,14 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <contextMenu>
-              <name>ПоказыватьАрхивныеПроектыКонтекстноеМеню</name>
-              <id>656</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>CheckBoxField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>AlwaysHorizontal</group>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1447,7 +1599,7 @@
           <key>ru</key>
           <value>Панель фильтров</value>
         </toolTip>
-        <width>30</width>
+        <width>35</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
           <name>ПанельФильтровРасширеннаяПодсказка</name>
@@ -8426,9 +8578,42 @@
       <segments>Проекты.Ref</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	Проекты.Ссылка,
+	Проекты.ПометкаУдаления,
+	Проекты.Родитель,
+	Проекты.Код,
+	Проекты.Наименование,
+	Проекты.Партнер,
+	Проекты.Автор,
+	Проекты.ДатаСоздания,
+	Проекты.Редактор,
+	Проекты.ДатаИзменения,
+	Проекты.Описание,
+	Проекты.НастройкаОповещенияПоЗадачам,
+	Проекты.Архивный,
+	Проекты.Вид,
+	Проекты.Предопределенный,
+	Проекты.ИмяПредопределенныхДанных,
+	ВЫБОР
+		КОГДА ИзбранныеПроекты.Проект ЕСТЬ NULL
+			ТОГДА -1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ИдентификаторКартинкиИзбранностиПроекта,
+	ВЫБОР
+		КОГДА ИзбранныеПроекты.Проект ЕСТЬ NULL
+			ТОГДА ЛОжь
+		ИНАЧЕ Истина
+	КОНЕЦ КАК ЭтоИзбранныйПроект
+ИЗ
+	Справочник.Проекты КАК Проекты
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ИзбранныеПроекты КАК ИзбранныеПроекты
+		ПО Проекты.Ссылка = ИзбранныеПроекты.Проект
+		И ИзбранныеПроекты.Пользователь = &amp;ТекущийПользователь</queryText>
       <mainTable>Catalog.Проекты</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
@@ -8687,6 +8872,23 @@
       <value>Показывать архивные проекты</value>
     </title>
     <id>24</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТолькоМоиПроекты</name>
+    <title>
+      <key>ru</key>
+      <value>Только мои проекты</value>
+    </title>
+    <id>25</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
