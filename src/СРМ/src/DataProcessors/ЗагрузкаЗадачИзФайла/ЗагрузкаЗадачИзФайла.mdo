@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="366d923f-5624-4043-b24b-8c8eb2da33cb">
+  <producedTypes>
+    <objectType typeId="59d54868-b66f-4efe-b15d-1f17fdd0f035" valueTypeId="18110120-ba5d-44ec-986d-febbf08208b9"/>
+    <managerType typeId="b31b986a-2a12-4096-8e93-3fd31e28e7f4" valueTypeId="bf17875b-1ed1-42f4-9a01-860a3f7455b7"/>
+  </producedTypes>
+  <name>ЗагрузкаЗадачИзФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка задач из файла</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаЗадачИзФайла.Form.Форма</defaultForm>
+  <attributes uuid="7a945309-0a74-43af-aa33-eb98b105efcd">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Executor</value>
+    </synonym>
+    <synonym>
+      <key>ro</key>
+      <value>Executant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b05c46f2-459d-4e16-88da-fcee7afb171f">
+    <name>КонтактОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт обращения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ac6d8ee-145b-4568-a3fc-e8b7b9681531">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fdf4cc31-1eac-446a-8330-d60224365aac">
+    <name>РодительскаяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительская задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="27dbd786-bf59-4e74-89f5-fefc85b056ce">
+    <name>Спринт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спринт</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Спринт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65809dea-b094-4581-9f1b-506cfb1ea8e1">
+    <name>Срочность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срочность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СрочностиЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="95f3feec-18e8-477f-8a2c-41f78488cbba">
+    <producedTypes>
+      <objectType typeId="469a62b3-3fb5-482c-8560-21b0e111e18d" valueTypeId="db272265-4eca-40d2-9326-ae8e52a35ee3"/>
+      <rowType typeId="ffabd32a-49b0-4ac2-923f-f34183227b7e" valueTypeId="627834e6-339b-4e20-b8a1-f33d781d07b7"/>
+    </producedTypes>
+    <name>ЗагружаемыеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружаемые данные</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="81f18e09-1dc8-4328-81d1-40956dae76b5">
+      <name>Тема</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тема</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9375f9f4-fdd4-497b-8108-32f0106a8f92">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0f3f3a45-5171-4426-ba47-fea7a0403e9c">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Executor</value>
+      </synonym>
+      <synonym>
+        <key>ro</key>
+        <value>Executant</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3b5b883f-69e5-47df-9583-d431effae2af">
+      <name>КонтактОбращения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контакт обращения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e5a6b856-c69b-437c-9d55-398077c91044">
+      <name>ОценкаТрудозатрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка для клиента</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bfca7a7f-571d-40d0-abc7-f9ced2ab11e8">
+      <name>ОценкаТрудозатратИсполнителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка исполнителя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4111bcb7-e09a-457b-b7e6-4a7c31e97dcb">
+      <name>РодительскаяЗадача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родительская задача</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Задача</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="07cae288-6445-4e09-9848-932c03b76585">
+      <name>Спринт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спринт</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Спринт</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="861293c8-e439-4816-a8d9-c02d832ccc15">
+      <name>СрокИсполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок исполнения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c60c82bd-d354-4096-9bae-c0a66e52120a">
+      <name>Срочность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срочность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СрочностиЗадач</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="eb804323-ae14-4c37-9613-8229c6963dea">
+      <name>Содержание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Содержание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fec7ef17-5225-4af6-b005-5b7e5999ba7e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4c5f9984-e49a-4a27-9aa0-d95877222907">
+    <name>ЗагрузкаИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла</value>
+    </synonym>
+  </templates>
+  <commands uuid="ece4cf7b-4611-41a5-8599-e208cfeda5a0">
+    <name>ЗагрузитьЗадачиИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить задачи из файла</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузить задачи из файла</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ИмпортИзФайла</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>
