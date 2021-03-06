@@ -6,7 +6,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/cpr1c/it?style=badge)](https://github.com/cpr1c/it/issues)
 [![License](https://img.shields.io/github/license/cpr1c/it?style=badge)](https://github.com/cpr1c/it/blob/main/LICENSE)
 
-[Плейлист видео на YouTube](https://youtube.com/playlist?list=PLc-C_6WPgNmKLciFCBE73JfJxDCDO-FW3)[Видео изменений в релизах](https://youtube.com/playlist?list=PLc-C_6WPgNmJ-EtfshX1LnYWlswPBsul3)
+[Плейлист видео на YouTube](https://youtube.com/playlist?list=PLc-C_6WPgNmKLciFCBE73JfJxDCDO-FW3)  [Видео изменений в релизах](https://youtube.com/playlist?list=PLc-C_6WPgNmJ-EtfshX1LnYWlswPBsul3)
 
 Система находится в разработке. Не все может работать
 
