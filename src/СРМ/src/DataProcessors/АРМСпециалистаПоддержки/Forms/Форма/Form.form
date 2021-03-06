@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Задачи</value>
@@ -2650,9 +2650,155 @@
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
+                <name>СписокЗадачРодительскаяЗадача</name>
+                <id>718</id>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.РодительскаяЗадача</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>СписокЗадачРодительскаяЗадачаРасширеннаяПодсказка</name>
+                  <id>720</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>СписокЗадачРодительскаяЗадачаКонтекстноеМеню</name>
+                  <id>719</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>СписокЗадачКатегорияЗакрытия</name>
+                <id>721</id>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.КатегорияЗакрытия</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>СписокЗадачКатегорияЗакрытияРасширеннаяПодсказка</name>
+                  <id>723</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>СписокЗадачКатегорияЗакрытияКонтекстноеМеню</name>
+                  <id>722</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>СписокЗадачВидОплаты</name>
+                <id>724</id>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.ВидОплаты</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>СписокЗадачВидОплатыРасширеннаяПодсказка</name>
+                  <id>726</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>СписокЗадачВидОплатыКонтекстноеМеню</name>
+                  <id>725</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
                 <name>СписокЗадачСсылка</name>
                 <id>461</id>
-                <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
                 <dataPath xsi:type="form:MultiLanguageDataPath">
@@ -8609,7 +8755,9 @@
 	ЕСТЬNULL(Трудозатраты.ФактОборот, 0) КАК ФактическиеТрудозатраты,
 	ДокументЗадача.СрокИсполненияАвто КАК СрокИсполненияАвто,
 	ЕСТЬNULL(НаличиеФайлов.ЕстьФайлы, ЛОЖЬ) КАК ЕстьФайлы,
-	ДокументЗадача.Статус.ИндексКартинкиПрогресса КАК ИндексКартинкиПрогресса
+	ДокументЗадача.Статус.ИндексКартинкиПрогресса КАК ИндексКартинкиПрогресса,
+	ДокументЗадача.КатегорияЗакрытия,
+	ДокументЗадача.ВидОплаты
 ИЗ
 	Документ.Задача КАК ДокументЗадача
 		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.Трудозатраты.Обороты КАК Трудозатраты
@@ -8621,6 +8769,327 @@
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Автор</dataPath>
+        <field>Автор</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Исполнитель</dataPath>
+        <field>Исполнитель</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Статус</dataPath>
+        <field>Статус</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаСоздания</dataPath>
+        <field>ДатаСоздания</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаИзменения</dataPath>
+        <field>ДатаИзменения</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаЗакрытия</dataPath>
+        <field>ДатаЗакрытия</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Тема</dataPath>
+        <field>Тема</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Содержание</dataPath>
+        <field>Содержание</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проект</dataPath>
+        <field>Проект</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОценкаТрудозатрат</dataPath>
+        <field>ОценкаТрудозатрат</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОценкаТрудозатратИсполнителя</dataPath>
+        <field>ОценкаТрудозатратИсполнителя</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>РодительскаяЗадача</dataPath>
+        <field>РодительскаяЗадача</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Срочность</dataPath>
+        <field>Срочность</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Редактор</dataPath>
+        <field>Редактор</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КонтактОбращения</dataPath>
+        <field>КонтактОбращения</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СрокИсполнения</dataPath>
+        <field>СрокИсполнения</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаНачалаРаботПоЗадаче</dataPath>
+        <field>ДатаНачалаРаботПоЗадаче</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаВыполнения</dataPath>
+        <field>ДатаВыполнения</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Основание</dataPath>
+        <field>Основание</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Спринт</dataPath>
+        <field>Спринт</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ФактическиеТрудозатраты</dataPath>
+        <field>ФактическиеТрудозатраты</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Фактические трудозатраты</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СрокИсполненияАвто</dataPath>
+        <field>СрокИсполненияАвто</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьФайлы</dataPath>
+        <field>ЕстьФайлы</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Есть файлы</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИндексКартинкиПрогресса</dataPath>
+        <field>ИндексКартинкиПрогресса</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Индекс картинки прогресса</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предмет</dataPath>
+        <field>Предмет</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидДеятельности</dataPath>
+        <field>ВидДеятельности</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КатегорияЗакрытия</dataPath>
+        <field>КатегорияЗакрытия</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидОплаты</dataPath>
+        <field>ВидОплаты</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>
