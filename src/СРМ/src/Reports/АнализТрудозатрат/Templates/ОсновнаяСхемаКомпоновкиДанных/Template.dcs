@@ -5,141 +5,89 @@
 		<dataSourceType>Local</dataSourceType>
 	</dataSource>
 	<dataSet xsi:type="DataSetQuery">
-		<name>Трудозатраты</name>
+		<name>СодержаниеТрудозатрат</name>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Регистратор</dataPath>
 			<field>Регистратор</field>
-			<role>
-				<dcscom:periodNumber>1</dcscom:periodNumber>
-				<dcscom:periodType>Main</dcscom:periodType>
-			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Содержание</dataPath>
+			<field>Содержание</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Трудозатраты.Регистратор КАК Регистратор,
+	Трудозатраты.Содержание КАК Содержание
+{ВЫБРАТЬ
+	Регистратор.*,
+	Содержание}
+ИЗ
+	РегистрНакопления.Трудозатраты КАК Трудозатраты
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	RA_RedmineТрудозатраты.Ссылка,
+	RA_RedmineТрудозатраты.Описание
+	
+ИЗ
+	Справочник.RA_RedmineТрудозатраты КАК RA_RedmineТрудозатраты</query>
+		<autoFillFields>false</autoFillFields>
+		<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
+	</dataSet>
+	<dataSet xsi:type="DataSetUnion">
+		<name>ОбъединениеТрудозатрат</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодНеделя</dataPath>
 			<field>ПериодНеделя</field>
-			<role>
-				<dcscom:periodNumber>6</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодГод</dataPath>
 			<field>ПериодГод</field>
-			<role>
-				<dcscom:periodNumber>11</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДФ='yyyy "г."'</v8:content>
-						</v8:item>
-					</dcscor:value>
-				</dcscor:item>
-			</appearance>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодДень</dataPath>
 			<field>ПериодДень</field>
-			<role>
-				<dcscom:periodNumber>5</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДФ=dd.MM.yyyy</v8:content>
-						</v8:item>
-					</dcscor:value>
-				</dcscor:item>
-			</appearance>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодДекада</dataPath>
 			<field>ПериодДекада</field>
-			<role>
-				<dcscom:periodNumber>7</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодМесяц</dataPath>
 			<field>ПериодМесяц</field>
-			<role>
-				<dcscom:periodNumber>8</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДФ='MMMM yyyy'</v8:content>
-						</v8:item>
-					</dcscor:value>
-				</dcscor:item>
-			</appearance>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодКвартал</dataPath>
 			<field>ПериодКвартал</field>
-			<role>
-				<dcscom:periodNumber>9</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодПолугодие</dataPath>
 			<field>ПериодПолугодие</field>
-			<role>
-				<dcscom:periodNumber>10</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодСекунда</dataPath>
 			<field>ПериодСекунда</field>
-			<role>
-				<dcscom:periodNumber>2</dcscom:periodNumber>
-				<dcscom:periodType>Main</dcscom:periodType>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодМинута</dataPath>
 			<field>ПериодМинута</field>
-			<role>
-				<dcscom:periodNumber>3</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодЧас</dataPath>
 			<field>ПериодЧас</field>
-			<role>
-				<dcscom:periodNumber>4</dcscom:periodNumber>
-				<dcscom:periodType>Additional</dcscom:periodType>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Предмет</dataPath>
 			<field>Предмет</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ВидДеятельности</dataPath>
 			<field>ВидДеятельности</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Факт</dataPath>
@@ -184,12 +132,193 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Автор</dataPath>
 			<field>Автор</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
 		</field>
-		<dataSource>ИсточникДанных1</dataSource>
-		<query>ВЫБРАТЬ
+		<item xsi:type="DataSetQuery">
+			<name>Трудозатраты</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<role>
+					<dcscom:periodNumber>1</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодНеделя</dataPath>
+				<field>ПериодНеделя</field>
+				<role>
+					<dcscom:periodNumber>6</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодГод</dataPath>
+				<field>ПериодГод</field>
+				<role>
+					<dcscom:periodNumber>11</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+				<appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ДФ='yyyy "г."'</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДень</dataPath>
+				<field>ПериодДень</field>
+				<role>
+					<dcscom:periodNumber>5</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+				<appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ДФ=dd.MM.yyyy</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДекада</dataPath>
+				<field>ПериодДекада</field>
+				<role>
+					<dcscom:periodNumber>7</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодМесяц</dataPath>
+				<field>ПериодМесяц</field>
+				<role>
+					<dcscom:periodNumber>8</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+				<appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ДФ='MMMM yyyy'</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодКвартал</dataPath>
+				<field>ПериодКвартал</field>
+				<role>
+					<dcscom:periodNumber>9</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодПолугодие</dataPath>
+				<field>ПериодПолугодие</field>
+				<role>
+					<dcscom:periodNumber>10</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодСекунда</dataPath>
+				<field>ПериодСекунда</field>
+				<role>
+					<dcscom:periodNumber>2</dcscom:periodNumber>
+					<dcscom:periodType>Main</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодМинута</dataPath>
+				<field>ПериодМинута</field>
+				<role>
+					<dcscom:periodNumber>3</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодЧас</dataPath>
+				<field>ПериодЧас</field>
+				<role>
+					<dcscom:periodNumber>4</dcscom:periodNumber>
+					<dcscom:periodType>Additional</dcscom:periodType>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Предмет</dataPath>
+				<field>Предмет</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидДеятельности</dataPath>
+				<field>ВидДеятельности</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Факт</dataPath>
+				<field>Факт</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>План</dataPath>
+				<field>План</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Проект</dataPath>
+				<field>Проект</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Проект</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Партнер</dataPath>
+				<field>Партнер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Партнер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+				<role>
+					<dcscom:dimension>true</dcscom:dimension>
+				</role>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
 	ТрудозатратыОбороты.Регистратор КАК Регистратор,
 	ТрудозатратыОбороты.ПериодСекунда КАК ПериодСекунда,
 	ТрудозатратыОбороты.ПериодМинута КАК ПериодМинута,
@@ -230,31 +359,222 @@
 	ТрудозатратыОбороты.ПланОборот КАК План
 ИЗ
 	РегистрНакопления.Трудозатраты.Обороты(, , Авто, ) КАК ТрудозатратыОбороты</query>
-	</dataSet>
-	<dataSet xsi:type="DataSetQuery">
-		<name>СодержаниеТрудозатрат</name>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Регистратор</dataPath>
-			<field>Регистратор</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Содержание</dataPath>
-			<field>Содержание</field>
-		</field>
-		<dataSource>ИсточникДанных1</dataSource>
-		<query>ВЫБРАТЬ
-	Трудозатраты.Регистратор КАК Регистратор,
-	Трудозатраты.Содержание КАК Содержание
-{ВЫБРАТЬ
-	Регистратор.*,
-	Содержание}
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>ТрудозатратыРедмайна</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДень</dataPath>
+				<field>ПериодДень</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период день</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодМесяц</dataPath>
+				<field>ПериодМесяц</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период месяц</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Регистратор</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодСекунда</dataPath>
+				<field>ПериодСекунда</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период секунда</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодМинута</dataPath>
+				<field>ПериодМинута</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период минута</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодЧас</dataPath>
+				<field>ПериодЧас</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период час</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодНеделя</dataPath>
+				<field>ПериодНеделя</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период неделя</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодДекада</dataPath>
+				<field>ПериодДекада</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период декада</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодКвартал</dataPath>
+				<field>ПериодКвартал</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период квартал</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодПолугодие</dataPath>
+				<field>ПериодПолугодие</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период полугодие</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодГод</dataPath>
+				<field>ПериодГод</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период год</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидДеятельности</dataPath>
+				<field>ВидДеятельности</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Вид деятельности</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Предмет</dataPath>
+				<field>Предмет</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Предмет</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Автор</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Проект</dataPath>
+				<field>Проект</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Проект</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Партнер</dataPath>
+				<field>Партнер</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Партнер</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Факт</dataPath>
+				<field>Факт</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Факт</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>План</dataPath>
+				<field>План</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>План</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	Трудозатраты.Ссылка КАК Регистратор,
+	Трудозатраты.ДатаОтбивки КАК ПериодСекунда,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, МИНУТА) КАК ПериодМинута,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, ЧАС) КАК ПериодЧас,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, ДЕНЬ) КАК ПериодДень,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, НЕДЕЛЯ) КАК ПериодНеделя,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, ДЕКАДА) КАК ПериодДекада,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, МЕСЯЦ) КАК ПериодМесяц,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, КВАРТАЛ) КАК ПериодКвартал,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, ПОЛУГОДИЕ) КАК ПериодПолугодие,
+	НАЧАЛОПЕРИОДА(Трудозатраты.ДатаОтбивки, ГОД) КАК ПериодГод,
+	Трудозатраты.Задача КАК Предмет,
+	Трудозатраты.ВидАктивности.ВидДеятельности КАК ВидДеятельности,
+	Трудозатраты.Пользователь.Пользователь КАК Автор,
+	ВЫБОР
+		КОГДА Трудозатраты.Проект.Проект = Значение(Справочник.Проекты.ПустаяСсылка)
+			Тогда Трудозатраты.Проект
+		Иначе Трудозатраты.Проект.Проект
+	Конец КАК Проект,
+	Трудозатраты.Проект.Партнер КАК Партнер,
+	Трудозатраты.КоличествоЧасов КАК Факт,
+	0 КАК План
 ИЗ
-	РегистрНакопления.Трудозатраты КАК Трудозатраты</query>
-		<autoFillFields>false</autoFillFields>
-		<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
+	Справочник.RA_RedmineТрудозатраты КАК Трудозатраты
+ГДЕ
+	Трудозатраты.ДатаОтбивки МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И НЕ Трудозатраты.ПометкаУдаления</query>
+		</item>
 	</dataSet>
 	<dataSetLink>
-		<sourceDataSet>Трудозатраты</sourceDataSet>
+		<sourceDataSet>ОбъединениеТрудозатрат</sourceDataSet>
 		<destinationDataSet>СодержаниеТрудозатрат</destinationDataSet>
 		<sourceExpression>Регистратор</sourceExpression>
 		<destinationExpression>Регистратор</destinationExpression>
@@ -281,6 +601,24 @@
 		<dataPath>Факт</dataPath>
 		<expression>Сумма(Факт)</expression>
 	</totalField>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
 	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
@@ -316,24 +654,6 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
-	</parameter>
-	<parameter>
-		<name>ПериодОтчета</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Период</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>v8:StandardPeriod</v8:Type>
-		</valueType>
-		<value xsi:type="v8:StandardPeriod">
-			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-		</value>
-		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>ТрудозатратыПоПроектам</dcsset:name>
