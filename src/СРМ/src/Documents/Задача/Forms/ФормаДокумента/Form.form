@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>ГруппаШапкаЗадачи</name>
     <id>33</id>
@@ -4608,60 +4608,123 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	КонтактныеЛицаПартнеровКонтактнаяИнформация.Представление КАК Представление,
-	КонтактныеЛицаПартнеровКонтактнаяИнформация.Ссылка КАК Ссылка,
-	КонтактныеЛицаПартнеровКонтактнаяИнформация.Вид КАК Вид
+	ФизическиеЛицаКонтактнаяИнформация.Представление КАК Представление,
+	ФизическиеЛицаКонтактнаяИнформация.Ссылка КАК Ссылка,
+	ФизическиеЛицаКонтактнаяИнформация.Вид КАК Вид
 ПОМЕСТИТЬ КИ
 ИЗ
-	Справочник.КонтактныеЛицаПартнеров.КонтактнаяИнформация КАК КонтактныеЛицаПартнеровКонтактнаяИнформация
+	Справочник.ФизическиеЛица.КонтактнаяИнформация КАК ФизическиеЛицаКонтактнаяИнформация
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
-	СправочникКонтактныеЛицаПартнеров.Ссылка КАК Ссылка,
-	СправочникКонтактныеЛицаПартнеров.ПометкаУдаления КАК ПометкаУдаления,
-	СправочникКонтактныеЛицаПартнеров.Владелец КАК Владелец,
-	СправочникКонтактныеЛицаПартнеров.Наименование КАК Наименование,
-	СправочникКонтактныеЛицаПартнеров.РольКонтактногоЛица КАК РольКонтактногоЛица,
-	СправочникКонтактныеЛицаПартнеров.ФизическоеЛицо КАК ФизическоеЛицо,
-	СправочникКонтактныеЛицаПартнеров.ДатаРегистрацииСвязи КАК ДатаРегистрацииСвязи,
-	СправочникКонтактныеЛицаПартнеров.ДатаПрекращенияСвязи КАК ДатаПрекращенияСвязи,
-	СправочникКонтактныеЛицаПартнеров.Автор КАК Автор,
-	СправочникКонтактныеЛицаПартнеров.Комментарии КАК Комментарии,
-	СправочникКонтактныеЛицаПартнеров.КонтактнаяИнформация.(
-		Ссылка КАК Ссылка,
-		НомерСтроки КАК НомерСтроки,
-		Тип КАК Тип,
-		Вид КАК Вид,
-		Представление КАК Представление,
-		ЗначенияПолей КАК ЗначенияПолей,
-		Страна КАК Страна,
-		Регион КАК Регион,
-		Город КАК Город,
-		АдресЭП КАК АдресЭП,
-		ДоменноеИмяСервера КАК ДоменноеИмяСервера,
-		НомерТелефона КАК НомерТелефона,
-		НомерТелефонаБезКодов КАК НомерТелефонаБезКодов,
-		Значение КАК Значение
-	) КАК КонтактнаяИнформация,
-	СправочникКонтактныеЛицаПартнеров.Предопределенный КАК Предопределенный,
-	СправочникКонтактныеЛицаПартнеров.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+ ВЫБРАТЬ
+	СправочникФизическиеЛица.Ссылка КАК Ссылка,
+	СправочникФизическиеЛица.ПометкаУдаления КАК ПометкаУдаления,
+	СправочникФизическиеЛица.Наименование КАК Наименование,
+	СправочникФизическиеЛица.Предопределенный КАК Предопределенный,
+	СправочникФизическиеЛица.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
 	ЕСТЬNULL(КИТелефон.Представление, &quot;&quot;) КАК Телефон,
 	ЕСТЬNULL(КИemail.Представление, &quot;&quot;) КАК АдресЭлектроннойПочты
 ИЗ
-	Справочник.КонтактныеЛицаПартнеров КАК СправочникКонтактныеЛицаПартнеров
+	Справочник.ФизическиеЛица КАК СправочникФизическиеЛица
 		ЛЕВОЕ СОЕДИНЕНИЕ КИ КАК КИТелефон
-		ПО СправочникКонтактныеЛицаПартнеров.Ссылка = КИТелефон.Ссылка
-			И (КИТелефон.Вид = &amp;ВидКИТелефонКонтактногоЛица)
+		ПО СправочникФизическиеЛица.Ссылка = КИТелефон.Ссылка
+		И (КИТелефон.Вид = &amp;ВидКИТелефонКонтактногоЛица)
 		ЛЕВОЕ СОЕДИНЕНИЕ КИ КАК КИemail
-		ПО СправочникКонтактныеЛицаПартнеров.Ссылка = КИemail.Ссылка
-			И (КИemail.Вид = &amp;ВидКИemailКонтактногоЛица)</queryText>
-      <mainTable>Catalog.КонтактныеЛицаПартнеров</mainTable>
-      <dynamicDataRead>true</dynamicDataRead>
+		ПО СправочникФизическиеЛица.Ссылка = КИemail.Ссылка
+		И (КИemail.Вид = &amp;ВидКИemailКонтактногоЛица)
+ГДЕ
+	СправочникФизическиеЛица.Ссылка В
+		(ВЫБРАТЬ
+			Таб.ФизическоеЛицо
+		ИЗ
+			РегистрСведений.ПартнерыФизическихЛиц КАК Таб
+		ГДЕ
+			Таб.Партнер В (&amp;Партнеры))</queryText>
+      <mainTable>Catalog.ФизическиеЛица</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Телефон</dataPath>
+        <field>Телефон</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Телефон</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АдресЭлектроннойПочты</dataPath>
+        <field>АдресЭлектроннойПочты</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Адрес электронной почты</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>
