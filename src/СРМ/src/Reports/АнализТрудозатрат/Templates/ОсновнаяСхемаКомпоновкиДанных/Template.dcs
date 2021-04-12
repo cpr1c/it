@@ -22,16 +22,7 @@
 	Регистратор.*,
 	Содержание}
 ИЗ
-	РегистрНакопления.Трудозатраты КАК Трудозатраты
-
-ОБЪЕДИНИТЬ ВСЕ
-
-ВЫБРАТЬ
-	RA_RedmineТрудозатраты.Ссылка,
-	RA_RedmineТрудозатраты.Описание
-	
-ИЗ
-	Справочник.RA_RedmineТрудозатраты КАК RA_RedmineТрудозатраты</query>
+	РегистрНакопления.Трудозатраты КАК Трудозатраты</query>
 		<autoFillFields>false</autoFillFields>
 		<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
 	</dataSet>
