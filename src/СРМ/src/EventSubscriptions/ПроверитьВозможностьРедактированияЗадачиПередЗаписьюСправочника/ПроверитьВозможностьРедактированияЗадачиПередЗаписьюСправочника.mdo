@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3240a316-8b3a-445a-88be-8ca34c33e6b2">
+  <name>ПроверитьВозможностьРедактированияЗадачиПередЗаписьюСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить возможность редактирования задачи перед записью справочника</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КомментарииЗадач</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.УправлениеЗадачамиСлужебный.ПроверитьВозможностьРедактированияЗадачиПередЗаписьюСправочникаПередЗаписью</handler>
+</mdclass:EventSubscription>
