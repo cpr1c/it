@@ -2888,7 +2888,6 @@
                 <common>true</common>
               </userVisible>
               <horizontalAlign>Left</horizontalAlign>
-              <autoFill>true</autoFill>
             </autoCommandBar>
             <searchStringAddition>
               <visible>true</visible>
@@ -3027,10 +3026,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <autoFill>true</autoFill>
             </contextMenu>
             <representation>HierarchicalList</representation>
-            <readOnly>true</readOnly>
             <changeRowOrder>true</changeRowOrder>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3054,6 +3051,7 @@
               <segments>ТрудозатратыПоЗадаче.DefaultPicture</segments>
             </rowPictureDataPath>
             <extInfo xsi:type="form:DynamicListTableExtInfo">
+              <autoRefresh>true</autoRefresh>
               <autoRefreshPeriod>60</autoRefreshPeriod>
               <period>
                 <startDate>0001-01-01T00:00:00</startDate>
