@@ -8,12 +8,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.УправлениеТаймерамиУчетаВремени.Command.МоиТаймеры</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</command>
       <visible>
         <common>true</common>
@@ -49,16 +43,11 @@
       <command>Constant.УдалитьСтатусПоУмолчанию.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.УправлениеТаймерамиУчетаВремени.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>DataProcessor.АРМСпециалистаПоддержки.Command.АРМ</commands>
-      <commands>DataProcessor.УправлениеТаймерамиУчетаВремени.Command.МоиТаймеры</commands>
       <commands>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</commands>
       <commands>Catalog.Заметки.Command.ВсеЗаметки</commands>
     </placementFragments>
@@ -68,7 +57,6 @@
       <group>NavigationPanelImportant</group>
       <commands>CommonCommand.ПанельОтчетовУправлениеЗадачами</commands>
       <commands>DataProcessor.АРМСпециалистаПоддержки.Command.АРМ</commands>
-      <commands>DataProcessor.УправлениеТаймерамиУчетаВремени.Command.МоиТаймеры</commands>
       <commands>InformationRegister.НапоминанияПользователя.Command.МоиНапоминания</commands>
       <commands>Catalog.Заметки.Command.ВсеЗаметки</commands>
     </orderFragments>
