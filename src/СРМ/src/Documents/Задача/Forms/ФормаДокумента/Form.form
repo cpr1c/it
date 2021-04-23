@@ -2099,11 +2099,16 @@
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:InputFieldExtInfo">
+                    <handlers>
+                      <event>Tuning</event>
+                      <name>ВводТрудозатратЧасовРегулирование</name>
+                    </handlers>
                     <width>4</width>
                     <autoMaxWidth>true</autoMaxWidth>
                     <maxWidth>6</maxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <wrap>true</wrap>
+                    <spinButton>true</spinButton>
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
