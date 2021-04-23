@@ -2386,6 +2386,42 @@
             <items xsi:type="form:FormGroup">
               <name>ГруппаПрисоединенныеФайлыКоманды</name>
               <id>310</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа присоединенные файлы команды</value>
+              </title>
+              <extendedTooltip>
+                <name>ГруппаПрисоединенныеФайлыКомандыРасширеннаяПодсказка</name>
+                <id>311</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>AlwaysHorizontal</group>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormGroup">
+              <name>ГруппаКоманднаяПанельПрисоединенныхФайлов</name>
+              <id>338</id>
               <items xsi:type="form:Button">
                 <name>ОбщаяКомандаПрисоединенныеФайлы</name>
                 <id>219</id>
@@ -2395,7 +2431,7 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.Ref</segments>
+                  <segments>Объект.Ссылка</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ОбщаяКомандаПрисоединенныеФайлыРасширеннаяПодсказка</name>
@@ -2412,9 +2448,9 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <type>Hyperlink</type>
+                <type>CommandBarHyperlink</type>
                 <commandName>CommonCommand.ПрисоединенныеФайлы</commandName>
-                <representation>Auto</representation>
+                <representation>PictureAndText</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
@@ -2450,13 +2486,109 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <type>Hyperlink</type>
+                <type>CommandBarHyperlink</type>
                 <commandName>Form.Command.ДобавитьПрисоединенныйФайл</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:FormGroup">
+                <name>ГруппаПрисоединенныеФайлыСохранитьВсе</name>
+                <id>340</id>
+                <items xsi:type="form:Button">
+                  <name>СохранитьВсеПрисоединенныеФайлы</name>
+                  <id>333</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>СохранитьВсеПрисоединенныеФайлыРасширеннаяПодсказка</name>
+                    <id>334</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.СохранитьВсеПрисоединенныеФайлыВКаталог</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>СохранитьВсеПрисоединенныеФайлыАрхивом</name>
+                  <id>342</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>СохранитьВсеПрисоединенныеФайлыАрхивомРасширеннаяПодсказка</name>
+                    <id>343</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.СохранитьВсеПрисоединенныеФайлыАрхивом</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Сохранить все</value>
+                </title>
+                <extendedTooltip>
+                  <name>ГруппаПрисоединенныеФайлыСохранитьВсеРасширеннаяПодсказка</name>
+                  <id>341</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>Popup</type>
+                <extInfo xsi:type="form:PopupGroupExtInfo">
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.СкачатьФайлы</picture>
+                  </picture>
+                  <representation>PictureAndText</representation>
+                  <shapeRepresentation>WhenActive</shapeRepresentation>
+                </extInfo>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2465,11 +2597,11 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Группа присоединенные файлы команды</value>
+                <value>Группа командная панель присоединенных файлов</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаПрисоединенныеФайлыКомандыРасширеннаяПодсказка</name>
-                <id>311</id>
+                <name>ГруппаКоманднаяПанельПрисоединенныхФайловРасширеннаяПодсказка</name>
+                <id>339</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2482,13 +2614,9 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>AlwaysHorizontal</group>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>Auto</currentRowUse>
+              <type>CommandBar</type>
+              <extInfo xsi:type="form:CommandBarExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -5466,6 +5594,42 @@
     </action>
     <representation>Picture</representation>
     <modifiesStoredData>true</modifiesStoredData>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СохранитьВсеПрисоединенныеФайлыВКаталог</name>
+    <title>
+      <key>ru</key>
+      <value>В каталог</value>
+    </title>
+    <id>13</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СохранитьВсеПрисоединенныеФайлыВКаталог</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СохранитьВсеПрисоединенныеФайлыАрхивом</name>
+    <title>
+      <key>ru</key>
+      <value>Одним архивом</value>
+    </title>
+    <id>14</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СохранитьВсеПрисоединенныеФайлыАрхивом</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
