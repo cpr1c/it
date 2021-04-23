@@ -1211,6 +1211,9 @@
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
                 <currentRowUse>Auto</currentRowUse>
+                <associatedTableElementId xsi:type="core:StringValue">
+                  <value>СписокЗадач</value>
+                </associatedTableElementId>
               </extInfo>
             </items>
             <items xsi:type="form:Table">
@@ -1703,6 +1706,56 @@
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>false</horizontalStretch>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>СписокЗадачПроект</name>
+                <id>736</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Проект</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>СписокЗадачПроектРасширеннаяПодсказка</name>
+                  <id>738</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>СписокЗадачПроектКонтекстноеМеню</name>
+                  <id>737</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -7068,6 +7121,13 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>OnLoadDataFromSettingsAtServer</event>
+    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
+  </handlers>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveDataInSettings>UseList</saveDataInSettings>
+  <settingsStorage>SettingsStorage.ХранилищеНастроекДанныхФорм</settingsStorage>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <horizontalSpacing>Half</horizontalSpacing>
@@ -7257,6 +7317,7 @@
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
@@ -7858,6 +7919,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ОтборСписокСтатусов</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ИспользоватьОтборСписокСтатусов</name>
@@ -7875,6 +7939,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ИспользоватьОтборСписокСтатусов</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ТочкиПодключенийСписок</name>
@@ -7997,6 +8064,7 @@
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
@@ -8105,6 +8173,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ПоказыватьАрхивныеПроекты</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ТолькоМоиПроекты</name>
@@ -8122,6 +8193,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ТолькоМоиПроекты</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>ТекущаяЗадачаПринята</name>
