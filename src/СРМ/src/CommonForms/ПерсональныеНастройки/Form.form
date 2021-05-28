@@ -1618,6 +1618,56 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ВариантСортировкиИсторииЗадачи</name>
+        <id>265</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВариантСортировкиИсторииЗадачи</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ВариантСортировкиИсторииЗадачиРасширеннаяПодсказка</name>
+          <id>267</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ВариантСортировкиИсторииЗадачиКонтекстноеМеню</name>
+          <id>266</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2096,6 +2146,25 @@
     <edit>
       <common>true</common>
     </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ВариантСортировкиИсторииЗадачи</name>
+    <title>
+      <key>ru</key>
+      <value>Вариант сортировки истории задачи</value>
+    </title>
+    <id>13</id>
+    <valueType>
+      <types>EnumRef.ВариантыСортировкиИсторииЗадачи</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
   </attributes>
   <formCommands>
     <name>ЗаписатьИЗакрыть</name>
