@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаКодНаименование</name>
     <id>63</id>
@@ -148,8 +148,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.УстанавливатьОтправителемУведомленияАвтораСобытия</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.УстанавливатьОтправителемУведомленияАвтораСобытия</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>УстанавливатьОтправителемУведомленияАвтораСобытияРасширеннаяПодсказка</name>
@@ -204,12 +206,8 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
         <paths xsi:type="form:DataPath">
           <segments>Объект.НастройкиТранспорта.LineNumber</segments>
-        </paths>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.НастройкиТранспорта.НомерСтроки</segments>
         </paths>
       </dataPath>
       <extendedTooltip>
@@ -260,10 +258,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.НастройкиТранспорта.УчетнаяЗаписьОповещений</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Объект.НастройкиТранспорта.УчетнаяЗаписьОповещений</segments>
         </paths>
@@ -316,10 +310,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.НастройкиТранспорта.ШаблонСообщения</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Объект.НастройкиТранспорта.ШаблонСообщения</segments>
         </paths>
@@ -372,10 +362,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.НастройкиТранспорта.НаборСобытий</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Объект.НастройкиТранспорта.НаборСобытий</segments>
         </paths>
@@ -431,12 +417,12 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
-      <event>OnActivateRow</event>
-      <name>НастройкиТранспортаПриАктивизацииСтроки</name>
-    </handlers>
-    <handlers>
       <event>OnEditEnd</event>
       <name>НастройкиТранспортаПриОкончанииРедактирования</name>
+    </handlers>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>НастройкиТранспортаПриАктивизацииСтроки</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -594,6 +580,7 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:Table">
     <name>ДополнительныеПолучателиОповещений</name>
@@ -616,10 +603,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ДополнительныеПолучателиОповещений.Адрес</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Объект.ДополнительныеПолучателиОповещений.Адрес</segments>
         </paths>
@@ -672,10 +655,6 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:MultiLanguageDataPath">
-        <activeLanguage>1</activeLanguage>
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.ДополнительныеПолучателиОповещений.Представление</segments>
-        </paths>
         <paths xsi:type="form:DataPath">
           <segments>Объект.ДополнительныеПолучателиОповещений.Представление</segments>
         </paths>
@@ -890,6 +869,7 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>

@@ -110,8 +110,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ОтправитьСообщениеКонтакту</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.ОтправитьСообщениеКонтакту</segments>
+            </paths>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
@@ -596,20 +598,20 @@
       <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <handlers>
-      <event>BeforeWrite</event>
-      <name>ПередЗаписью</name>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
-      <event>OnWriteAtServer</event>
-      <name>ПриЗаписиНаСервере</name>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
     </handlers>
     <handlers>
       <event>BeforeWriteAtServer</event>
       <name>ПередЗаписьюНаСервере</name>
     </handlers>
     <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

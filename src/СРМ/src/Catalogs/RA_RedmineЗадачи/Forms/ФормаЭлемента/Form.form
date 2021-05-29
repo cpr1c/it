@@ -989,8 +989,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Задача</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.Задача</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ЗадачаРасширеннаяПодсказка</name>

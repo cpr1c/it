@@ -1247,8 +1247,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Комментарий</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
