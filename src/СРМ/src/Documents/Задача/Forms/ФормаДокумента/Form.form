@@ -1860,22 +1860,20 @@
                 <name>ГруппаТекущегоТаймера</name>
                 <id>317</id>
                 <items xsi:type="form:FormField">
-                  <name>ПродолжительностьТаймера</name>
-                  <id>321</id>
+                  <name>ПолеHTMLТаймеров</name>
+                  <id>349</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ПродолжительностьТаймера</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ПолеHTMLТаймеров</segments>
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ПродолжительностьТаймераРасширеннаяПодсказка</name>
-                    <id>323</id>
+                    <name>ПолеHTMLТаймеровРасширеннаяПодсказка</name>
+                    <id>351</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -1889,8 +1887,8 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ПродолжительностьТаймераКонтекстноеМеню</name>
-                    <id>322</id>
+                    <name>ПолеHTMLТаймеровКонтекстноеМеню</name>
+                    <id>350</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -1898,139 +1896,20 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <type>LabelField</type>
+                  <type>HTMLDocumentField</type>
                   <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
-                  <extInfo xsi:type="form:LabelFieldExtInfo">
-                    <width>4</width>
-                    <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:HtmlFieldExtInfo">
+                    <handlers>
+                      <event>DocumentComplete</event>
+                      <name>ПолеHTMLТаймеровДокументСформирован</name>
+                    </handlers>
+                    <width>20</width>
+                    <height>2</height>
+                    <output>Disable</output>
                   </extInfo>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>СтартоватьТаймер</name>
-                  <id>319</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>СтартоватьТаймерРасширеннаяПодсказка</name>
-                    <id>320</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <type>UsualButton</type>
-                  <commandName>Form.Command.СтартоватьТаймер</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>ОстановитьТаймер</name>
-                  <id>324</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ОстановитьТаймерРасширеннаяПодсказка</name>
-                    <id>325</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <type>UsualButton</type>
-                  <commandName>Form.Command.ОстановитьТаймер</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>ЗафиксироватьТрудозатратыПоТаймеру</name>
-                  <id>328</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ЗафиксироватьТрудозатратыПоТаймеруРасширеннаяПодсказка</name>
-                    <id>329</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <type>UsualButton</type>
-                  <commandName>Form.Command.ЗафиксироватьТрудозатратыПоТаймеру</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>УдалитьТаймер</name>
-                  <id>326</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>УдалитьТаймерРасширеннаяПодсказка</name>
-                    <id>327</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <type>UsualButton</type>
-                  <commandName>Form.Command.УдалитьТаймер</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -5242,28 +5121,6 @@
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ПродолжительностьТаймера</name>
-    <title>
-      <key>ru</key>
-      <value>Продолжительность таймера</value>
-    </title>
-    <id>14</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ИдентификаторТаймера</name>
     <title>
       <key>ru</key>
@@ -5344,6 +5201,24 @@
     <id>21</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПолеHTMLТаймеров</name>
+    <title>
+      <key>ru</key>
+      <value>Поле HTMLТаймеров</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -5527,91 +5402,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>СтартоватьТаймер</name>
-    <title>
-      <key>ru</key>
-      <value>Стартовать таймер</value>
-    </title>
-    <id>9</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ТаймерСтарт</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>СтартоватьТаймер</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ОстановитьТаймер</name>
-    <title>
-      <key>ru</key>
-      <value>Остановить таймер</value>
-    </title>
-    <id>10</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ТаймерСтоп</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОстановитьТаймер</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>УдалитьТаймер</name>
-    <title>
-      <key>ru</key>
-      <value>Удалить таймер</value>
-    </title>
-    <id>11</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ТаймерОтменить</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>УдалитьТаймер</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗафиксироватьТрудозатратыПоТаймеру</name>
-    <title>
-      <key>ru</key>
-      <value>Зафиксировать трудозатраты по таймеру</value>
-    </title>
-    <id>12</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.ТаймерЗафиксировать</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗафиксироватьТрудозатратыПоТаймеру</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
