@@ -28,13 +28,14 @@
 - Закрытие периода и выгрузка в бухгалтерскую программу отчетов о работе
 
 # Использованные библиотеки
-1С: Библиотека стандартных подсистем
-https://github.com/zerobig/swagger-1c
-https://github.com/swagger-api/swagger-ui
-https://github.com/cpr1c/clipboard_1c
-https://github.com/cpr1c/markdowneditor1c
-https://github.com/cpr1c/RegEx1C_cfe
-https://summernote.org/
-https://www.tightvnc.com/
-https://www.putty.org/
+
+* 1С: Библиотека стандартных подсистем
+* https://github.com/zerobig/swagger-1c
+* https://github.com/swagger-api/swagger-ui
+* https://github.com/cpr1c/clipboard_1c
+* https://github.com/cpr1c/markdowneditor1c
+* https://github.com/cpr1c/RegEx1C_cfe
+* https://summernote.org/
+* https://www.tightvnc.com/
+* https://www.putty.org/
 
