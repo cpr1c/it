@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc96078-2755-4e16-8992-40b7df251f23">
+  <name>swagger</name>
+  <synonym>
+    <key>ru</key>
+    <value>Swagger сервис</value>
+  </synonym>
+  <rootURL>swagger</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="29e6bc06-ace1-4b48-958b-480a9dd069a1">
+    <name>SwaggerFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Swagger file</value>
+    </synonym>
+    <template>/{File}</template>
+    <methods uuid="8927d560-040d-4d9c-9d93-eb9f526bd0b2">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>SwaggerFileGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
