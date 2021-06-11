@@ -80,7 +80,6 @@
   <subsystems>Subsystem.ЦПР_ХранениеПодключений</subsystems>
   <subsystems>Subsystem.РМ_РедакторMarkdown</subsystems>
   <subsystems>Subsystem.Обучение</subsystems>
-  <subsystems>Subsystem.Биллинг</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -638,7 +637,6 @@
   <commonPictures>CommonPicture.СписокЗадач32</commonPictures>
   <commonPictures>CommonPicture.ТаймерДобавить</commonPictures>
   <commonPictures>CommonPicture.СостоянияПроцессов</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаБиллинг</commonPictures>
   <commonPictures>CommonPicture.ИмпортИзФайла</commonPictures>
   <commonPictures>CommonPicture.СкачатьФайлы</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
@@ -1689,7 +1687,6 @@
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
   <catalogs>Catalog.ВидыДеятельности</catalogs>
-  <catalogs>Catalog.ВидыДоговоров</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыОплатыЗадач</catalogs>
   <catalogs>Catalog.ВидыПроверок</catalogs>
@@ -1755,7 +1752,6 @@
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтроковыеКонтактыВзаимодействий</catalogs>
   <catalogs>Catalog.СценарииОбменовДанными</catalogs>
-  <catalogs>Catalog.ТарифыДоговоров</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.Уроки</catalogs>
@@ -1794,12 +1790,6 @@
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.ФормированиеЗаказа</documents>
-  <documents>Document.ВводОстатковВзаиморасчетам</documents>
-  <documents>Document.ЗаключениеДоговора</documents>
-  <documents>Document.ИзменениеДоговора</documents>
-  <documents>Document.КорректировкаДолга</documents>
-  <documents>Document.НачислениеПлатежей</documents>
-  <documents>Document.Оплата</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <enums>Enum.RA_RedmineВидыСтатусовЗадач</enums>
@@ -1878,12 +1868,7 @@
   <enums>Enum.КаналыОповещений</enums>
   <enums>Enum.СтатусыФормированияЗаказа</enums>
   <enums>Enum.СпособыУстановкиКурсаВалюты</enums>
-  <enums>Enum.ВидКорректировки</enums>
-  <enums>Enum.ВидыОперацийКоректировкаДолга</enums>
   <enums>Enum.Периодичность</enums>
-  <enums>Enum.СтатусыДоговоров</enums>
-  <enums>Enum.ТипыВзаиморасчетов</enums>
-  <enums>Enum.ТипыДоговоров</enums>
   <enums>Enum.СобытияОповещений</enums>
   <enums>Enum.ВариантыСортировкиИсторииЗадачи</enums>
   <reports>Report.RA_АнализВремениНахожденияЗадачВСтатусах</reports>
@@ -2067,14 +2052,12 @@
   <informationRegisters>InformationRegister.ЦПР_УчетныеДанныеПодключений</informationRegisters>
   <informationRegisters>InformationRegister.ЭлектронныеПодписи</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеДоговора</informationRegisters>
   <informationRegisters>InformationRegister.ИзмененияЗадач</informationRegisters>
   <informationRegisters>InformationRegister.НаблюдателиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.ИзбранныеПроекты</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Обучение</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Трудозатраты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВысталенныеЗадачи</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКонтрагентами</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
