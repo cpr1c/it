@@ -475,7 +475,20 @@
     <savedData>true</savedData>
   </attributes>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>Catalog.ФизическиеЛица.Command.КонтактыПартнера</command>
+        <type>Added</type>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Партнер</segments>
+        </commandParameter>
+        <group>FormNavigationPanelImportant</group>
+        <index>0</index>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
