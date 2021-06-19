@@ -211,6 +211,10 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
+    <handlers>
+      <event>BeforeAddRow</event>
+      <name>СписокПередНачаломДобавления</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -547,6 +551,23 @@
         </role>
       </fields>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>Партнер</name>
+    <title>
+      <key>ru</key>
+      <value>Партнер</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>CatalogRef.Партнеры</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
