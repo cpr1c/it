@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="061bbdd2-dc1c-4f6a-ae0b-ce8886802dd9">
+  <producedTypes>
+    <objectType typeId="aa798e67-df47-4289-8598-a6d79ef28539" valueTypeId="828a9067-5a20-4e3d-836e-609024a10dd4"/>
+    <managerType typeId="4d408de7-fae0-406f-afaa-1e2846b7ffe9" valueTypeId="a506b32f-a3f7-476b-9049-b2a008f7cc6b"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования IT</value>
+  </synonym>
+  <forms uuid="b8c3324b-2ef4-46cb-adb3-313a2072c393">
+    <name>Задачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a57933a-c52f-470b-bc32-097b1d77411d">
+    <name>Подключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c10a1fb8-05fb-4b4d-bb5d-cac506ecd221">
+    <name>Задачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="80d1acf4-e5c5-4efb-96c2-05ca4a14c8ba">
+    <name>Подключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключения</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
