@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24ad09dd-da22-4d82-a921-44cf90057c2f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24ad09dd-da22-4d82-a921-44cf90057c2f">
   <producedTypes>
     <objectType typeId="96dd6251-9cac-442b-9c1c-65ebf0869123" valueTypeId="ca1e5d49-504a-498d-988c-be368057168d"/>
     <refType typeId="47519607-308e-4c64-93f6-eb7e62f86b5c" valueTypeId="c6a46560-0ba8-4efb-83a0-908b2fa9112a"/>
@@ -31,4 +31,42 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КатегорииЗакрытияЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.КатегорииЗакрытияЗадач.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c4f31abb-1660-4a2a-b7ca-c68f6d86cb19">
+    <name>УсловияИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия использования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="05f4686c-2b7d-46b6-b6f8-d764550d0662">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3cfcb4a9-478f-4dd8-8086-726bec7c973e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
