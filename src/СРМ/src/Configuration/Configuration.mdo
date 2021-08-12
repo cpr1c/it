@@ -1216,6 +1216,7 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ВнешнийПрограммныйИнтерфейс</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1232,6 +1233,7 @@
   <xDTOPackages>XDTOPackage.CurrencyRates</xDTOPackages>
   <webServices>WebService.InterfaceVersion</webServices>
   <httpServices>HTTPService.swagger</httpServices>
+  <httpServices>HTTPService.ВнешнийПрограммныйИнтерфейс</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</eventSubscriptions>
@@ -1371,6 +1373,7 @@
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВЛокальномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВМоделиСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.ХранитьФайлыВТомахНаДиске</functionalOptions>
+  <functionalOptions>FunctionalOption.ВнешнийПрограммныйИнтерфейс</functionalOptions>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиОбъектНазначения</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиТипФормы</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</functionalOptionsParameters>
@@ -1579,6 +1582,8 @@
   <constants>Constant.ВерсияКлассификатораБанков</constants>
   <constants>Constant.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</constants>
   <constants>Constant.ВалютаРегламентированогоУчета</constants>
+  <constants>Constant.ВнешнийПрограммныйИнтерфейсВключен</constants>
+  <constants>Constant.УровеньЛогированияЗапросовКВнешнемуПрограммномуИнтерфейсу</constants>
   <commonForms>CommonForm.RDP</commonForms>
   <commonForms>CommonForm.АдреснаяКнига</commonForms>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
@@ -1871,6 +1876,7 @@
   <enums>Enum.Периодичность</enums>
   <enums>Enum.СобытияОповещений</enums>
   <enums>Enum.ВариантыСортировкиИсторииЗадачи</enums>
+  <enums>Enum.УровниЛогирования</enums>
   <reports>Report.RA_АнализВремениНахожденияЗадачВСтатусах</reports>
   <reports>Report.RA_АнализЗадач</reports>
   <reports>Report.RA_АнализТрудозатрат</reports>
@@ -2056,6 +2062,7 @@
   <informationRegisters>InformationRegister.ИзмененияЗадач</informationRegisters>
   <informationRegisters>InformationRegister.НаблюдателиЗадач</informationRegisters>
   <informationRegisters>InformationRegister.ИзбранныеПроекты</informationRegisters>
+  <informationRegisters>InformationRegister.ЛогиЗапросовВнешнегоПрограммногоИнтерфейса</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Обучение</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Трудозатраты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВысталенныеЗадачи</accumulationRegisters>

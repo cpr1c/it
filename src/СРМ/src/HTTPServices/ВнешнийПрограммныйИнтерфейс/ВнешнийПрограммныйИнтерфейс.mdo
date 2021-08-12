@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1d45a78-db98-459b-9b7f-9ca17ffb31b6">
+  <name>ВнешнийПрограммныйИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешний программный интерфейс</value>
+  </synonym>
+  <rootURL>api</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="9f05582e-648b-46fd-93ea-10a715f7229a">
+    <name>СписокЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список задач</value>
+    </synonym>
+    <template>/issues</template>
+    <methods uuid="09113ad9-5d94-4175-89bb-c41abf8a7011">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>СписокЗадачGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a21cb9b1-e34e-46d6-9cb3-56160d74c79a">
+    <name>ДанныеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные задачи</value>
+    </synonym>
+    <template>/issues/{id}</template>
+    <methods uuid="ec33c836-b7ac-4982-82e9-8f60ce0a133c">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ДанныеЗадачиGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a7a384dc-e50f-4bc9-83c7-e1bb309c0852">
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <template>/users</template>
+    <methods uuid="348b84fe-9bd7-4e11-9069-6e0ab44624fd">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПользователиGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a157121d-6497-4891-9fd0-da1e1663259f">
+    <name>СписокПроектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список проектов</value>
+    </synonym>
+    <template>/projects</template>
+    <methods uuid="3594057a-a0d3-4e9f-9dad-4807271673c0">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>СписокПроектовGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="4a82ddd0-3d13-469a-8df3-1da795c0a2e5">
+    <name>ДанныеПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные проекта</value>
+    </synonym>
+    <template>/projects/{id}</template>
+    <methods uuid="d889a6fc-77b4-42d8-a953-509050c01360">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ДанныеПроектаGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1faa03b4-1b2c-4af1-aab8-24b0d6205018">
+    <name>СписокСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список статусов</value>
+    </synonym>
+    <template>/statuses</template>
+    <methods uuid="24c35a42-771d-4b18-b25e-ab5f900588ee">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>СписокСтатусовGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="64b56871-56f2-403a-acf8-ea1b08450bdc">
+    <name>СписокКатегорийЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список категорий задач</value>
+    </synonym>
+    <template>/category</template>
+    <methods uuid="2a6d9071-792a-4f76-b82f-d7b53865be65">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>СписокКатегорийЗадачGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5345f786-cadd-40b6-b72f-1b28c7c9f0c1">
+    <name>ВидыОплат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды оплат</value>
+    </synonym>
+    <template>/payment-type</template>
+    <methods uuid="6bb8dd19-19bb-4eb2-9589-34d16b0b208c">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ВидыОплатGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
