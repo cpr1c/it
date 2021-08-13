@@ -24,4 +24,52 @@
       <handler>SwaggerFileGET</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="d2a2d70f-2ef0-4e95-a790-e765df473d0d">
+    <name>Index</name>
+    <synonym>
+      <key>ru</key>
+      <value>Index</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="89f0b9d6-284a-4440-93a2-655507b71fb4">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>IndexGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="30fdbcea-7573-492d-9215-8476aa89130f">
+    <name>favicon</name>
+    <synonym>
+      <key>ru</key>
+      <value>Favicon</value>
+    </synonym>
+    <template>/favicon.png</template>
+    <methods uuid="02a761b2-ca5f-4ddf-a9cb-3277164fb400">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>faviconGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f2d3b069-9439-425e-b064-3cf5cf4b0025">
+    <name>swaggerjson</name>
+    <synonym>
+      <key>ru</key>
+      <value>Swaggerjson</value>
+    </synonym>
+    <template>/swagger.json</template>
+    <methods uuid="96db6e92-79cf-418f-acec-240ea472a024">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>swaggerjsonGET</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
