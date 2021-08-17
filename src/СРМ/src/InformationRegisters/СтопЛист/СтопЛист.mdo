@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a05da2d9-dd64-4ec2-bd19-722aab332b15">
+  <producedTypes>
+    <selectionType typeId="434cf414-96f8-415b-b0bd-311260fa5170" valueTypeId="766d37ac-37d8-4a36-a06d-5832909c1767"/>
+    <listType typeId="142452db-0fba-486a-92c4-7fbf270d3519" valueTypeId="ab061995-a9ea-4699-a08f-339f1ae4d3a9"/>
+    <managerType typeId="9fdf61ba-b1ea-4538-a56f-12d0c4a9eb41" valueTypeId="5ad58f81-b4e5-46b7-be4c-eca6f1df55b5"/>
+    <recordSetType typeId="d2f789f8-aee5-4ebe-9606-4241cf1da012" valueTypeId="c8e6e6dc-edc8-4f55-9bf5-225daab60b11"/>
+    <recordKeyType typeId="3792ccb7-c4d3-49d0-ac4c-fdfaba88781e" valueTypeId="e17eed33-8a4c-4184-ae9a-a0e67c61f39f"/>
+    <recordType typeId="d91dc702-8741-4376-a0c6-01ea7dccde46" valueTypeId="b019a8da-9963-4199-889f-db6a05b428a1"/>
+    <recordManagerType typeId="fd6438a0-413c-4d14-be45-8f94f921f399" valueTypeId="5fcf3bcf-d333-45f7-bd78-59017c0358b3"/>
+  </producedTypes>
+  <name>СтопЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоп лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="c1e68090-a68e-44df-8752-de25350713d3">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
