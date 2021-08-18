@@ -459,7 +459,24 @@
   </parameters>
   <commandInterface>
     <navigationPanel/>
-    <commandBar/>
+    <commandBar>
+      <cmiFragmentRecord>
+        <command>InformationRegister.СтопЛист.Command.ДобавитьВСтопЛист</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData</segments>
+        </commandParameter>
+        <group>FormCommandBarImportant</group>
+        <index>0</index>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>InformationRegister.СтопЛист.Command.УбратьИзСтопЛиста</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData</segments>
+        </commandParameter>
+        <group>FormCommandBarImportant</group>
+        <index>1</index>
+      </cmiFragmentRecord>
+    </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

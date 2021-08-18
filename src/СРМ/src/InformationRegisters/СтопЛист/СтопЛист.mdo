@@ -16,7 +16,59 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтопЛист.Form.ФормаЗаписи</defaultRecordForm>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05d636da-709d-4157-8ea2-85d81f517f0a">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3b7acf3b-58c2-40bd-a12f-afbe8b4a09d2">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bc806d4e-3363-4428-97cd-e4633951bcbc">
+    <name>Причина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="c1e68090-a68e-44df-8752-de25350713d3">
     <name>Партнер</name>
     <synonym>
@@ -36,4 +88,53 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="35f0cd47-45cc-4734-bdec-5ed0a28174e2">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3fb5961d-72f4-4070-b9e5-2fe4f0f83681">
+    <name>ДобавитьВСтопЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить в стоп лист</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Партнеры</types>
+    </commandParameterType>
+    <modifiesData>true</modifiesData>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавить в стоп лист</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЗнакСтоп</picture>
+    </picture>
+  </commands>
+  <commands uuid="6717b0e7-894e-4ff6-8713-e8c7e03f6429">
+    <name>УбратьИзСтопЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Убрать из стоп листа</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Партнеры</types>
+    </commandParameterType>
+    <modifiesData>true</modifiesData>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Убрать из стоп листа</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Успешно</picture>
+    </picture>
+  </commands>
 </mdclass:InformationRegister>

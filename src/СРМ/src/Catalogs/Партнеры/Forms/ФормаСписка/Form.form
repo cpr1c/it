@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>ГруппаПользовательскихНастроек</name>
     <id>20</id>
@@ -91,13 +91,66 @@
       <skipOnInput>false</skipOnInput>
       <titleLocation>None</titleLocation>
       <items xsi:type="form:FormField">
+        <name>СтопЛист</name>
+        <id>51</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.СтопЛист</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>СтопЛистРасширеннаяПодсказка</name>
+          <id>53</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СтопЛистКонтекстноеМеню</name>
+          <id>52</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>PictureField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:ImageFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+          <pictureSize>Proportionally</pictureSize>
+          <valuesPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ЗнакСтоп</picture>
+          </valuesPicture>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>ВнешнийДоступ</name>
         <id>33</id>
         <title>
           <key>ru</key>
           <value>Предоставлен внешний доступ</value>
         </title>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -785,19 +838,119 @@
 	Справочник_ДемоПартнеры.Поставщик КАК Поставщик,
 	Справочник_ДемоПартнеры.Конкурент КАК Конкурент,
 	Справочник_ДемоПартнеры.ПрочиеОтношения КАК ПрочиеОтношения,
-	Справочник_ДемоПартнеры.Архив КАК Архив
+	Справочник_ДемоПартнеры.Архив КАК Архив,
+	НЕ СтопЛист.Автор ЕСТЬ NULL КАК СтопЛист
 ИЗ
 	Справочник.Партнеры КАК Справочник_ДемоПартнеры
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВнешниеПользователи КАК ВнешниеПользователи
 		ПО Справочник_ДемоПартнеры.Ссылка = ВнешниеПользователи.ОбъектАвторизации
-			И (НЕ ВнешниеПользователи.Недействителен)
-			И (НЕ ВнешниеПользователи.ПометкаУдаления)</queryText>
+		И НЕ ВнешниеПользователи.Недействителен
+		И НЕ ВнешниеПользователи.ПометкаУдаления
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СтопЛист КАК СтопЛист
+		ПО Справочник_ДемоПартнеры.Ссылка = СтопЛист.Партнер</queryText>
       <mainTable>Catalog.Партнеры</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВнешнийДоступ</dataPath>
+        <field>ВнешнийДоступ</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Внешний доступ</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Клиент</dataPath>
+        <field>Клиент</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Поставщик</dataPath>
+        <field>Поставщик</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Конкурент</dataPath>
+        <field>Конкурент</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПрочиеОтношения</dataPath>
+        <field>ПрочиеОтношения</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Архив</dataPath>
+        <field>Архив</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СтопЛист</dataPath>
+        <field>СтопЛист</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Стоп лист</value>
+            </content>
+          </localValue>
+        </title>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>
@@ -834,7 +987,24 @@
   </attributes>
   <commandInterface>
     <navigationPanel/>
-    <commandBar/>
+    <commandBar>
+      <cmiFragmentRecord>
+        <command>InformationRegister.СтопЛист.Command.ДобавитьВСтопЛист</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData</segments>
+        </commandParameter>
+        <group>FormCommandBarImportant</group>
+        <index>0</index>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>InformationRegister.СтопЛист.Command.УбратьИзСтопЛиста</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Items.Список.CurrentData</segments>
+        </commandParameter>
+        <group>FormCommandBarImportant</group>
+        <index>1</index>
+      </cmiFragmentRecord>
+    </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>
