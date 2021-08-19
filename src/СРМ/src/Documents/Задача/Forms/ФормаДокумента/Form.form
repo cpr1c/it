@@ -290,7 +290,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>ОбъектТема</name>
+            <name>Тема</name>
             <id>104</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -308,7 +308,7 @@
               <name>ОбъектТемаПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбъектТемаРасширеннаяПодсказка</name>
+              <name>ТемаРасширеннаяПодсказка</name>
               <id>106</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -323,7 +323,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ОбъектТемаКонтекстноеМеню</name>
+              <name>ТемаКонтекстноеМеню</name>
               <id>105</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1103,6 +1103,10 @@
                 <segments>Объект.Статус</segments>
               </paths>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>СтатусПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>СтатусРасширеннаяПодсказка</name>
               <id>77</id>
@@ -1410,7 +1414,7 @@
             <name>ГруппаСрокИсполнения</name>
             <id>123</id>
             <items xsi:type="form:FormField">
-              <name>СрокИсполения</name>
+              <name>СрокИсполнения</name>
               <id>120</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1423,7 +1427,7 @@
                 </paths>
               </dataPath>
               <extendedTooltip>
-                <name>СрокИсполенияРасширеннаяПодсказка</name>
+                <name>СрокИсполненияРасширеннаяПодсказка</name>
                 <id>122</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1438,7 +1442,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>СрокИсполенияКонтекстноеМеню</name>
+                <name>СрокИсполненияКонтекстноеМеню</name>
                 <id>121</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
