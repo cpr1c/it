@@ -165,6 +165,93 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="be31406e-f2aa-4014-959d-0f13f0d6b0c6">
+    <producedTypes>
+      <objectType typeId="5c5ecf6f-6a3d-44fc-9176-cbb4e0549031" valueTypeId="ddd5d5d8-c217-433d-b9c4-8d35f9a71282"/>
+      <rowType typeId="c18be974-3c77-407b-97d3-ad09f48ae10a" valueTypeId="73e2668f-08e7-4a33-86b5-b33e1e033e67"/>
+    </producedTypes>
+    <name>НастройкаПолейЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка полей задачи</value>
+    </synonym>
+    <attributes uuid="ca61bfd4-4941-44f9-84ba-1f68b44e366c">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13a22f0a-f669-414c-91d6-d42ceaf74aa0">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="116c9c69-1f46-4d79-bd86-2ebab81654b6">
+      <name>Видимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Видимость</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="371cac58-f968-4d27-840c-c8b3291ab5c5">
+      <name>Доступность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доступность</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="072fb440-c801-4659-b3bd-56c2acd8b2a9">
+      <name>Обязательность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обязательность</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="b24d2cc6-c0f2-11e9-c588-64809943c784">
     <name>ФормаСписка</name>
     <synonym>
