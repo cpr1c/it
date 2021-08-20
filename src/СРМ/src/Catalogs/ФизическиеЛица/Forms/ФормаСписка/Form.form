@@ -313,7 +313,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Телефон</segments>
+        <segments>Список.Телефоны</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТелефонРасширеннаяПодсказка</name>
@@ -363,7 +363,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.АдресЭлектроннойПочты</segments>
+        <segments>Список.АдресаЭлектроннойПочты</segments>
       </dataPath>
       <extendedTooltip>
         <name>АдресЭлектроннойПочтыРасширеннаяПодсказка</name>
@@ -943,16 +943,7 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ
-	ФизическиеЛицаКонтактнаяИнформация.Представление КАК Представление,
-	ФизическиеЛицаКонтактнаяИнформация.Ссылка КАК Ссылка,
-	ФизическиеЛицаКонтактнаяИнформация.Вид КАК Вид
-ПОМЕСТИТЬ КИ
-ИЗ
-	Справочник.ФизическиеЛица.КонтактнаяИнформация КАК ФизическиеЛицаКонтактнаяИнформация
-;
-
-////////////////////////////////////////////////////////////////////////////////
+      <queryText>
  ВЫБРАТЬ
 	СправочникФизическиеЛица.Ссылка КАК Ссылка,
 	СправочникФизическиеЛица.ПометкаУдаления КАК ПометкаУдаления,
@@ -971,16 +962,10 @@
 	СправочникФизическиеЛица.СНИЛС КАК СНИЛС,
 	СправочникФизическиеЛица.КонтактнаяИнформация,
 	СправочникФизическиеЛица.Комментарий,
-	ЕСТЬNULL(КИТелефон.Представление, &quot;&quot;) КАК Телефон,
-	ЕСТЬNULL(КИemail.Представление, &quot;&quot;) КАК АдресЭлектроннойПочты
+	СправочникФизическиеЛица.Телефоны КАК Телефоны,
+	СправочникФизическиеЛица.АдресаЭлектроннойПочты КАк АдресаЭлектроннойПочты
 ИЗ
 	Справочник.ФизическиеЛица КАК СправочникФизическиеЛица
-		ЛЕВОЕ СОЕДИНЕНИЕ КИ КАК КИТелефон
-		ПО СправочникФизическиеЛица.Ссылка = КИТелефон.Ссылка
-		И (КИТелефон.Вид = &amp;ВидКИТелефонКонтактногоЛица)
-		ЛЕВОЕ СОЕДИНЕНИЕ КИ КАК КИemail
-		ПО СправочникФизическиеЛица.Ссылка = КИemail.Ссылка
-		И (КИemail.Вид = &amp;ВидКИemailКонтактногоЛица)
 ГДЕ
 	Не &amp;ФильтрПоПартнерам
 	Или СправочникФизическиеЛица.Ссылка В
@@ -1145,40 +1130,6 @@
         </role>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Телефон</dataPath>
-        <field>Телефон</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Телефон</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>АдресЭлектроннойПочты</dataPath>
-        <field>АдресЭлектроннойПочты</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Адрес электронной почты</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КонтактнаяИнформация.Ссылка</dataPath>
         <field>КонтактнаяИнформация.Ссылка</field>
         <role>
@@ -1307,6 +1258,24 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КонтактнаяИнформация.ВидДляСписка</dataPath>
         <field>КонтактнаяИнформация.ВидДляСписка</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Телефоны</dataPath>
+        <field>Телефоны</field>
+        <role>
+          <accountTypeExpression></accountTypeExpression>
+          <balanceGroupName></balanceGroupName>
+          <accountField></accountField>
+        </role>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>АдресаЭлектроннойПочты</dataPath>
+        <field>АдресаЭлектроннойПочты</field>
         <role>
           <accountTypeExpression></accountTypeExpression>
           <balanceGroupName></balanceGroupName>
