@@ -11431,6 +11431,14 @@
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.ВнешниеПользователи.Attribute.ИдентификаторПользователяИБ</name>
@@ -28428,7 +28436,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ДатаНачалаФормированияЗаказов</name>
+		<name>Constant.ДатаНачалаФормированияОтчетовПоРаботамПартнерам</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -44363,6 +44371,28 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ФормированиеОтчетовПоРаботеПартнерам</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьОтчетыПоРаботамПартнерам</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>
