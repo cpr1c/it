@@ -44,25 +44,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5cb6c204-205a-11eb-a489-00f48df11581">
-    <name>ПериодРегистрации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Период регистрации</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="76cfbdec-205c-11eb-a489-00f48df11581">
     <name>Статус</name>
     <synonym>
@@ -70,7 +51,7 @@
       <value>Статус</value>
     </synonym>
     <type>
-      <types>EnumRef.СтатусыФормированияЗаказа</types>
+      <types>EnumRef.СтатусыОтчетовПоРаботамПартнеру</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
