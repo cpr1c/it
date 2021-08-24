@@ -95,6 +95,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7436487d-a3e9-4922-82d3-36b220dd6f45">
+    <name>Выставлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выставлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e64cd146-205c-11eb-a489-00f48df11581">
     <name>ФормаДокумента</name>
     <synonym>
@@ -199,6 +214,35 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="16a43831-982b-48fa-9762-a5d70176bd60">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="969de5f6-ec63-4781-9708-720b5771b347">
+      <name>ДатаВключенияВОтчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата включения в отчет</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <templates uuid="9e032d78-206a-11eb-a489-00f48df11581">
     <name>ОтчетПоРаботе</name>
@@ -207,4 +251,21 @@
       <value>Отчет по работе</value>
     </synonym>
   </templates>
+  <commands uuid="ecad008b-d4e7-495d-a96e-dd0baaf20f42">
+    <name>Утвердить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвердить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ОтчетПоРаботамПартнеру</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <modifiesData>true</modifiesData>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.AppearanceCheckBox</picture>
+    </picture>
+  </commands>
 </mdclass:Document>
