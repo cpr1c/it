@@ -511,7 +511,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>1</width>
+            <width>6</width>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>false</horizontalStretch>
             <wrap>true</wrap>
@@ -1113,6 +1113,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ДФ=dd.MM.yyyy</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ДФ=dd.MM.yyyy</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -1170,6 +1178,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ДФ=dd.MM.yyyy</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ДФ=dd.MM.yyyy</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -1316,10 +1332,17 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <width>1</width>
+          <handlers>
+            <event>Tuning</event>
+            <name>ЗадачиОценкаТрудозатратРегулирование</name>
+          </handlers>
+          <width>10</width>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>false</horizontalStretch>
           <wrap>true</wrap>
+          <dropListButton>true</dropListButton>
+          <choiceButton>false</choiceButton>
+          <spinButton>true</spinButton>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -1787,6 +1810,66 @@
       <commandName>Form.Command.ПрименитьИзмененияЗадач</commandName>
       <representation>Auto</representation>
       <defaultButton>true</defaultButton>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаРазвернутьДеревоЗадач</name>
+      <id>160</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаРазвернутьДеревоЗадачРасширеннаяПодсказка</name>
+        <id>161</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.РазвернутьДеревоЗадач</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаСвернутьДеревоЗадач</name>
+      <id>162</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСвернутьДеревоЗадачРасширеннаяПодсказка</name>
+        <id>163</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.СвернутьДеревоЗадач</commandName>
+      <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -2278,6 +2361,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>СтатусЗадачЗакрыт</name>
+    <title>
+      <key>ru</key>
+      <value>Статус задач закрыт</value>
+    </title>
+    <id>28</id>
+    <valueType>
+      <types>CatalogRef.СтатусыЗадач</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ЗаполнитьСписокЗадач</name>
     <title>
@@ -2303,7 +2403,7 @@
     <name>ПрименитьИзмененияЗадач</name>
     <title>
       <key>ru</key>
-      <value>Применить</value>
+      <value>Записать изменения</value>
     </title>
     <id>2</id>
     <use>
@@ -2312,6 +2412,46 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПрименитьИзмененияЗадач</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СвернутьДеревоЗадач</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть дерево задач</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьДеревоЗадач</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>РазвернутьДеревоЗадач</name>
+    <title>
+      <key>ru</key>
+      <value>Развернуть дерево задач</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExpandAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РазвернутьДеревоЗадач</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
