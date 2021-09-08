@@ -2845,6 +2845,56 @@
               <currentRowUse>Auto</currentRowUse>
             </extInfo>
           </items>
+          <items xsi:type="form:FormField">
+            <name>ОтчетПоРаботам</name>
+            <id>359</id>
+            <title>
+              <key>ru</key>
+              <value>Включено в</value>
+            </title>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОтчетПоРаботам</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ОтчетПоРаботамРасширеннаяПодсказка</name>
+              <id>361</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ОтчетПоРаботамКонтекстноеМеню</name>
+              <id>360</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <hyperlink>true</hyperlink>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5297,6 +5347,23 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтчетПоРаботам</name>
+    <title>
+      <key>ru</key>
+      <value>Отчет по работам</value>
+    </title>
+    <id>24</id>
+    <valueType>
+      <types>DocumentRef.ОтчетПоРаботамПартнеру</types>
     </valueType>
     <view>
       <common>true</common>
