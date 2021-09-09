@@ -136,4 +136,85 @@
       <handler>ВидыОплатGET</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="cf2955a8-8dbe-46c3-acd0-f1beec21dfa5">
+    <name>СписокПартнеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список партнеров</value>
+    </synonym>
+    <template>/partners</template>
+    <methods uuid="0480cbc9-81de-4cfa-8ae4-0032d055a113">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>СписокПартнеровGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="282209cb-c11c-4b51-ba5f-2d5d0cb4f3e4">
+    <name>ДанныеПартнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные партнера</value>
+    </synonym>
+    <template>/partners/{id}</template>
+    <methods uuid="63b21dc3-8672-4215-bd70-fc1890a00caa">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ДанныеПартнераGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c5834baf-0c8a-495f-a51f-5019af4bb84a">
+    <name>СписокОтчетовПоРаботам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список отчетов по работам</value>
+    </synonym>
+    <template>/orders</template>
+    <methods uuid="a5f3a4b8-26aa-48fc-b31a-11b936dc9e99">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>СписокОтчетовПоРаботеGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8dd204ec-87ad-49b2-890a-5d2ba652cb64">
+    <name>ДанныеОтчетаПоРаботам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные отчета по работам</value>
+    </synonym>
+    <template>/orders/{id}</template>
+    <methods uuid="1ece64e3-c8a5-4273-81e3-62bbf10102d0">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ДанныеОтчетаПоРаботамGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="bb323cff-546f-4281-b3a0-3f8e31dc42d1">
+    <name>ВыставитьОтчетыПоРаботам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выставить отчеты по работам</value>
+    </synonym>
+    <template>/orders/setInvoice</template>
+    <methods uuid="f9124e64-7439-45bf-8136-e17d7367c33d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВыставитьОтчетыПоРаботам</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
