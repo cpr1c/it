@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Code</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Code</segments>
     </dataPath>
     <extendedTooltip>
       <name>КодРасширеннаяПодсказка</name>
@@ -60,10 +58,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -112,10 +108,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Описание</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Описание</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОписаниеРасширеннаяПодсказка</name>
@@ -176,10 +170,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Статусы.LineNumber</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Статусы.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
         <name>СтатусыНомерСтрокиРасширеннаяПодсказка</name>
@@ -224,10 +216,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Статусы.Статус</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Статусы.Статус</segments>
       </dataPath>
       <extendedTooltip>
         <name>СтатусыСтатусРасширеннаяПодсказка</name>
@@ -312,6 +302,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СтатусыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -350,6 +341,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СтатусыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -388,6 +380,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СтатусыУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

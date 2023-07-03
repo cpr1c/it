@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РежимУдаления</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РежимУдаления</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <handlers>
@@ -265,10 +263,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Монопольно</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Монопольно</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTipRepresentation>Button</toolTipRepresentation>
@@ -335,10 +331,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>УдалениеПомеченныхИспользование</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>УдалениеПомеченныхИспользование</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <handlers>
@@ -598,10 +592,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоПомеченныхНаУдаление.Пометка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПомеченныхНаУдаление.Пометка</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -645,10 +637,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоПомеченныхНаУдаление.Представление</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоПомеченныхНаУдаление.Представление</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДеревоПомеченныхНаУдалениеПредставлениеРасширеннаяПодсказка</name>
@@ -996,6 +986,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ДеревоПомеченныхНаУдалениеСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1034,6 +1025,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ДеревоПомеченныхНаУдалениеСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1072,6 +1064,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ДеревоПомеченныхНаУдалениеУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1482,10 +1475,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>НеУдаленные.Представление</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>НеУдаленные.Представление</segments>
               </dataPath>
               <extendedTooltip>
                 <name>НеУдаленныеПредставлениеРасширеннаяПодсказка</name>
@@ -1715,6 +1706,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
+              <source>НеУдаленныеСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1753,6 +1745,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
+              <source>НеУдаленныеСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1791,6 +1784,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
+              <source>НеУдаленныеУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2011,10 +2005,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>НеУдаленныеПодсказка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>НеУдаленныеПодсказка</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
@@ -2237,10 +2229,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>СвязиНеУдаленных.Представление</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СвязиНеУдаленных.Представление</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>СвязиНеУдаленныхПредставлениеРасширеннаяПодсказка</name>
@@ -2407,6 +2397,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>СвязиНеУдаленныхСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2445,6 +2436,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>СвязиНеУдаленныхСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2483,6 +2475,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>СвязиНеУдаленныхУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2910,10 +2903,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ФоновоеЗаданиеПроцент</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ФоновоеЗаданиеПроцент</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
@@ -2965,10 +2956,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ФоновоеЗаданиеСостояние</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ФоновоеЗаданиеСостояние</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>

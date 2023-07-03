@@ -37,10 +37,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>История.ДействуетС</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>История.ДействуетС</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -93,10 +91,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>История.Представление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>История.Представление</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -150,10 +146,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>История.Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>История.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИсторияКомментарийРасширеннаяПодсказка</name>
@@ -261,6 +255,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ИсторияСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -299,6 +294,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ИсторияСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -337,6 +333,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ИсторияУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

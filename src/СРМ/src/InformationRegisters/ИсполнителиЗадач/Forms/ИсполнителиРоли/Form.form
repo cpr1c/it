@@ -28,10 +28,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Исполнители.Исполнитель</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Исполнители.Исполнитель</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИсполнительExtendedTooltip</name>
@@ -78,10 +76,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Исполнители.ОсновнойОбъектАдресации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Исполнители.ОсновнойОбъектАдресации</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОсновнойОбъектАдресацииExtendedTooltip</name>
@@ -124,10 +120,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Исполнители.ДополнительныйОбъектАдресации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Исполнители.ДополнительныйОбъектАдресации</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДополнительныйОбъектАдресацииExtendedTooltip</name>
@@ -213,6 +207,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ИсполнителиСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -251,6 +246,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ИсполнителиСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -289,6 +285,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ИсполнителиУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -346,6 +343,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <autoCommandBar>

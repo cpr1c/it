@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОсновнойОбъектАдресации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОсновнойОбъектАдресации</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОсновнойОбъектАдресацииExtendedTooltip</name>
@@ -115,10 +113,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборЗаписей.Исполнитель</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборЗаписей.Исполнитель</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИсполнительExtendedTooltip</name>
@@ -150,10 +146,8 @@
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <footerDataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборЗаписей.RowsCount</segments>
-        </paths>
+      <footerDataPath xsi:type="form:DataPath">
+        <segments>НаборЗаписей.RowsCount</segments>
       </footerDataPath>
       <footerText>
         <key>ru</key>
@@ -174,10 +168,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НаборЗаписей.ДополнительныйОбъектАдресации</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаборЗаписей.ДополнительныйОбъектАдресации</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДополнительныйОбъектАдресацииExtendedTooltip</name>
@@ -274,6 +266,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -312,6 +305,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -350,6 +344,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

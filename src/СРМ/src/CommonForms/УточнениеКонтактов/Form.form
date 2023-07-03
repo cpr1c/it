@@ -42,10 +42,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаКонтактов.Изменять</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаКонтактов.Изменять</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -96,10 +94,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТаблицаКонтактов.ПолноеПредставление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаКонтактов.ПолноеПредставление</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаКонтактовПолноеПредставлениеExtendedTooltip</name>
@@ -156,10 +152,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаКонтактов.Контакт</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаКонтактов.Контакт</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -229,10 +223,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаКонтактов.ТекущийАдресКонтактаПредставление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаКонтактов.ТекущийАдресКонтактаПредставление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаКонтактовТекущийАдресКонтактаExtendedTooltip</name>
@@ -364,6 +356,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ТаблицаКонтактовСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -402,6 +395,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ТаблицаКонтактовСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -440,6 +434,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ТаблицаКонтактовУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

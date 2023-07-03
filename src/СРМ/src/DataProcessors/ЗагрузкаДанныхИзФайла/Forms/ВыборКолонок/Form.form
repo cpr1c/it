@@ -42,10 +42,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокКолонок.Check</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокКолонок.Check</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокКолонокПометкаРасширеннаяПодсказка</name>
@@ -87,10 +85,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокКолонок.Value</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокКолонок.Value</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокКолонокЗначениеРасширеннаяПодсказка</name>
@@ -307,6 +303,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокКолонокSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -345,6 +342,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокКолонокViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -383,6 +381,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокКолонокSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

@@ -260,10 +260,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ТекстHTML</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТекстHTML</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -340,10 +338,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Вложения.ИндексКартинки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Вложения.ИндексКартинки</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -398,10 +394,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Вложения.ИмяФайла</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Вложения.ИмяФайла</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИмяФайлаExtendedTooltip</name>
@@ -447,10 +441,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Вложения.РазмерПредставление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Вложения.РазмерПредставление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВложенияРазмерПредставлениеExtendedTooltip</name>
@@ -572,6 +564,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ВложенияСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -610,6 +603,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ВложенияСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -648,6 +642,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ВложенияУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

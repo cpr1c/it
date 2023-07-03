@@ -16,10 +16,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Реквизиты</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Реквизиты</segments>
     </dataPath>
     <toolTip>
       <key>ru</key>
@@ -303,10 +301,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоВерсий.ПредставлениеНомераВерсии</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоВерсий.ПредставлениеНомераВерсии</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоВерсийПредставлениеНомераВерсииРасширеннаяПодсказка</name>
@@ -358,10 +354,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоВерсий.АвторВерсии</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоВерсий.АвторВерсии</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоВерсийАвторВерсииРасширеннаяПодсказка</name>
@@ -411,10 +405,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоВерсий.ДатаВерсии</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоВерсий.ДатаВерсии</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоВерсийДатаВерсииРасширеннаяПодсказка</name>
@@ -468,10 +460,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоВерсий.Узел</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоВерсий.Узел</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоВерсийУзелРасширеннаяПодсказка</name>
@@ -522,10 +512,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоВерсий.Комментарий</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоВерсий.Комментарий</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -624,6 +612,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ДеревоВерсийСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -662,6 +651,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ДеревоВерсийСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -700,6 +690,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ДеревоВерсийУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

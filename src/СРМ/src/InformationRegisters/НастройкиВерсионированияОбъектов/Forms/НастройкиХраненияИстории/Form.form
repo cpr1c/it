@@ -44,10 +44,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.КодКартинки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.КодКартинки</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -101,10 +99,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.СинонимНаименованияОбъекта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.СинонимНаименованияОбъекта</segments>
         </dataPath>
         <extendedTooltip>
           <name>НаименованиеОбъектаExtendedTooltip</name>
@@ -186,10 +182,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоОбъектовМетаданных.ВариантВерсионирования</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоОбъектовМетаданных.ВариантВерсионирования</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -244,10 +238,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоОбъектовМетаданных.СрокХраненияВерсий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоОбъектовМетаданных.СрокХраненияВерсий</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -341,6 +333,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ДеревоОбъектовМетаданныхСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -379,6 +372,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ДеревоОбъектовМетаданныхСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -417,6 +411,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ДеревоОбъектовМетаданныхУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1050,10 +1045,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>АвтоматическиУдалятьУстаревшиеВерсии</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АвтоматическиУдалятьУстаревшиеВерсии</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>

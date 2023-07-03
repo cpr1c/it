@@ -19,10 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеДанных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеДанных</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеДанныхРасширеннаяПодсказка</name>
@@ -118,10 +116,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Сертификат</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Сертификат</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -262,10 +258,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СертификатыШифрования.Сертификат</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СертификатыШифрования.Сертификат</segments>
             </dataPath>
             <extendedTooltip>
               <name>СертификатыШифрованияСертификатРасширеннаяПодсказка</name>
@@ -480,6 +474,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
+            <source>СертификатыШифрованияСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -518,6 +513,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
+            <source>СертификатыШифрованияСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -556,6 +552,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
+            <source>СертификатыШифрованияУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -748,10 +745,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>НаборСертификатов.Представление</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>НаборСертификатов.Представление</segments>
             </dataPath>
             <extendedTooltip>
               <name>НаборСертификатовПредставлениеРасширеннаяПодсказка</name>
@@ -837,6 +832,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
+            <source>НаборСертификатовСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -875,6 +871,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
+            <source>НаборСертификатовСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -913,6 +910,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
+            <source>НаборСертификатовУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

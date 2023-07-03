@@ -44,10 +44,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РеквизитыОбъекта.Представление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РеквизитыОбъекта.Представление</segments>
       </dataPath>
       <extendedTooltip>
         <name>РеквизитыОбъектаПредставлениеРасширеннаяПодсказка</name>
@@ -135,6 +133,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>РеквизитыОбъектаСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -173,6 +172,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>РеквизитыОбъектаСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -211,6 +211,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>РеквизитыОбъектаУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

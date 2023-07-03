@@ -17,10 +17,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПредставлениеИзменяемыхОбъектов</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПредставлениеИзменяемыхОбъектов</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -168,10 +166,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ТипОперации</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ТипОперации</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -270,10 +266,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>РеквизитыОбъекта.Представление</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>РеквизитыОбъекта.Представление</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>РеквизитыОбъектаПредставлениеРасширеннаяПодсказка</name>
@@ -323,10 +317,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>РеквизитыОбъекта.Изменять</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>РеквизитыОбъекта.Изменять</segments>
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <handlers>
@@ -376,10 +368,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>РеквизитыОбъекта.Значение</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>РеквизитыОбъекта.Значение</segments>
                   </dataPath>
                   <handlers>
                     <event>OnChange</event>
@@ -483,6 +473,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>РеквизитыОбъектаСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -521,6 +512,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>РеквизитыОбъектаСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -559,6 +551,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>РеквизитыОбъектаУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -844,10 +837,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Алгоритм</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Алгоритм</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>АлгоритмРасширеннаяПодсказка</name>
@@ -900,10 +891,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>КодАлгоритма</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>КодАлгоритма</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -1074,10 +1063,8 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
-                    <dataPath xsi:type="form:MultiLanguageDataPath">
-                      <paths xsi:type="form:DataPath">
-                        <segments>Алгоритм</segments>
-                      </paths>
+                    <dataPath xsi:type="form:DataPath">
+                      <segments>Алгоритм</segments>
                     </dataPath>
                     <extendedTooltip>
                       <name>ПолеНевидимоеДляВыравниванияРасширеннаяПодсказка</name>
@@ -1201,10 +1188,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>РеквизитыОбъекта.Представление</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>РеквизитыОбъекта.Представление</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>РеквизитыОбъектаАлгоритмПредставлениеРасширеннаяПодсказка</name>
@@ -1292,6 +1277,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>РеквизитыОбъектаАлгоритмСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1330,6 +1316,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>РеквизитыОбъектаАлгоритмСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1368,6 +1355,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>РеквизитыОбъектаАлгоритмУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -1503,10 +1491,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.ВариантЗаписиОбъекта</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.ВариантЗаписиОбъекта</segments>
               </dataPath>
               <titleHeight>1</titleHeight>
               <toolTipRepresentation>Button</toolTipRepresentation>
@@ -1577,10 +1563,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Объект.РежимВыполнения</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.РежимВыполнения</segments>
               </dataPath>
               <toolTipRepresentation>Button</toolTipRepresentation>
               <extendedTooltip>
@@ -2087,10 +2071,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ОбъектыКоторыеНеУдалосьИзменить.Объект</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОбъектыКоторыеНеУдалосьИзменить.Объект</segments>
             </dataPath>
             <extendedTooltip>
               <name>ОбъектыКоторыеНеУдалосьИзменитьОбъектРасширеннаяПодсказка</name>
@@ -2139,10 +2121,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ОбъектыКоторыеНеУдалосьИзменить.Причина</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОбъектыКоторыеНеУдалосьИзменить.Причина</segments>
             </dataPath>
             <extendedTooltip>
               <name>ОбъектыКоторыеНеУдалосьИзменитьПричинаРасширеннаяПодсказка</name>
@@ -2272,6 +2252,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
+            <source>ОбъектыКоторыеНеУдалосьИзменитьСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2310,6 +2291,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
+            <source>ОбъектыКоторыеНеУдалосьИзменитьСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2348,6 +2330,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
+            <source>ОбъектыКоторыеНеУдалосьИзменитьУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2407,10 +2390,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Причина</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Причина</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПричинаРасширеннаяПодсказка</name>

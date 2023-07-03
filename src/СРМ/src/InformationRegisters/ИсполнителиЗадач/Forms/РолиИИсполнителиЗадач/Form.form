@@ -27,10 +27,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Роль</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Роль</segments>
       </dataPath>
       <extendedTooltip>
         <name>РольExtendedTooltip</name>
@@ -82,10 +80,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ИсполнителиСтрока</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ИсполнителиСтрока</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИсполнителиExtendedTooltip</name>
@@ -134,10 +130,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Отступ</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Отступ</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -234,6 +228,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -272,6 +267,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -310,6 +306,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

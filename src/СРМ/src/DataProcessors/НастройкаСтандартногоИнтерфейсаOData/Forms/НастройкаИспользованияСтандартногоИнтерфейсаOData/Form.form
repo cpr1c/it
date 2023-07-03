@@ -24,10 +24,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СоздатьПользователяСтандартногоИнтерфейсаOData</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СоздатьПользователяСтандартногоИнтерфейсаOData</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
             <toolTipRepresentation>ShowTop</toolTipRepresentation>
@@ -123,10 +121,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ИмяПользователя</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ИмяПользователя</segments>
             </dataPath>
             <extendedTooltip>
               <name>ИмяПользователяРасширеннаяПодсказка</name>
@@ -177,10 +173,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Пароль</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Пароль</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ПарольРасширеннаяПодсказка</name>
@@ -229,10 +223,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ПодтверждениеПароля</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ПодтверждениеПароля</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ПодтверждениеПароляРасширеннаяПодсказка</name>
@@ -407,10 +399,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОбъектыМетаданных.Картинка</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОбъектыМетаданных.Картинка</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -459,10 +449,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОбъектыМетаданных.Использование</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОбъектыМетаданных.Использование</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <handlers>
@@ -513,10 +501,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОбъектыМетаданных.Представление</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОбъектыМетаданных.Представление</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ОбъектыМетаданныхПредставлениеРасширеннаяПодсказка</name>
@@ -601,10 +587,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОбъектыМетаданных.Подчиненный</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОбъектыМетаданных.Подчиненный</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -655,10 +639,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ОбъектыМетаданных.ТолькоЧтение</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ОбъектыМетаданных.ТолькоЧтение</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -807,6 +789,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
+            <source>ОбъектыМетаданныхСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -845,6 +828,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
+            <source>ОбъектыМетаданныхСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -883,6 +867,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
+            <source>ОбъектыМетаданныхУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

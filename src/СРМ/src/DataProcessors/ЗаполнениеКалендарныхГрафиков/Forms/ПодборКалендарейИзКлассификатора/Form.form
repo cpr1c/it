@@ -37,10 +37,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Календари.Код</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Календари.Код</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодРасширеннаяПодсказка</name>
@@ -88,10 +86,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Календари.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Календари.Наименование</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -181,6 +177,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокКалендарейСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -219,6 +216,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокКалендарейСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -257,6 +255,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокКалендарейУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

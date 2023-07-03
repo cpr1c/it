@@ -35,10 +35,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>КомандыПечати.Видимость</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КомандыПечати.Видимость</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -89,10 +87,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>КомандыПечати.Представление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КомандыПечати.Представление</segments>
         </dataPath>
         <extendedTooltip>
           <name>КомандыПечатиПредставлениеРасширеннаяПодсказка</name>
@@ -180,10 +176,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>КомандыПечати.Комментарий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КомандыПечати.Комментарий</segments>
         </dataPath>
         <extendedTooltip>
           <name>КомандыПечатиКомментарийРасширеннаяПодсказка</name>
@@ -303,6 +297,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>КомандыПечатиСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -341,6 +336,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>КомандыПечатиСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -379,6 +375,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>КомандыПечатиУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

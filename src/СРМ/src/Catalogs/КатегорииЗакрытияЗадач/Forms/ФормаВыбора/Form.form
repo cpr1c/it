@@ -46,10 +46,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Список</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Список</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
@@ -62,7 +60,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Код</segments>
+        <segments>Список.Code</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -109,7 +107,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Наименование</segments>
+        <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеРасширеннаяПодсказка</name>
@@ -268,7 +266,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>Список</source>
+      <source>СписокУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -322,10 +320,8 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
-    <rowPictureDataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Список.СтандартнаяКартинка</segments>
-      </paths>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
@@ -335,6 +331,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
   </items>
@@ -347,7 +344,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Элементы.Список.ТекущиеДанные.УсловияИспользования</segments>
+      <segments>Items.Список.CurrentData.УсловияИспользования</segments>
     </dataPath>
     <extendedTooltip>
       <name>УсловияИспользованияРасширеннаяПодсказка</name>

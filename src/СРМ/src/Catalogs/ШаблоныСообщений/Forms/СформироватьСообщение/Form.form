@@ -76,10 +76,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Шаблоны.Представление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Шаблоны.Представление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ШаблоныПредставлениеРасширеннаяПодсказка</name>
@@ -183,6 +181,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ШаблоныСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -221,6 +220,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ШаблоныСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -259,6 +259,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ШаблоныУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -319,10 +320,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПредпросмотрОбычныйТекст</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПредпросмотрОбычныйТекст</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -406,10 +405,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПредпросмотрФорматированныйДокумент</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПредпросмотрФорматированныйДокумент</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>

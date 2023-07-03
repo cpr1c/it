@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
     <value>АРМ специалиста поддержки</value>
@@ -658,10 +658,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Проекты.Description</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Проекты.Description</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПроектыНаименованиеРасширеннаяПодсказка</name>
@@ -746,6 +744,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
+            <source>ПроектыСтрокаПоиска</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -784,6 +783,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
+            <source>ПроектыСостояниеПросмотра</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -822,6 +822,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
+            <source>ПроектыУправлениеПоиском</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -889,6 +890,7 @@
             <topLevelParent xsi:type="core:UndefinedValue"/>
             <showRoot>true</showRoot>
             <allowRootChoice>true</allowRootChoice>
+            <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             <userSettingsGroup>ГруппаБыстрыеОтборыСпискаПроектов</userSettingsGroup>
           </extInfo>
         </items>
@@ -903,10 +905,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ПоказыватьАрхивныеПроекты</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПоказыватьАрхивныеПроекты</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -952,10 +952,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ТолькоМоиПроекты</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ТолькоМоиПроекты</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -1129,10 +1127,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ИспользоватьОтборСписокСтатусов</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ИспользоватьОтборСписокСтатусов</segments>
                 </dataPath>
                 <handlers>
                   <event>OnChange</event>
@@ -1178,10 +1174,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>ОтборСписокСтатусов</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>ОтборСписокСтатусов</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <handlers>
@@ -1380,10 +1374,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.ЕстьФайлы</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.ЕстьФайлы</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -1439,10 +1431,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.ИндексКартинкиПрогресса</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.ИндексКартинкиПрогресса</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
@@ -1495,10 +1485,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Номер</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Номер</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачНомерРасширеннаяПодсказка</name>
@@ -1547,10 +1535,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Тема</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Тема</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачТемаРасширеннаяПодсказка</name>
@@ -1598,10 +1584,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Исполнитель</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Исполнитель</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачИсполнительРасширеннаяПодсказка</name>
@@ -1648,10 +1632,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Статус</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Статус</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачСтатусРасширеннаяПодсказка</name>
@@ -1702,10 +1684,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.ОценкаТрудозатратИсполнителя</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.ОценкаТрудозатратИсполнителя</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачОценкаТрудозатратИсполнителяРасширеннаяПодсказка</name>
@@ -1756,10 +1736,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.ФактическиеТрудозатраты</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.ФактическиеТрудозатраты</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачФактическиеТрудозатратыРасширеннаяПодсказка</name>
@@ -1810,10 +1788,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.СрокИсполненияАвто</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.СрокИсполненияАвто</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачСрокИсполненияРасширеннаяПодсказка</name>
@@ -1860,10 +1836,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Проект</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Проект</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачПроектРасширеннаяПодсказка</name>
@@ -1912,10 +1886,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Спринт</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Спринт</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачСпринтРасширеннаяПодсказка</name>
@@ -1961,10 +1933,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Автор</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Автор</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачАвторРасширеннаяПодсказка</name>
@@ -2013,10 +1983,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.КонтактОбращения</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.КонтактОбращения</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачКонтактОбращенияРасширеннаяПодсказка</name>
@@ -2063,10 +2031,8 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.РодительскаяЗадача</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.РодительскаяЗадача</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачРодительскаяЗадачаРасширеннаяПодсказка</name>
@@ -2113,10 +2079,8 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.КатегорияЗакрытия</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.КатегорияЗакрытия</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачКатегорияЗакрытияРасширеннаяПодсказка</name>
@@ -2163,10 +2127,8 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.ВидОплаты</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.ВидОплаты</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачВидОплатыРасширеннаяПодсказка</name>
@@ -2213,10 +2175,8 @@
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>СписокЗадач.Ссылка</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>СписокЗадач.Ссылка</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>СписокЗадачСсылкаРасширеннаяПодсказка</name>
@@ -2527,6 +2487,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
+                <source>СписокЗадачСтрокаПоиска</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -2565,6 +2526,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
+                <source>СписокЗадачСостояниеПросмотра</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -2603,6 +2565,7 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
+                <source>СписокЗадачУправлениеПоиском</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -2687,6 +2650,7 @@
                 </period>
                 <restoreCurrentRow>true</restoreCurrentRow>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                 <userSettingsGroup>СписокЗадачПользовательскиеНастройки</userSettingsGroup>
               </extInfo>
             </items>
@@ -2830,10 +2794,8 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
-                    <dataPath xsi:type="form:MultiLanguageDataPath">
-                      <paths xsi:type="form:DataPath">
-                        <segments>ТочкиПодключенийСписок.Наименование</segments>
-                      </paths>
+                    <dataPath xsi:type="form:DataPath">
+                      <segments>ТочкиПодключенийСписок.Наименование</segments>
                     </dataPath>
                     <defaultItem>true</defaultItem>
                     <extendedTooltip>
@@ -2879,10 +2841,8 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
-                    <dataPath xsi:type="form:MultiLanguageDataPath">
-                      <paths xsi:type="form:DataPath">
-                        <segments>ТочкиПодключенийСписок.ИндексКартинкиПрисоединенныхФайлов</segments>
-                      </paths>
+                    <dataPath xsi:type="form:DataPath">
+                      <segments>ТочкиПодключенийСписок.ИндексКартинкиПрисоединенныхФайлов</segments>
                     </dataPath>
                     <titleLocation>None</titleLocation>
                     <extendedTooltip>
@@ -2972,10 +2932,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ТочкиПодключенийСписок.Партнер</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ТочкиПодключенийСписок.Партнер</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>ПартнерРасширеннаяПодсказка</name>
@@ -3019,10 +2977,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ТочкиПодключенийСписок.КонтактноеЛицо</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ТочкиПодключенийСписок.КонтактноеЛицо</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>КонтактноеЛицоРасширеннаяПодсказка</name>
@@ -3067,10 +3023,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ТочкиПодключенийСписок.Комментарий</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ТочкиПодключенийСписок.Комментарий</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>КомментарийРасширеннаяПодсказка</name>
@@ -3188,6 +3142,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>ТочкиПодключенийСписокСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3226,6 +3181,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>ТочкиПодключенийСписокСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3264,6 +3220,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>ТочкиПодключенийСписокУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3393,6 +3350,7 @@
                   <topLevelParent xsi:type="core:UndefinedValue"/>
                   <showRoot>true</showRoot>
                   <allowRootChoice>true</allowRootChoice>
+                  <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                   <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
                 </extInfo>
               </items>
@@ -3457,10 +3415,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>СписокПодключений.ИндексКартинкиСкрепки</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокПодключений.ИндексКартинкиСкрепки</segments>
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
@@ -3515,10 +3471,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>СписокПодключений.ВидПодключения</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокПодключений.ВидПодключения</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>СписокПодключенийВидПодключенияРасширеннаяПодсказка</name>
@@ -3564,10 +3518,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>СписокПодключений.АдресПодключения</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокПодключений.АдресПодключения</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>СписокПодключенийАдресПодключенияРасширеннаяПодсказка</name>
@@ -3612,10 +3564,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>СписокПодключений.ПредварительноеПодключение</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокПодключений.ПредварительноеПодключение</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>СписокПодключенийПредварительноеПодключениеРасширеннаяПодсказка</name>
@@ -3660,10 +3610,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>СписокПодключений.Комментарий</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СписокПодключений.Комментарий</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>СписокПодключенийКомментарийРасширеннаяПодсказка</name>
@@ -3779,6 +3727,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>СписокПодключенийСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3817,6 +3766,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>СписокПодключенийСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3855,6 +3805,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>СписокПодключенийУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3982,6 +3933,7 @@
                   </period>
                   <topLevelParent xsi:type="core:UndefinedValue"/>
                   <showRoot>true</showRoot>
+                  <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -4053,10 +4005,8 @@
                         <userVisible>
                           <common>true</common>
                         </userVisible>
-                        <dataPath xsi:type="form:MultiLanguageDataPath">
-                          <paths xsi:type="form:DataPath">
-                            <segments>СписокУчетныхДанных.Логин</segments>
-                          </paths>
+                        <dataPath xsi:type="form:DataPath">
+                          <segments>СписокУчетныхДанных.Логин</segments>
                         </dataPath>
                         <extendedTooltip>
                           <name>СписокУчетныхДанныхЛогинРасширеннаяПодсказка</name>
@@ -4101,10 +4051,8 @@
                         <userVisible>
                           <common>true</common>
                         </userVisible>
-                        <dataPath xsi:type="form:MultiLanguageDataPath">
-                          <paths xsi:type="form:DataPath">
-                            <segments>СписокУчетныхДанных.Пароль</segments>
-                          </paths>
+                        <dataPath xsi:type="form:DataPath">
+                          <segments>СписокУчетныхДанных.Пароль</segments>
                         </dataPath>
                         <extendedTooltip>
                           <name>СписокУчетныхДанныхПарольРасширеннаяПодсказка</name>
@@ -4149,10 +4097,8 @@
                         <userVisible>
                           <common>true</common>
                         </userVisible>
-                        <dataPath xsi:type="form:MultiLanguageDataPath">
-                          <paths xsi:type="form:DataPath">
-                            <segments>СписокУчетныхДанных.Администратор</segments>
-                          </paths>
+                        <dataPath xsi:type="form:DataPath">
+                          <segments>СписокУчетныхДанных.Администратор</segments>
                         </dataPath>
                         <extendedTooltip>
                           <name>СписокУчетныхДанныхАдминистраторРасширеннаяПодсказка</name>
@@ -4198,10 +4144,8 @@
                         <userVisible>
                           <common>true</common>
                         </userVisible>
-                        <dataPath xsi:type="form:MultiLanguageDataPath">
-                          <paths xsi:type="form:DataPath">
-                            <segments>СписокУчетныхДанных.Пользователь</segments>
-                          </paths>
+                        <dataPath xsi:type="form:DataPath">
+                          <segments>СписокУчетныхДанных.Пользователь</segments>
                         </dataPath>
                         <extendedTooltip>
                           <name>СписокУчетныхДанныхПользовательРасширеннаяПодсказка</name>
@@ -4246,10 +4190,8 @@
                         <userVisible>
                           <common>true</common>
                         </userVisible>
-                        <dataPath xsi:type="form:MultiLanguageDataPath">
-                          <paths xsi:type="form:DataPath">
-                            <segments>СписокУчетныхДанных.Комментарий</segments>
-                          </paths>
+                        <dataPath xsi:type="form:DataPath">
+                          <segments>СписокУчетныхДанных.Комментарий</segments>
                         </dataPath>
                         <extendedTooltip>
                           <name>СписокУчетныхДанныхКомментарийРасширеннаяПодсказка</name>
@@ -4390,6 +4332,7 @@
                           </userVisible>
                           <autoFill>true</autoFill>
                         </contextMenu>
+                        <source>СписокУчетныхДанныхСтрокаПоиска</source>
                         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                           <autoMaxWidth>true</autoMaxWidth>
                         </extInfo>
@@ -4428,6 +4371,7 @@
                           <autoFill>true</autoFill>
                         </contextMenu>
                         <type>ViewStatusAddition</type>
+                        <source>СписокУчетныхДанныхСостояниеПросмотра</source>
                         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                           <autoMaxWidth>true</autoMaxWidth>
                         </extInfo>
@@ -4466,6 +4410,7 @@
                           <autoFill>true</autoFill>
                         </contextMenu>
                         <type>SearchControlAddition</type>
+                        <source>СписокУчетныхДанныхУправлениеПоиском</source>
                         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                           <autoMaxWidth>true</autoMaxWidth>
                         </extInfo>
@@ -4586,6 +4531,7 @@
                         </period>
                         <topLevelParent xsi:type="core:UndefinedValue"/>
                         <showRoot>true</showRoot>
+                        <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                         <userSettingsGroup>СписокУчетныхДанныхДополнительныеНастройки</userSettingsGroup>
                       </extInfo>
                     </items>
@@ -4930,14 +4876,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <activeLanguage>1</activeLanguage>
-                <paths xsi:type="form:DataPath">
-                  <segments>СтопЛист.Партнер</segments>
-                </paths>
-                <paths xsi:type="form:DataPath">
-                  <segments>СтопЛист.Партнер</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СтопЛист.Партнер</segments>
               </dataPath>
               <extendedTooltip>
                 <name>СтопЛистПартнерРасширеннаяПодсказка</name>
@@ -5036,14 +4976,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <activeLanguage>1</activeLanguage>
-                <paths xsi:type="form:DataPath">
-                  <segments>СтопЛист.Автор</segments>
-                </paths>
-                <paths xsi:type="form:DataPath">
-                  <segments>СтопЛист.Автор</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СтопЛист.Автор</segments>
               </dataPath>
               <extendedTooltip>
                 <name>СтопЛистАвторРасширеннаяПодсказка</name>
@@ -5178,6 +5112,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
+              <source>СтопЛистСтрокаПоиска</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -5216,6 +5151,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
+              <source>СтопЛистСостояниеПросмотра</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -5254,6 +5190,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
+              <source>СтопЛистУправлениеПоиском</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -5309,6 +5246,7 @@
               </period>
               <topLevelParent xsi:type="core:UndefinedValue"/>
               <showRoot>true</showRoot>
+              <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -5885,6 +5823,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>ВыбранныйКонтрагентЛогиныПаролиСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -5923,6 +5862,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>ВыбранныйКонтрагентЛогиныПаролиСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -5961,6 +5901,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>ВыбранныйКонтрагентЛогиныПаролиУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -6233,6 +6174,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>ВыбранныйКонтрагентКонтактыСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -6271,6 +6213,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>ВыбранныйКонтрагентКонтактыСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -6309,6 +6252,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>ВыбранныйКонтрагентКонтактыУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -6831,10 +6775,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПолеСообщений</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПолеСообщений</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -7388,10 +7330,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ИнфоАктивныхЗадач</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИнфоАктивныхЗадач</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИнфоАктивныхЗадачРасширеннаяПодсказка</name>
@@ -7436,10 +7376,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ИнфоЗадачСделаноЗаСегодня</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИнфоЗадачСделаноЗаСегодня</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИнфоЗадачСделаноЗаСегодняРасширеннаяПодсказка</name>
@@ -7978,344 +7916,6 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Номер</dataPath>
-        <field>Номер</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Дата</dataPath>
-        <field>Дата</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Автор</dataPath>
-        <field>Автор</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Исполнитель</dataPath>
-        <field>Исполнитель</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Статус</dataPath>
-        <field>Статус</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаСоздания</dataPath>
-        <field>ДатаСоздания</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаИзменения</dataPath>
-        <field>ДатаИзменения</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаЗакрытия</dataPath>
-        <field>ДатаЗакрытия</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Тема</dataPath>
-        <field>Тема</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Содержание</dataPath>
-        <field>Содержание</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проект</dataPath>
-        <field>Проект</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ОценкаТрудозатрат</dataPath>
-        <field>ОценкаТрудозатрат</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ОценкаТрудозатратИсполнителя</dataPath>
-        <field>ОценкаТрудозатратИсполнителя</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>РодительскаяЗадача</dataPath>
-        <field>РодительскаяЗадача</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Срочность</dataPath>
-        <field>Срочность</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Редактор</dataPath>
-        <field>Редактор</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>КонтактОбращения</dataPath>
-        <field>КонтактОбращения</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СрокИсполнения</dataPath>
-        <field>СрокИсполнения</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаНачалаРаботПоЗадаче</dataPath>
-        <field>ДатаНачалаРаботПоЗадаче</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаВыполнения</dataPath>
-        <field>ДатаВыполнения</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Основание</dataPath>
-        <field>Основание</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Спринт</dataPath>
-        <field>Спринт</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ФактическиеТрудозатраты</dataPath>
-        <field>ФактическиеТрудозатраты</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Фактические трудозатраты</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СрокИсполненияАвто</dataPath>
-        <field>СрокИсполненияАвто</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЕстьФайлы</dataPath>
-        <field>ЕстьФайлы</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Есть файлы</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ИндексКартинкиПрогресса</dataPath>
-        <field>ИндексКартинкиПрогресса</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Индекс картинки прогресса</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>КатегорияЗакрытия</dataPath>
-        <field>КатегорияЗакрытия</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВидОплаты</dataPath>
-        <field>ВидОплаты</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Предмет</dataPath>
-        <field>Предмет</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВидДеятельности</dataPath>
-        <field>ВидДеятельности</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СтопЛист</dataPath>
-        <field>СтопЛист</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Стоп лист</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
     </extInfo>
   </attributes>
   <attributes>
@@ -8580,203 +8180,6 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Родитель</dataPath>
-        <field>Родитель</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Код</dataPath>
-        <field>Код</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Наименование</dataPath>
-        <field>Наименование</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Партнер</dataPath>
-        <field>Партнер</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Автор</dataPath>
-        <field>Автор</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаСоздания</dataPath>
-        <field>ДатаСоздания</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Редактор</dataPath>
-        <field>Редактор</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаИзменения</dataPath>
-        <field>ДатаИзменения</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Описание</dataPath>
-        <field>Описание</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>НастройкаОповещенияПоЗадачам</dataPath>
-        <field>НастройкаОповещенияПоЗадачам</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Архивный</dataPath>
-        <field>Архивный</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Вид</dataPath>
-        <field>Вид</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Предопределенный</dataPath>
-        <field>Предопределенный</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ИмяПредопределенныхДанных</dataPath>
-        <field>ИмяПредопределенныхДанных</field>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ИдентификаторКартинкиИзбранностиПроекта</dataPath>
-        <field>ИдентификаторКартинкиИзбранностиПроекта</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Идентификатор картинки избранности проекта</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <dimension>true</dimension>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЭтоИзбранныйПроект</dataPath>
-        <field>ЭтоИзбранныйПроект</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Это избранный проект</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <dimension>true</dimension>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СтопЛист</dataPath>
-        <field>СтопЛист</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Стоп лист</value>
-            </content>
-          </localValue>
-        </title>
-        <role>
-          <accountTypeExpression></accountTypeExpression>
-          <balanceGroupName></balanceGroupName>
-          <accountField></accountField>
-        </role>
-      </fields>
     </extInfo>
   </attributes>
   <attributes>
@@ -8887,16 +8290,14 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>СписокПодключений.Ref</segments>
-      </paths>
-    </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СписокПодключений.Архив</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СписокПодключений.ВидПодключенияБезЛогина</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокПодключений.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ

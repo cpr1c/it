@@ -44,10 +44,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВыбранныеФайлы.ИндексКартинки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВыбранныеФайлы.ИндексКартинки</segments>
           </dataPath>
           <extendedTooltip>
             <name>ВыбранныеФайлыИндексКартинкиExtendedTooltip</name>
@@ -97,10 +95,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ВыбранныеФайлы.Ссылка</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВыбранныеФайлы.Ссылка</segments>
           </dataPath>
           <extendedTooltip>
             <name>ВыбранныеСсылкаРасширеннаяПодсказка</name>
@@ -216,6 +212,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ВыбранныеФайлыСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -254,6 +251,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ВыбранныеФайлыСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -292,6 +290,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ВыбранныеФайлыУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -395,10 +394,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Комментарий</segments>
     </dataPath>
     <extendedTooltip>
       <name>ОписаниеExtendedTooltip</name>
@@ -452,10 +449,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ХранитьВерсии</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ХранитьВерсии</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -499,10 +494,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>УдалитьФайлыИзОсновногоКаталога</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>УдалитьФайлыИзОсновногоКаталога</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <toolTipRepresentation>Button</toolTipRepresentation>

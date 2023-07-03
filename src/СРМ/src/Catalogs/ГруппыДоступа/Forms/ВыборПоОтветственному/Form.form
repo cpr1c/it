@@ -41,10 +41,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ГруппыДоступа.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ГруппыДоступа.Наименование</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -88,10 +86,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ГруппыДоступа.Ссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ГруппыДоступа.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>ГруппыДоступаСсылкаРасширеннаяПодсказка</name>
@@ -180,6 +176,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ГруппыДоступаSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -218,6 +215,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ГруппыДоступаViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -256,6 +254,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ГруппыДоступаSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -319,10 +318,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Items.ГруппыДоступа.CurrentData.Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Items.ГруппыДоступа.CurrentData.Комментарий</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
     <extendedTooltip>

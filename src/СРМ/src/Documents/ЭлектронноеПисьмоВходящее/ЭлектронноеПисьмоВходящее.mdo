@@ -75,10 +75,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_ЭлектронноеПисьмоВходящее</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Document.ЭлектронноеПисьмоВходящее.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Document.ЭлектронноеПисьмоВходящее.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Document.ЭлектронноеПисьмоВходящее.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Document.ЭлектронноеПисьмоВходящее.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -87,10 +91,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_ЭлектронноеПисьмоВходящее</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -1304,7 +1312,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ОтветитьНаЭлектронноеПисьмо</picture>
     </picture>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="efeb2914-6604-403a-a11e-5cb995ab2bc9">
     <name>ОтветитьВсем</name>
@@ -1324,7 +1331,6 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ОтветитьНаЭлектронноеПисьмоВсем</picture>
     </picture>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="4c2dd77f-adc7-4f11-8e8f-1f8e41e6c84b">
     <name>Переслать</name>
@@ -1344,6 +1350,5 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.ПереслатьЭлектронноеПисьмо</picture>
     </picture>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Document>

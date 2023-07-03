@@ -179,10 +179,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Список.DefaultPicture</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Список.DefaultPicture</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
@@ -234,10 +232,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Список.Ссылка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Список.Ссылка</segments>
             </dataPath>
             <extendedTooltip>
               <name>СписокСсылкаРасширеннаяПодсказка</name>
@@ -316,10 +312,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Список.Код</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Список.Код</segments>
           </dataPath>
           <extendedTooltip>
             <name>СписокКодРасширеннаяПодсказка</name>
@@ -409,6 +403,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>СписокСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -447,6 +442,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>СписокСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -485,6 +481,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>СписокУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -545,6 +542,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
           <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
         </extInfo>
       </items>
@@ -1072,10 +1070,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>НеудачныеЗамены.Пиктограмма</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>НеудачныеЗамены.Пиктограмма</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -1126,10 +1122,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>НеудачныеЗамены.Данные</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>НеудачныеЗамены.Данные</segments>
               </dataPath>
               <extendedTooltip>
                 <name>НеудачныеЗаменыДанныеРасширеннаяПодсказка</name>
@@ -1208,10 +1202,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>НеудачныеЗамены.Код</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>НеудачныеЗамены.Код</segments>
             </dataPath>
             <extendedTooltip>
               <name>НеудачныеЗаменыКодРасширеннаяПодсказка</name>
@@ -1291,10 +1283,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>НеудачныеЗамены.Причина</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НеудачныеЗамены.Причина</segments>
           </dataPath>
           <extendedTooltip>
             <name>НеудачныеЗаменыПричинаРасширеннаяПодсказка</name>
@@ -1387,6 +1377,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>НеудачныеЗаменыСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1425,6 +1416,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>НеудачныеЗаменыСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1463,6 +1455,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>НеудачныеЗаменыУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1524,10 +1517,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РасшифровкаПричиныНеудачи</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РасшифровкаПричиныНеудачи</segments>
         </dataPath>
         <extendedTooltip>
           <name>РасшифровкаПричиныНеудачиРасширеннаяПодсказка</name>

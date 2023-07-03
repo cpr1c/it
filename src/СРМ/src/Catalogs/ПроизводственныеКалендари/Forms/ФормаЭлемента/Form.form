@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -63,10 +61,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Code</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Code</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодExtendedTooltip</name>
@@ -115,10 +111,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>НомерТекущегоГода</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НомерТекущегоГода</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -219,10 +213,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЕстьБазовыйКалендарь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЕстьБазовыйКалендарь</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -269,10 +261,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.БазовыйКалендарь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.БазовыйКалендарь</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -357,10 +347,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Календарь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Календарь</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -475,10 +463,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеПереносов</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеПереносов</segments>
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
@@ -544,10 +530,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СписокПереносов.Presentation</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокПереносов.Presentation</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -631,6 +615,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>СписокПереносовСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -669,6 +654,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>СписокПереносовСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -707,6 +693,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>СписокПереносовУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

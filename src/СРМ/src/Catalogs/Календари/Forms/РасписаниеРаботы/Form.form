@@ -28,10 +28,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РасписаниеРаботы.ВремяНачала</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РасписаниеРаботы.ВремяНачала</segments>
       </dataPath>
       <extendedTooltip>
         <name>РасписаниеРаботыВремяНачалаExtendedTooltip</name>
@@ -93,10 +91,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>РасписаниеРаботы.ВремяОкончания</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>РасписаниеРаботы.ВремяОкончания</segments>
       </dataPath>
       <extendedTooltip>
         <name>РасписаниеРаботыВремяОкончанияExtendedTooltip</name>
@@ -193,6 +189,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>РасписаниеРаботыSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -231,6 +228,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>РасписаниеРаботыViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -269,6 +267,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>РасписаниеРаботыSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СтрокаПоиска</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтрокаПоиска</segments>
         </dataPath>
         <defaultItem>true</defaultItem>
         <titleLocation>None</titleLocation>
@@ -76,10 +74,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Регион</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Регион</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -135,10 +131,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Адрес</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Адрес</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -313,10 +307,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Контрагенты.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Контрагенты.Наименование</segments>
       </dataPath>
       <extendedTooltip>
         <name>КонтрагентыНаименованиеРасширеннаяПодсказка</name>
@@ -368,10 +360,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Контрагенты.ЮридическийАдрес</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Контрагенты.ЮридическийАдрес</segments>
       </dataPath>
       <extendedTooltip>
         <name>КонтрагентыЮридическийАдресРасширеннаяПодсказка</name>
@@ -423,10 +413,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Контрагенты.Руководитель</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Контрагенты.Руководитель</segments>
       </dataPath>
       <extendedTooltip>
         <name>КонтрагентыРуководительРасширеннаяПодсказка</name>
@@ -476,10 +464,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Контрагенты.ИНН</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Контрагенты.ИНН</segments>
       </dataPath>
       <extendedTooltip>
         <name>КонтрагентыИННРасширеннаяПодсказка</name>
@@ -571,6 +557,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>КонтрагентыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -609,6 +596,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>КонтрагентыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -647,6 +635,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>КонтрагентыУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -710,10 +699,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Информация</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Информация</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

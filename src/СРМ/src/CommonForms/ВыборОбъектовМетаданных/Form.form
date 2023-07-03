@@ -45,10 +45,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.Пометка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -97,10 +95,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.Картинка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.Картинка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -155,10 +151,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.Представление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.Представление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПредставлениеExtendedTooltip</name>
@@ -274,6 +268,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ДеревоОбъектовМетаданныхСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -312,6 +307,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ДеревоОбъектовМетаданныхСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -350,6 +346,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ДеревоОбъектовМетаданныхУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

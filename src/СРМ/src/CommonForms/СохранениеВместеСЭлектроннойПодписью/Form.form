@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеДанных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеДанных</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеДанныхРасширеннаяПодсказка</name>
@@ -127,10 +125,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПодписей.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПодписей.Пометка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -177,10 +173,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПодписей.КомуВыданСертификат</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПодписей.КомуВыданСертификат</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПодписейАвторПодписиExtendedTooltip</name>
@@ -230,10 +224,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПодписей.ДатаПодписи</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПодписей.ДатаПодписи</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПодписейДатаПодписиExtendedTooltip</name>
@@ -282,10 +274,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ТаблицаПодписей.Комментарий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПодписей.Комментарий</segments>
         </dataPath>
         <extendedTooltip>
           <name>ТаблицаПодписейКомментарийExtendedTooltip</name>
@@ -372,6 +362,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ТаблицаПодписейСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -410,6 +401,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ТаблицаПодписейСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -448,6 +440,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ТаблицаПодписейУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -550,10 +543,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>СохранятьСертификатВместеСПодписью</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СохранятьСертификатВместеСПодписью</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
@@ -600,10 +591,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>БольшеНеСпрашивать</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>БольшеНеСпрашивать</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <toolTip>

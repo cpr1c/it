@@ -111,10 +111,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Файлы</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -123,10 +127,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Файлы</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>DontUse</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -1014,7 +1022,6 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="2bc2ca58-6cc0-4d4b-8672-f9328c86c2c1">
     <name>ВерсииФайла</name>
@@ -1027,6 +1034,5 @@
       <types>CatalogRef.Файлы</types>
     </commandParameterType>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

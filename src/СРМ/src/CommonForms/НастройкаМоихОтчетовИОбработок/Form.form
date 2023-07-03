@@ -229,10 +229,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ИспользуемыеКоманды.Использование</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИспользуемыеКоманды.Использование</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИспользуемыеКомандыИспользованиеРасширеннаяПодсказка</name>
@@ -274,10 +272,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ИспользуемыеКоманды.Представление</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИспользуемыеКоманды.Представление</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИспользуемыеКомандыПредставлениеРасширеннаяПодсказка</name>
@@ -392,6 +388,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ИспользуемыеКомандыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -430,6 +427,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ИспользуемыеКомандыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -468,6 +466,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ИспользуемыеКомандыУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

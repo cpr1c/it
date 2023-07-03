@@ -82,10 +82,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ГруппыДоступа.Наименование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ГруппыДоступа.Наименование</segments>
           </dataPath>
           <extendedTooltip>
             <name>ГруппыДоступаНаименованиеExtendedTooltip</name>
@@ -134,10 +132,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ГруппыДоступа.ПрофильНаименование</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ГруппыДоступа.ПрофильНаименование</segments>
           </dataPath>
           <extendedTooltip>
             <name>ГруппыДоступаПрофильПредставлениеExtendedTooltip</name>
@@ -186,10 +182,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ГруппыДоступа.Ответственный</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ГруппыДоступа.Ответственный</segments>
           </dataPath>
           <extendedTooltip>
             <name>ГруппыДоступаОтветственныйExtendedTooltip</name>
@@ -371,6 +365,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ГруппыДоступаSearchString</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -409,6 +404,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ГруппыДоступаViewStatus</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -447,6 +443,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ГруппыДоступаSearchControl</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -572,10 +569,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Items.ГруппыДоступа.CurrentData.Комментарий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.ГруппыДоступа.CurrentData.Комментарий</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <toolTip>
@@ -823,10 +818,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Роли.Пометка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Роли.Пометка</segments>
             </dataPath>
             <extendedTooltip>
               <name>РолиПометкаExtendedTooltip</name>
@@ -866,10 +859,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Роли.Синоним</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Роли.Синоним</segments>
             </dataPath>
             <extendedTooltip>
               <name>РолиСинонимExtendedTooltip</name>
@@ -1014,6 +1005,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>РолиSearchString</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1052,6 +1044,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>РолиViewStatus</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1090,6 +1083,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>РолиSearchControl</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

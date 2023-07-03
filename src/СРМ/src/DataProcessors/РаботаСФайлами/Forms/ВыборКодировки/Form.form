@@ -24,10 +24,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СписокКодировок.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокКодировок.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокКодировокЗначениеExtendedTooltip</name>
@@ -115,6 +113,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокКодировокSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -153,6 +152,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокКодировокViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -191,6 +191,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокКодировокSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -252,10 +253,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПоказыватьТолькоОсновныеКодировки</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПоказыватьТолькоОсновныеКодировки</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>

@@ -45,10 +45,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокДоменов.ИмяДомена</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокДоменов.ИмяДомена</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДоменыExtendedTooltip</name>
@@ -198,6 +196,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ТаблицаДоменовSearchString</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -236,6 +235,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ТаблицаДоменовViewStatus</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -274,6 +274,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ТаблицаДоменовSearchControl</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -492,10 +493,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокПользователейТекущегоДомена.ИмяПользователя</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокПользователейТекущегоДомена.ИмяПользователя</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПользователиExtendedTooltip</name>
@@ -645,6 +644,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ТаблицаПользователейДоменаSearchString</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -683,6 +683,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ТаблицаПользователейДоменаViewStatus</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -721,6 +722,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ТаблицаПользователейДоменаSearchControl</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

@@ -142,10 +142,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ВариантРазрешенияНеоднозначности</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВариантРазрешенияНеоднозначности</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <handlers>
@@ -235,10 +233,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВариантыВыбора.Представление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВариантыВыбора.Представление</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВариантыВыбораПредставлениеРасширеннаяПодсказка</name>
@@ -287,10 +283,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВариантыВыбора.Ссылка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВариантыВыбора.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВариантыВыбораСсылкаРасширеннаяПодсказка</name>
@@ -339,10 +333,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВариантыВыбора.Значение</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВариантыВыбора.Значение</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВариантыВыбораЗначениеРасширеннаяПодсказка</name>
@@ -520,6 +512,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ВариантыВыбораСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -558,6 +551,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ВариантыВыбораСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -596,6 +590,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ВариантыВыбораУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -678,10 +673,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЭлементыСправочника.Представление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЭлементыСправочника.Представление</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЭлементыСправочникаПредставлениеРасширеннаяПодсказка</name>
@@ -896,6 +889,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ЭлементыСправочникаСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -934,6 +928,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ЭлементыСправочникаСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -972,6 +967,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ЭлементыСправочникаУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

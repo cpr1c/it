@@ -505,10 +505,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Number</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Number</segments>
           </dataPath>
           <extendedTooltip>
             <name>НомерExtendedTooltip</name>
@@ -559,10 +557,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Date</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Date</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДатаExtendedTooltip</name>
@@ -646,10 +642,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.РежимАнкетирования</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.РежимАнкетирования</segments>
         </dataPath>
         <extendedTooltip>
           <name>РежимАнкетированияРасширеннаяПодсказка</name>
@@ -699,10 +693,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Опрос</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Опрос</segments>
         </dataPath>
         <extendedTooltip>
           <name>ОпросExtendedTooltip</name>
@@ -756,10 +748,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ШаблонАнкеты</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ШаблонАнкеты</segments>
         </dataPath>
         <extendedTooltip>
           <name>ШаблонАнкетыРасширеннаяПодсказка</name>
@@ -844,10 +834,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ДатаРедактирования</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ДатаРедактирования</segments>
         </dataPath>
         <extendedTooltip>
           <name>ДатаРедактированияExtendedTooltip</name>
@@ -898,10 +886,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Респондент</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Респондент</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -957,10 +943,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Интервьюер</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Интервьюер</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИнтервьюерРасширеннаяПодсказка</name>
@@ -1327,10 +1311,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоРазделов.Формулировка</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоРазделов.Формулировка</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -1415,6 +1397,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ДеревоРазделовСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1453,6 +1436,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ДеревоРазделовСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1491,6 +1475,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ДеревоРазделовУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2104,10 +2089,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Комментарий</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Комментарий</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
     <extendedTooltip>

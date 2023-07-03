@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>СообщениеЗаголовок</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СообщениеЗаголовок</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -74,10 +72,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Файлы.Presentation</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Файлы.Presentation</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеExtendedTooltip</name>
@@ -166,6 +162,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ФайлыСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -204,6 +201,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ФайлыСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -242,6 +240,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ФайлыУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -303,10 +302,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>СообщениеВопрос</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СообщениеВопрос</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>

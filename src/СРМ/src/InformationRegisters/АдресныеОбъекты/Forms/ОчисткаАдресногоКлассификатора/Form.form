@@ -45,10 +45,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СубъектыРФ.Очищать</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СубъектыРФ.Очищать</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -94,10 +92,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СубъектыРФ.Представление</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СубъектыРФ.Представление</segments>
             </dataPath>
             <extendedTooltip>
               <name>СубъектыРФПредставлениеРасширеннаяПодсказка</name>
@@ -395,6 +391,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>СубъектыРФСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -433,6 +430,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>СубъектыРФСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -471,6 +469,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>СубъектыРФУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -532,10 +531,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПоказыватьТолькоЗагруженныеРегионы</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПоказыватьТолькоЗагруженныеРегионы</segments>
           </dataPath>
           <titleLocation>Right</titleLocation>
           <handlers>
@@ -585,10 +582,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ВыбраноРегионовДляОчистки</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ВыбраноРегионовДляОчистки</segments>
             </dataPath>
             <extendedTooltip>
               <name>ВыбраноРегионовДляОчисткиРасширеннаяПодсказка</name>
@@ -890,10 +885,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТекстОписанияОчистки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТекстОписанияОчистки</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
@@ -979,10 +972,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТекстСостоянияОчистки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТекстСостоянияОчистки</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -1206,10 +1197,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТекстОписанияОчистки</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТекстОписанияОчистки</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>

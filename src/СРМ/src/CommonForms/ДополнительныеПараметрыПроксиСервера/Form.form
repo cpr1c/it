@@ -18,10 +18,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СерверHTTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СерверHTTP</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -74,10 +72,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПортHTTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПортHTTP</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПортHTTPExtendedTooltip</name>
@@ -172,10 +168,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СерверHTTPS</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СерверHTTPS</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -228,10 +222,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПортHTTPS</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПортHTTPS</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПортHTTPSExtendedTooltip</name>
@@ -326,10 +318,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СерверFTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СерверFTP</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -382,10 +372,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПортFTP</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПортFTP</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПортFTPExtendedTooltip</name>
@@ -521,10 +509,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ОдинПроксиДляВсехПротоколов</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОдинПроксиДляВсехПротоколов</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <handlers>
@@ -590,10 +576,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>АдресаИсключений.АдресСервера</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АдресаИсключений.АдресСервера</segments>
         </dataPath>
         <extendedTooltip>
           <name>АдресаИсключенийАдресСервераExtendedTooltip</name>
@@ -678,6 +662,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>АдресаИсключенийСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -716,6 +701,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>АдресаИсключенийСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -754,6 +740,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>АдресаИсключенийУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

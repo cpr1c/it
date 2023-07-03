@@ -62,10 +62,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Date</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Date</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -111,10 +109,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Number</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Number</segments>
       </dataPath>
       <extendedTooltip>
         <name>НомерExtendedTooltip</name>
@@ -159,10 +155,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Тема</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Тема</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТемаExtendedTooltip</name>
@@ -207,10 +201,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Предмет</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Предмет</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПредметExtendedTooltip</name>
@@ -259,10 +251,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ОтправительАдрес</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ОтправительАдрес</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОтправительАдресExtendedTooltip</name>
@@ -305,10 +295,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ref</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ref</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -393,6 +381,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -431,6 +420,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -469,6 +459,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -530,6 +521,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <autoCommandBar>

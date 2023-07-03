@@ -60,10 +60,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Description</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -111,10 +109,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Code</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Code</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодExtendedTooltip</name>
@@ -160,10 +156,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.КодАльфа2</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КодАльфа2</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодАльфа2ExtendedTooltip</name>
@@ -209,10 +203,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.КодАльфа3</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.КодАльфа3</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодАльфа3ExtendedTooltip</name>
@@ -257,10 +249,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.УчастникЕАЭС</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.УчастникЕАЭС</segments>
       </dataPath>
       <extendedTooltip>
         <name>УчастникЕАЭСРасширеннаяПодсказка</name>
@@ -306,10 +296,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.НаименованиеПолное</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НаименованиеПолное</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеПолноеExtendedTooltip</name>
@@ -352,10 +340,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Ref</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Ref</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
@@ -444,6 +430,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -482,6 +469,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -520,6 +508,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -581,6 +570,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>

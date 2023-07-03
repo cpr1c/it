@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Сообщение</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Сообщение</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -79,10 +77,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ФайлыБольшие.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФайлыБольшие.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЗначениеExtendedTooltip</name>
@@ -167,6 +163,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ФайлыБольшиеSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -205,6 +202,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ФайлыБольшиеViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -243,6 +241,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ФайлыБольшиеSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Формулировка</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Формулировка</segments>
     </dataPath>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
@@ -96,10 +94,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Вопросы.ЭлементарныйВопрос</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Вопросы.ЭлементарныйВопрос</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВопросыВопросExtendedTooltip</name>
@@ -191,6 +187,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ВопросыSearchString</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -229,6 +226,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ВопросыViewStatus</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -267,6 +265,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ВопросыSearchControl</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -366,10 +365,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СпособОтображенияПодсказки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СпособОтображенияПодсказки</segments>
       </dataPath>
       <extendedTooltip>
         <name>СпособОтображенияПодсказкиРасширеннаяПодсказка</name>
@@ -419,10 +416,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Подсказка</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Подсказка</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПодсказкаРасширеннаяПодсказка</name>

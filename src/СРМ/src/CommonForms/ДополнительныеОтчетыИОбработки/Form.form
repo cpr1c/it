@@ -40,10 +40,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ТаблицаКоманд.Представление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаКоманд.Представление</segments>
           </dataPath>
           <extendedTooltip>
             <name>ОбработкиПредставлениеExtendedTooltip</name>
@@ -133,6 +131,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ТаблицаКомандСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -171,6 +170,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ТаблицаКомандСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -209,6 +209,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ТаблицаКомандУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

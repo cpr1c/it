@@ -165,10 +165,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОбновлениеДляВерсий.Версия</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОбновлениеДляВерсий.Версия</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОбновлениеДляВерсийВерсияКонфигурацииРасширеннаяПодсказка</name>
@@ -252,6 +250,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ОбновлениеДляВерсийСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -290,6 +289,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ОбновлениеДляВерсийСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -328,6 +328,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ОбновлениеДляВерсийУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

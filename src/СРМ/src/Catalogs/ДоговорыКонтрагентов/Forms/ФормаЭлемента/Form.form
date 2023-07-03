@@ -21,10 +21,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.НомерДоговора</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.НомерДоговора</segments>
           </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
@@ -78,10 +76,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДатаДоговора</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ДатаДоговора</segments>
           </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
@@ -166,10 +162,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Description</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Description</segments>
           </dataPath>
           <skipOnInput>true</skipOnInput>
           <titleLocation>Left</titleLocation>
@@ -295,10 +289,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДатаНачалаДействия</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ДатаНачалаДействия</segments>
           </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
@@ -351,10 +343,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ДатаОкончанияДействия</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ДатаОкончанияДействия</segments>
           </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
@@ -504,10 +494,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Организация</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Организация</segments>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
@@ -560,10 +548,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Партнер</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Партнер</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -613,10 +599,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Owner</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Owner</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -762,10 +746,19 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаПорядокОплатыВалюта</name>
@@ -778,10 +771,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ВалютаРасчетов</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ВалютаРасчетов</segments>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>

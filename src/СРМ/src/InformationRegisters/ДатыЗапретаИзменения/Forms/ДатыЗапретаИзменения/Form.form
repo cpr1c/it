@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>УстановкаДатыЗапретаНовое</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УстановкаДатыЗапретаНовое</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -481,10 +479,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПользователиДатЗапрета.ПолноеПредставление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПользователиДатЗапрета.ПолноеПредставление</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -569,10 +565,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ПользователиДатЗапрета.Комментарий</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПользователиДатЗапрета.Комментарий</segments>
           </dataPath>
           <toolTip>
             <key>ru</key>
@@ -790,6 +784,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ПользователиСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -828,6 +823,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ПользователиСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -866,6 +862,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ПользователиУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1060,10 +1057,8 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
-                    <dataPath xsi:type="form:MultiLanguageDataPath">
-                      <paths xsi:type="form:DataPath">
-                        <segments>ОписаниеДатыЗапрета</segments>
-                      </paths>
+                    <dataPath xsi:type="form:DataPath">
+                      <segments>ОписаниеДатыЗапрета</segments>
                     </dataPath>
                     <titleLocation>None</titleLocation>
                     <extendedTooltip>
@@ -1118,10 +1113,8 @@
                       <userVisible>
                         <common>true</common>
                       </userVisible>
-                      <dataPath xsi:type="form:MultiLanguageDataPath">
-                        <paths xsi:type="form:DataPath">
-                          <segments>ОписаниеДатыЗапрета</segments>
-                        </paths>
+                      <dataPath xsi:type="form:DataPath">
+                        <segments>ОписаниеДатыЗапрета</segments>
                       </dataPath>
                       <titleLocation>None</titleLocation>
                       <extendedTooltip>
@@ -1174,10 +1167,8 @@
                       <userVisible>
                         <common>true</common>
                       </userVisible>
-                      <dataPath xsi:type="form:MultiLanguageDataPath">
-                        <paths xsi:type="form:DataPath">
-                          <segments>ДатаЗапрета</segments>
-                        </paths>
+                      <dataPath xsi:type="form:DataPath">
+                        <segments>ДатаЗапрета</segments>
                       </dataPath>
                       <handlers>
                         <event>OnChange</event>
@@ -1393,10 +1384,8 @@
                       <userVisible>
                         <common>true</common>
                       </userVisible>
-                      <dataPath xsi:type="form:MultiLanguageDataPath">
-                        <paths xsi:type="form:DataPath">
-                          <segments>ОписаниеДатыЗапрета</segments>
-                        </paths>
+                      <dataPath xsi:type="form:DataPath">
+                        <segments>ОписаниеДатыЗапрета</segments>
                       </dataPath>
                       <handlers>
                         <event>OnChange</event>
@@ -1527,10 +1516,8 @@
                           <userVisible>
                             <common>true</common>
                           </userVisible>
-                          <dataPath xsi:type="form:MultiLanguageDataPath">
-                            <paths xsi:type="form:DataPath">
-                              <segments>ДатаЗапрета</segments>
-                            </paths>
+                          <dataPath xsi:type="form:DataPath">
+                            <segments>ДатаЗапрета</segments>
                           </dataPath>
                           <titleLocation>None</titleLocation>
                           <handlers>
@@ -1763,10 +1750,8 @@
                           <userVisible>
                             <common>true</common>
                           </userVisible>
-                          <dataPath xsi:type="form:MultiLanguageDataPath">
-                            <paths xsi:type="form:DataPath">
-                              <segments>РазрешитьИзменениеДанныхДоДатыЗапрета</segments>
-                            </paths>
+                          <dataPath xsi:type="form:DataPath">
+                            <segments>РазрешитьИзменениеДанныхДоДатыЗапрета</segments>
                           </dataPath>
                           <titleLocation>Right</titleLocation>
                           <handlers>
@@ -1817,10 +1802,8 @@
                           <userVisible>
                             <common>true</common>
                           </userVisible>
-                          <dataPath xsi:type="form:MultiLanguageDataPath">
-                            <paths xsi:type="form:DataPath">
-                              <segments>КоличествоДнейРазрешения</segments>
-                            </paths>
+                          <dataPath xsi:type="form:DataPath">
+                            <segments>КоличествоДнейРазрешения</segments>
                           </dataPath>
                           <titleLocation>Right</titleLocation>
                           <handlers>
@@ -2214,10 +2197,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ДатыЗапрета.ПолноеПредставление</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ДатыЗапрета.ПолноеПредставление</segments>
                   </dataPath>
                   <toolTip>
                     <key>ru</key>
@@ -2287,10 +2268,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ДатыЗапрета.ОписаниеДатыЗапретаПредставление</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ДатыЗапрета.ОписаниеДатыЗапретаПредставление</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>ДатыЗапретаОписаниеДатыЗапретаПредставлениеExtendedTooltip</name>
@@ -2341,10 +2320,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>ДатыЗапрета.ДатаЗапрета</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>ДатыЗапрета.ДатаЗапрета</segments>
                   </dataPath>
                   <handlers>
                     <event>OnChange</event>
@@ -2625,6 +2602,7 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
+                  <source>ДатыЗапретаСтрокаПоиска</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2663,6 +2641,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
+                  <source>ДатыЗапретаСостояниеПросмотра</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2701,6 +2680,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
+                  <source>ДатыЗапретаУправлениеПоиском</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -2952,10 +2932,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>СпособУказанияДатыЗапрета</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СпособУказанияДатыЗапрета</segments>
               </dataPath>
               <extendedTooltip>
                 <name>СпособУказанияДатыЗапретаExtendedTooltip</name>

@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтборАвтор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборАвтор</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -352,10 +350,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВариантовОтчета.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВариантовОтчета.Наименование</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоВариантовОтчетаПредставлениеExtendedTooltip</name>
@@ -403,10 +399,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВариантовОтчета.КартинкаАвтора</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВариантовОтчета.КартинкаАвтора</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -463,10 +457,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоВариантовОтчета.Автор</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоВариантовОтчета.Автор</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоВариантовОтчетаАвторExtendedTooltip</name>
@@ -575,6 +567,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ДеревоВариантовОтчетаSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -613,6 +606,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ДеревоВариантовОтчетаViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -651,6 +645,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ДеревоВариантовОтчетаSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -787,10 +782,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ВариантОписание</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВариантОписание</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
     <extendedTooltip>

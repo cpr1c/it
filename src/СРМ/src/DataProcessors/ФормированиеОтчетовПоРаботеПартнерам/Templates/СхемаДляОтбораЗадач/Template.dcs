@@ -143,6 +143,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -159,6 +160,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -175,6 +177,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>
@@ -240,19 +243,16 @@
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Исполнитель</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Проект</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Партнер</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:order>
@@ -267,6 +267,8 @@
 						<dcsset:field>Исполнитель</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>
@@ -281,6 +283,8 @@
 							<dcsset:field>Проект</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>

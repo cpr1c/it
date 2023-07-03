@@ -80,10 +80,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ТипВзаимодействия</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТипВзаимодействия</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -260,10 +258,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Статус</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Статус</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -361,10 +357,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Ответственный</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Ответственный</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -486,10 +480,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Список.НомерКартинки</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.НомерКартинки</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -543,10 +535,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Список.Участники</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.Участники</segments>
               </dataPath>
               <extendedTooltip>
                 <name>УчастникиExtendedTooltip</name>
@@ -596,10 +586,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Список.Date</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.Date</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ДатаExtendedTooltip</name>
@@ -685,10 +673,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Список.Тема</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Список.Тема</segments>
             </dataPath>
             <extendedTooltip>
               <name>ТемаExtendedTooltip</name>
@@ -764,10 +750,8 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Список.Ref</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Список.Ref</segments>
           </dataPath>
           <extendedTooltip>
             <name>СсылкаРасширеннаяПодсказка</name>
@@ -1736,6 +1720,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>СписокСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1774,6 +1759,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>СписокСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1812,6 +1798,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>СписокУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1995,6 +1982,7 @@
             <endDate>0001-01-01T00:00:00</endDate>
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
           <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
         </extInfo>
       </items>
@@ -2071,10 +2059,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ДеревоВзаимодействий.НомерКартинки</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ДеревоВзаимодействий.НомерКартинки</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
@@ -2128,10 +2114,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ДеревоВзаимодействий.Участники</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ДеревоВзаимодействий.Участники</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ДеревоВзаимодействийУчастникиExtendedTooltip</name>
@@ -2184,10 +2168,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ДеревоВзаимодействий.Дата</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ДеревоВзаимодействий.Дата</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ДеревоВзаимодействийДатаExtendedTooltip</name>
@@ -2268,10 +2250,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоВзаимодействий.Тема</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоВзаимодействий.Тема</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДеревоВзаимодействийТемаExtendedTooltip</name>
@@ -3067,6 +3047,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>ДеревоВзаимодействийСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3105,6 +3086,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>ДеревоВзаимодействийСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3143,6 +3125,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>ДеревоВзаимодействийУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

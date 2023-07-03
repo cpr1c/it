@@ -42,10 +42,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Валюты.КодВалютыЦифровой</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Валюты.КодВалютыЦифровой</segments>
       </dataPath>
       <extendedTooltip>
         <name>КодВалютыExtendedTooltip</name>
@@ -100,10 +98,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Валюты.КодВалютыБуквенный</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Валюты.КодВалютыБуквенный</segments>
       </dataPath>
       <extendedTooltip>
         <name>КраткоеНаименованиеExtendedTooltip</name>
@@ -154,10 +150,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Валюты.Наименование</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Валюты.Наименование</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -208,10 +202,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Валюты.СтраныИТерритории</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Валюты.СтраныИТерритории</segments>
       </dataPath>
       <extendedTooltip>
         <name>СтраныИТерриторииExtendedTooltip</name>
@@ -260,10 +252,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Валюты.Загружается</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Валюты.Загружается</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <toolTip>
@@ -476,6 +466,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>СписокВалютSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -514,6 +505,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>СписокВалютViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -552,6 +544,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>СписокВалютSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

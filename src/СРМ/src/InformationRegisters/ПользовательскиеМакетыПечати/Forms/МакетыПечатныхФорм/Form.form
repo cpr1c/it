@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>СтрокаПоиска</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СтрокаПоиска</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <titleLocation>None</titleLocation>
@@ -85,10 +83,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтборПоИспользованиюМакета</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтборПоИспользованиюМакета</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -248,10 +244,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МакетыПечатныхФорм.КартинкаИспользования</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МакетыПечатныхФорм.КартинкаИспользования</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -307,10 +301,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МакетыПечатныхФорм.ПредставлениеМакета</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МакетыПечатныхФорм.ПредставлениеМакета</segments>
       </dataPath>
       <extendedTooltip>
         <name>МакетыПечатныхФормПредставлениеМакетаExtendedTooltip</name>
@@ -362,10 +354,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>МакетыПечатныхФорм.ПредставлениеВладельца</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>МакетыПечатныхФорм.ПредставлениеВладельца</segments>
       </dataPath>
       <extendedTooltip>
         <name>МакетыПечатныхФормПредставлениеВладельцаExtendedTooltip</name>
@@ -799,6 +789,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>МакетыПечатныхФормСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -837,6 +828,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>МакетыПечатныхФормСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -875,6 +867,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>МакетыПечатныхФормУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

@@ -81,10 +81,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Найти</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Найти</segments>
         </dataPath>
         <extendedTooltip>
           <name>НайтиРасширеннаяПодсказка</name>
@@ -382,10 +380,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ВариантыАдреса.Представление</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВариантыАдреса.Представление</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВариантыАдресаПредставлениеРасширеннаяПодсказка</name>
@@ -474,6 +470,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ВариантыАдресаСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -512,6 +509,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ВариантыАдресаСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -550,6 +548,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ВариантыАдресаУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

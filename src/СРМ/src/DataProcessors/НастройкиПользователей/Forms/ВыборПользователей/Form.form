@@ -305,10 +305,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ГруппыПользователей.Группа</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ГруппыПользователей.Группа</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -358,10 +356,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ГруппыПользователей.Картинка</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ГруппыПользователей.Картинка</segments>
           </dataPath>
           <extendedTooltip>
             <name>ГруппыПользователейКартинкаExtendedTooltip</name>
@@ -481,6 +477,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ГруппыПользователейSearchString</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -519,6 +516,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ГруппыПользователейViewStatus</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -557,6 +555,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ГруппыПользователейSearchControl</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -735,10 +734,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокПользователей.Пометка</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокПользователей.Пометка</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <handlers>
@@ -785,10 +782,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>СписокПользователей.Пользователь</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокПользователей.Пользователь</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -905,6 +900,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>СписокПользователейSearchString</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -943,6 +939,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>СписокПользователейViewStatus</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -981,6 +978,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>СписокПользователейSearchControl</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1165,10 +1163,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПоказыватьПользователейДочернихГрупп</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПоказыватьПользователейДочернихГрупп</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTip>

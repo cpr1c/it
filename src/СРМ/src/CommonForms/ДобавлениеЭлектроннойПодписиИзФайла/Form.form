@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПредставлениеДанных</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПредставлениеДанных</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеДанныхРасширеннаяПодсказка</name>
@@ -128,10 +126,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Подписи.ПутьКФайлу</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Подписи.ПутьКФайлу</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПодписиПутьКФайлуExtendedTooltip</name>
@@ -187,10 +183,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Подписи.Комментарий</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Подписи.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПодписиКомментарийExtendedTooltip</name>
@@ -315,6 +309,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ПодписиСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -353,6 +348,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ПодписиСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -391,6 +387,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ПодписиУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

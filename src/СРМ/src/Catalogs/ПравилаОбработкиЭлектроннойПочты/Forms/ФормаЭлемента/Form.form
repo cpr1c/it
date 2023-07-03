@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -70,10 +68,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ПомещатьВПапку</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ПомещатьВПапку</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПомещатьВПапкуExtendedTooltip</name>
@@ -217,6 +213,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>КомпоновщикНастроекНастройкиОтборСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -255,6 +252,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>КомпоновщикНастроекНастройкиОтборСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -293,6 +291,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>КомпоновщикНастроекНастройкиОтборУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

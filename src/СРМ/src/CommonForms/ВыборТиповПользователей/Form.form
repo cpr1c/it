@@ -27,10 +27,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Назначение.Check</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Назначение.Check</segments>
         </dataPath>
         <extendedTooltip>
           <name>НазначениеПометкаРасширеннаяПодсказка</name>
@@ -72,10 +70,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Назначение.Value</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Назначение.Value</segments>
         </dataPath>
         <extendedTooltip>
           <name>НазначениеЗначениеРасширеннаяПодсказка</name>
@@ -190,6 +186,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>НазначениеСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -228,6 +225,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>НазначениеСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -266,6 +264,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>НазначениеУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

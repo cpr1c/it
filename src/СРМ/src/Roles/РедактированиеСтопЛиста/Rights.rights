@@ -4,9 +4,39 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>InformationRegister.СтопЛист</name>
+		<name>InformationRegister.СтопЛист.Command.ДобавитьВСтопЛист</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтопЛист.Command.УбратьИзСтопЛиста</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтопЛист</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -18,11 +48,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
+			<name>UpdateDataHistory</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -30,7 +56,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>TotalsControl</name>
+			<name>UpdateDataHistorySettings</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -38,41 +64,15 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>ViewDataHistory</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistorySettings</name>
+			<name>EditDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СтопЛист.Command.ДобавитьВСтопЛист</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СтопЛист.Command.УбратьИзСтопЛиста</name>
-		<right>
-			<name>View</name>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>

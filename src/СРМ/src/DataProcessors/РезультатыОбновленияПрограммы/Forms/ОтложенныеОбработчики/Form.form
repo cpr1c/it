@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Статус</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Статус</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -140,10 +138,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СтрокаПоиска</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтрокаПоиска</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -576,10 +572,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ОтложенныеОбработчики.КартинкаПриоритет</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОтложенныеОбработчики.КартинкаПриоритет</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -635,10 +629,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ОтложенныеОбработчики.Номер</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОтложенныеОбработчики.Номер</segments>
         </dataPath>
         <extendedTooltip>
           <name>НомерРасширеннаяПодсказка</name>
@@ -690,10 +682,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ОтложенныеОбработчики.Обработчик</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОтложенныеОбработчики.Обработчик</segments>
         </dataPath>
         <extendedTooltip>
           <name>ОтложенныеОбработчикиОбработчикExtendedTooltip</name>
@@ -748,10 +738,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ОтложенныеОбработчики.СтатусКартинка</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОтложенныеОбработчики.СтатусКартинка</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -799,10 +787,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ОтложенныеОбработчики.СтатусПредставление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ОтложенныеОбработчики.СтатусПредставление</segments>
           </dataPath>
           <extendedTooltip>
             <name>ОтложенныеОбработчикиСтатусОбработчикаExtendedTooltip</name>
@@ -885,10 +871,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ОтложенныеОбработчики.ИнтервалВыполнения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОтложенныеОбработчики.ИнтервалВыполнения</segments>
         </dataPath>
         <extendedTooltip>
           <name>ОтложенныеОбработчикиИнтервалВыполненияРасширеннаяПодсказка</name>
@@ -940,10 +924,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ОтложенныеОбработчики.ДлительностьВыполнения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОтложенныеОбработчики.ДлительностьВыполнения</segments>
         </dataPath>
         <extendedTooltip>
           <name>ОтложенныеОбработчикиДлительностьВыполненияРасширеннаяПодсказка</name>
@@ -1033,6 +1015,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ОтложенныеОбработчикиСтрокаПоиска</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1071,6 +1054,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ОтложенныеОбработчикиСостояниеПросмотра</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1109,6 +1093,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ОтложенныеОбработчикиУправлениеПоиском</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1410,10 +1395,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Items.ОтложенныеОбработчики.CurrentData.ИнформацияОПроцедуреОбновления</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Items.ОтложенныеОбработчики.CurrentData.ИнформацияОПроцедуреОбновления</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>

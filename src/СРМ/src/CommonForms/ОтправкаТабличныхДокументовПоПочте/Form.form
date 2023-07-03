@@ -39,10 +39,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ФорматыСохранения.Check</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФорматыСохранения.Check</segments>
       </dataPath>
       <extendedTooltip>
         <name>ФорматыСохраненияПометкаExtendedTooltip</name>
@@ -84,10 +82,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ФорматыСохранения.Value</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФорматыСохранения.Value</segments>
       </dataPath>
       <extendedTooltip>
         <name>ФорматыСохраненияЗначениеExtendedTooltip</name>
@@ -171,6 +167,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ФорматыСохраненияSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -209,6 +206,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ФорматыСохраненияViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -247,6 +245,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ФорматыСохраненияSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -306,10 +305,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>УпаковатьВАрхив</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>УпаковатьВАрхив</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>

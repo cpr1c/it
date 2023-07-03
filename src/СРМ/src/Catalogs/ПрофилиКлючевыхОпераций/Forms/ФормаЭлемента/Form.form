@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
       <name>НаименованиеРасширеннаяПодсказка</name>
@@ -75,10 +73,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.КлючевыеОперацииПрофиля.КлючеваяОперация</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.КлючевыеОперацииПрофиля.КлючеваяОперация</segments>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеОперацииПрофиляКлючеваяОперацияРасширеннаяПодсказка</name>
@@ -127,10 +123,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.КлючевыеОперацииПрофиля.ЦелевоеВремя</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.КлючевыеОперацииПрофиля.ЦелевоеВремя</segments>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеОперацииПрофиляЦелевоеВремяРасширеннаяПодсказка</name>
@@ -179,10 +173,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.КлючевыеОперацииПрофиля.Приоритет</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.КлючевыеОперацииПрофиля.Приоритет</segments>
       </dataPath>
       <extendedTooltip>
         <name>КлючевыеОперацииПрофиляВажностьРасширеннаяПодсказка</name>
@@ -359,6 +351,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>КлючевыеОперацииПрофиляСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -397,6 +390,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>КлючевыеОперацииПрофиляСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -435,6 +429,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>КлючевыеОперацииПрофиляУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

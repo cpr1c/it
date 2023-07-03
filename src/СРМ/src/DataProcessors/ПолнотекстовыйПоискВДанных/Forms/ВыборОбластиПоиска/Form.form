@@ -15,10 +15,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПереключательВездеВРазделах</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПереключательВездеВРазделах</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -335,10 +333,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоРазделовПоиска.Пометка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоРазделовПоиска.Пометка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -387,10 +383,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоРазделовПоиска.Картинка</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоРазделовПоиска.Картинка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -438,10 +432,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоРазделовПоиска.Раздел</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоРазделовПоиска.Раздел</segments>
         </dataPath>
         <extendedTooltip>
           <name>РазделРасширеннаяПодсказка</name>
@@ -557,6 +549,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ДеревоРазделовПоискаСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -595,6 +588,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ДеревоРазделовПоискаСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -633,6 +627,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ДеревоРазделовПоискаУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

@@ -37,10 +37,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Респонденты.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Респонденты.Description</segments>
       </dataPath>
       <extendedTooltip>
         <name>РеспондентыНаименованиеExtendedTooltip</name>
@@ -83,10 +81,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Респонденты.Ref</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Респонденты.Ref</segments>
       </dataPath>
       <extendedTooltip>
         <name>РеспондентыСсылкаРасширеннаяПодсказка</name>
@@ -175,6 +171,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>РеспондентыSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -213,6 +210,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>РеспондентыViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -251,6 +249,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>РеспондентыSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -309,6 +308,7 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>

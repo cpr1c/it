@@ -35,10 +35,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Получатели.Выбран</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Получатели.Выбран</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -90,10 +88,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Получатели.Представление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Получатели.Представление</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПолучателиПредставлениеExtendedTooltip</name>
@@ -142,10 +138,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Получатели.ПредставлениеАдреса</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Получатели.ПредставлениеАдреса</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПолучателиПредставлениеАдресаExtendedTooltip</name>
@@ -226,10 +220,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Получатели.Пояснение</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Получатели.Пояснение</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПолучателиПояснениеExtendedTooltip</name>
@@ -381,6 +373,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ПолучателиSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -419,6 +412,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ПолучателиViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -457,6 +451,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ПолучателиSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -665,10 +660,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВыбранныеФорматыСохранения.Check</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВыбранныеФорматыСохранения.Check</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВыбранныеФорматыСохраненияПометкаExtendedTooltip</name>
@@ -710,10 +703,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ВыбранныеФорматыСохранения.Value</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ВыбранныеФорматыСохранения.Value</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВыбранныеФорматыСохраненияЗначениеExtendedTooltip</name>
@@ -797,6 +788,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <source>ВыбранныеФорматыСохраненияSearchString</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -835,6 +827,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
+        <source>ВыбранныеФорматыСохраненияViewStatus</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -873,6 +866,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
+        <source>ВыбранныеФорматыСохраненияSearchControl</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -965,10 +959,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ФорматВложений</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФорматВложений</segments>
       </dataPath>
       <extendedTooltip>
         <name>ФорматВложенийExtendedTooltip</name>
@@ -1022,10 +1014,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>УпаковатьВАрхив</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>УпаковатьВАрхив</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
@@ -1068,10 +1058,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ПереводитьИменаФайловВТранслит</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПереводитьИменаФайловВТранслит</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <toolTip>

@@ -11,10 +11,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Description</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -67,10 +65,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Parent</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Parent</segments>
       </dataPath>
       <extendedTooltip>
         <name>РодительExtendedTooltip</name>
@@ -184,10 +180,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Состав.Пользователь</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Состав.Пользователь</segments>
           </dataPath>
           <extendedTooltip>
             <name>ПользовательExtendedTooltip</name>
@@ -238,10 +232,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Состав.Недействителен</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Состав.Недействителен</segments>
           </dataPath>
           <extendedTooltip>
             <name>НедействителенExtendedTooltip</name>
@@ -395,7 +387,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</commandName>
+            <commandName>0</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -670,6 +662,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <source>СоставСтрокаПоиска</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -708,6 +701,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
+          <source>СоставСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -746,6 +740,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
+          <source>СоставУправлениеПоиском</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -884,7 +879,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>10:0ae4bea5-23be-42a7-b69e-97b11b29c453</commandName>
+            <commandName>0</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1083,10 +1078,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Комментарий</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Комментарий</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>

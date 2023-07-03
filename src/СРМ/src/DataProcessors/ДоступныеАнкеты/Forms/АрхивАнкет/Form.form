@@ -68,10 +68,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтвеченныеАнкеты.КодКартинки</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтвеченныеАнкеты.КодКартинки</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -126,10 +124,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтвеченныеАнкеты.НаименованиеОпроса</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтвеченныеАнкеты.НаименованиеОпроса</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеОпросаExtendedTooltip</name>
@@ -179,10 +175,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтвеченныеАнкеты.ДатаЗаполнения</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтвеченныеАнкеты.ДатаЗаполнения</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаЗаполненияExtendedTooltip</name>
@@ -229,10 +223,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ОтвеченныеАнкеты.Анкета</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ОтвеченныеАнкеты.Анкета</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОтвеченныеАнкетыАнкетаРасширеннаяПодсказка</name>
@@ -348,6 +340,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <source>ОтвеченныеАнкетыSearchString</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -386,6 +379,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
+      <source>ОтвеченныеАнкетыViewStatus</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -424,6 +418,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
+      <source>ОтвеченныеАнкетыSearchControl</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -484,6 +479,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
