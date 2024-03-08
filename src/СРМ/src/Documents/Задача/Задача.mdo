@@ -81,6 +81,7 @@
   <defaultChoiceForm>Document.Задача.Form.ФормаВыбора</defaultChoiceForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.Трудозатраты</registerRecords>
+  <registerRecords>AccumulationRegister.ВыработкаИсполнителей</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="b688063a-c0e8-11e9-c588-64809943c784">
@@ -699,6 +700,49 @@
         <stringQualifiers>
           <length>50</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ad2f567f-a17d-4d48-b357-490377437369">
+    <producedTypes>
+      <objectType typeId="335d3898-f70b-45d8-bda0-9350d90780b4" valueTypeId="b76a15da-b246-41e4-adaa-131ccdcfd5ab"/>
+      <rowType typeId="5f130dba-d429-43d9-b3e5-4a50a889b9ad" valueTypeId="fe090e60-0375-440e-89f6-8a27312bee3f"/>
+    </producedTypes>
+    <name>ДополнительныеИсполнители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные исполнители</value>
+    </synonym>
+    <attributes uuid="1eeccdbb-22fd-4333-bb64-3ba2974c6127">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e96e09bd-104d-4cd0-80a6-d7c242cd72e8">
+      <name>ОценкаТрудозатрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оценка трудозатрат</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

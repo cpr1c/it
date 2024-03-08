@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e658c19-f2cb-460b-9ec6-ea5730891ed1">
+  <producedTypes>
+    <selectionType typeId="46ace152-ec43-4d4c-87aa-2632258285f7" valueTypeId="5d632284-14a9-40bf-bfa6-8e07e9c8d4c2"/>
+    <listType typeId="5a9d968f-4591-4eca-a8fb-2198fda231d1" valueTypeId="f9704fbe-737c-4ce0-9bd8-e290842d7e9b"/>
+    <managerType typeId="ef1d341e-74a9-450d-a91e-eb73db1797b8" valueTypeId="da02f2b3-a73d-4cf7-90b4-5ddeeea646a8"/>
+    <recordSetType typeId="b74fc4f0-2bfd-4e9a-8b48-dfdce016c251" valueTypeId="932b28e8-f98b-44aa-a114-572a2dbbe285"/>
+    <recordKeyType typeId="2869cead-bc6c-48c3-9c8b-44b459b6d1ca" valueTypeId="83412a7e-dc40-41b2-b901-5adb8d78f1bb"/>
+    <recordType typeId="f045ddca-7eac-4d90-8be1-b19ac720ea87" valueTypeId="4f26e396-185f-4bf3-a806-c1e13c6e1617"/>
+  </producedTypes>
+  <name>ВыработкаИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="422e7231-7787-4b3a-8465-018571aea69a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="cdd711b2-0453-49ca-85a5-63fa6d6db729">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="389aaad7-2301-4a9b-a497-2428d0ba7330">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
