@@ -266,6 +266,84 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="d00a4c3b-e2c7-4140-bc3e-0ddae4ce030f">
+      <name>КлючСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="078dbc05-4375-4839-a89c-2dc69354503e">
+    <producedTypes>
+      <objectType typeId="98ed2c6e-1d16-45d5-bab9-fb45a1cd70c9" valueTypeId="26f8493f-cfe4-43a2-b413-05e2d1643fc9"/>
+      <rowType typeId="306ebd41-9e5b-4814-8554-6c8f4b84262e" valueTypeId="6956ad74-b9aa-4b3e-8172-e6e03ae08734"/>
+    </producedTypes>
+    <name>ДополнительныеИсполнители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные исполнители</value>
+    </synonym>
+    <attributes uuid="ae58bdc1-3036-4a1a-a288-c4ffda6525dd">
+      <name>КлючСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="904a6f4d-4e6a-40ce-af74-c0d4e4a4d808">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b880ed15-65c1-4e50-b9b4-8292b2c57e23">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <templates uuid="9e032d78-206a-11eb-a489-00f48df11581">
     <name>ОтчетПоРаботе</name>
