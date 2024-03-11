@@ -823,16 +823,16 @@
           <name>ЗадачиКоманднаяПанель</name>
           <id>18</id>
           <items xsi:type="form:Button">
-            <name>ЗадачиЗаполнитьЗадачи</name>
-            <id>50</id>
+            <name>ЗадачиУдалитьВыделенныеСтроки</name>
+            <id>102</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ЗадачиЗаполнитьЗадачиРасширеннаяПодсказка</name>
-              <id>51</id>
+              <name>ЗадачиУдалитьВыделенныеСтрокиРасширеннаяПодсказка</name>
+              <id>103</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -845,7 +845,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ЗаполнитьЗадачи</commandName>
+            <commandName>Form.Command.УдалитьВыделенныеСтроки</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -994,6 +994,36 @@
         <contextMenu>
           <name>ЗадачиКонтекстноеМеню</name>
           <id>17</id>
+          <items xsi:type="form:Button">
+            <name>ЗадачиКонтекстноеМенюУдалитьВыделенныеСтроки</name>
+            <id>104</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗадачиКонтекстноеМенюУдалитьВыделенныеСтрокиРасширеннаяПодсказка</name>
+              <id>105</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.УдалитьВыделенныеСтроки</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1001,6 +1031,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <readOnly>true</readOnly>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1698,24 +1729,25 @@
     </additionalColumns>
   </attributes>
   <formCommands>
-    <name>ЗаполнитьЗадачи</name>
+    <name>УдалитьВыделенныеСтроки</name>
     <title>
       <key>ru</key>
-      <value>Заполнить задачи</value>
+      <value>Удалить выделенные строки</value>
     </title>
     <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить задачи</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Delete</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗаполнитьЗадачи</name>
+        <name>УдалитьВыделенныеСтроки</name>
       </handler>
     </action>
+    <representation>TextPicture</representation>
+    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
