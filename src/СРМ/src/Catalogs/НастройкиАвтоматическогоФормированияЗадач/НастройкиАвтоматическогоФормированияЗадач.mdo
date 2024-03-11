@@ -298,6 +298,34 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="657053c3-ddf9-4697-ad1a-aad14263a0f5">
+    <producedTypes>
+      <objectType typeId="20b8add8-d074-4260-b51a-7b68db45a15d" valueTypeId="3afa09ed-998b-4942-96f4-e749af0e0841"/>
+      <rowType typeId="6b84cf7a-97ed-4a3a-b7fd-2bb241fa9339" valueTypeId="33d6929c-db33-4676-aef8-7d61536ef819"/>
+    </producedTypes>
+    <name>ЗаблокированныеАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокированные адреса</value>
+    </synonym>
+    <attributes uuid="d6ff3ad2-7bff-49f5-b200-ceda025f36b4">
+      <name>АдресЭлектроннойПочты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="715351e8-1e51-11ea-5b9f-00f48df11581">
     <name>ФормаЭлемента</name>
     <synonym>
