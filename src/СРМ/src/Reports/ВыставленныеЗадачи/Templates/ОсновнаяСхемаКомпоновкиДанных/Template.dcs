@@ -176,24 +176,6 @@
 			</appearance>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ПериодРегистрации</dataPath>
-			<field>ПериодРегистрации</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-			<appearance>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДФ='ММММ гггг "г."'</v8:content>
-						</v8:item>
-					</dcscor:value>
-				</dcscor:item>
-			</appearance>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодДекада</dataPath>
 			<field>ПериодДекада</field>
 			<role>
@@ -231,7 +213,6 @@
 	ВысталенныеЗадачиОбороты.ПериодКвартал КАК ПериодКвартал,
 	ВысталенныеЗадачиОбороты.ПериодПолугодие КАК ПериодПолугодие,
 	ВысталенныеЗадачиОбороты.ПериодГод КАК ПериодГод,
-	ВысталенныеЗадачиОбороты.ПериодРегистрации КАК ПериодРегистрации,
 	ВысталенныеЗадачиОбороты.Партнер КАК Партнер,
 	ВысталенныеЗадачиОбороты.Задача КАК Задача,
 	ВысталенныеЗадачиОбороты.Исполнитель КАК Исполнитель,
@@ -354,7 +335,7 @@
 				<dcsset:column>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>ПериодРегистрации</dcsset:field>
+							<dcsset:field>ПериодМесяц</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -514,7 +495,7 @@
 						<dcsset:use>false</dcsset:use>
 						<dcsset:groupItems>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
-								<dcsset:field>ПериодРегистрации</dcsset:field>
+								<dcsset:field>ПериодМесяц</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
