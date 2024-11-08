@@ -285,7 +285,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>СписокПолучателейСтрокаПоиска</source>
+        <source>СписокПолучателей</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -324,7 +324,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>СписокПолучателейСостояниеПросмотра</source>
+        <source>СписокПолучателей</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -363,7 +363,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>СписокПолучателейУправлениеПоиском</source>
+        <source>СписокПолучателей</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -903,6 +903,7 @@
               <type>UsualGroup</type>
               <extInfo xsi:type="form:UsualGroupExtInfo">
                 <group>AlwaysHorizontal</group>
+                <behavior>Auto</behavior>
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
@@ -996,6 +997,7 @@
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
               <group>Vertical</group>
+              <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -1032,6 +1034,7 @@
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
               <group>HorizontalIfPossible</group>
+              <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -1065,6 +1068,7 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
+            <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
@@ -1278,6 +1282,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -1559,7 +1564,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ВложенияСтрокаПоиска</source>
+        <source>Вложения</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1598,7 +1603,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ВложенияСостояниеПросмотра</source>
+        <source>Вложения</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1637,7 +1642,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ВложенияУправлениеПоиском</source>
+        <source>Вложения</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -2325,6 +2330,7 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
+        <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -2472,6 +2478,7 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
+            <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
@@ -2675,6 +2682,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
+          <behavior>Auto</behavior>
           <representation>NormalSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -2711,6 +2719,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
         <verticalAlign>Bottom</verticalAlign>
+        <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -2744,6 +2753,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -3365,6 +3375,7 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>HorizontalIfPossible</group>

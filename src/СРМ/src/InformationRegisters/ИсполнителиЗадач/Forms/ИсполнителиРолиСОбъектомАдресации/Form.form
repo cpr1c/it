@@ -81,6 +81,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -266,7 +267,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокSearchString</source>
+      <source>Список</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -305,7 +306,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокViewStatus</source>
+      <source>Список</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -344,7 +345,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокSearchControl</source>
+      <source>Список</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -504,6 +505,7 @@
   </handlers>
   <excludedCommands>SwitchActivity</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

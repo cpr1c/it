@@ -143,6 +143,7 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>HorizontalIfPossible</group>
+            <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
@@ -581,6 +582,7 @@
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
               <group>HorizontalIfPossible</group>
+              <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -914,6 +916,7 @@
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
               <group>HorizontalIfPossible</group>
+              <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -943,6 +946,7 @@
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>AlwaysHorizontal</group>
+            <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
@@ -1022,6 +1026,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -1406,7 +1411,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ТрудозатратыСтрокаПоиска</source>
+          <source>Трудозатраты</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1445,7 +1450,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ТрудозатратыСостояниеПросмотра</source>
+          <source>Трудозатраты</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1484,7 +1489,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ТрудозатратыУправлениеПоиском</source>
+          <source>Трудозатраты</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1869,7 +1874,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ИсторияИзмененийСтрокаПоиска</source>
+          <source>ИсторияИзменений</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1908,7 +1913,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ИсторияИзмененийСостояниеПросмотра</source>
+          <source>ИсторияИзменений</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1947,7 +1952,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ИсторияИзмененийУправлениеПоиском</source>
+          <source>ИсторияИзменений</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2096,6 +2101,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

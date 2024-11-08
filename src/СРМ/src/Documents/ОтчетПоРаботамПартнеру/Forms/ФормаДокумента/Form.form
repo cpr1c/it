@@ -188,6 +188,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -371,6 +372,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -893,7 +895,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЗадачиСтрокаПоиска</source>
+          <source>Задачи</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -932,7 +934,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЗадачиСостояниеПросмотра</source>
+          <source>Задачи</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -971,7 +973,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЗадачиУправлениеПоиском</source>
+          <source>Задачи</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1211,7 +1213,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЗадачиДополнительныеИсполнителиСтрокаПоиска</source>
+          <source>ЗадачиДополнительныеИсполнители</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1250,7 +1252,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЗадачиДополнительныеИсполнителиСостояниеПросмотра</source>
+          <source>ЗадачиДополнительныеИсполнители</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1289,7 +1291,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЗадачиДополнительныеИсполнителиУправлениеПоиском</source>
+          <source>ЗадачиДополнительныеИсполнители</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1579,6 +1581,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -1597,7 +1600,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Ссылка</segments>
+        <segments>Объект.Ref</segments>
       </dataPath>
       <extendedTooltip>
         <name>ФормаОбщаяКомандаИсторияИзмененийРасширеннаяПодсказка</name>
@@ -1637,6 +1640,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1768,12 +1772,12 @@
       <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

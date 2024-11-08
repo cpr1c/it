@@ -307,6 +307,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -2003,7 +2004,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ЖурналСтрокаПоиска</source>
+          <source>Журнал</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2042,7 +2043,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ЖурналСостояниеПросмотра</source>
+          <source>Журнал</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2081,7 +2082,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ЖурналУправлениеПоиском</source>
+          <source>Журнал</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2503,6 +2504,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>

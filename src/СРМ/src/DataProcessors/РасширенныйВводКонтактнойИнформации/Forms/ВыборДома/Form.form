@@ -168,6 +168,7 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
+        <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -200,6 +201,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -329,7 +331,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокАдресныхОбъектовСтрокаПоиска</source>
+      <source>СписокАдресныхОбъектов</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -368,7 +370,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокАдресныхОбъектовСостояниеПросмотра</source>
+      <source>СписокАдресныхОбъектов</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -407,7 +409,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокАдресныхОбъектовУправлениеПоиском</source>
+      <source>СписокАдресныхОбъектов</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -471,6 +473,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

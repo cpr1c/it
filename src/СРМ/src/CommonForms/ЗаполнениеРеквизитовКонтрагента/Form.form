@@ -236,6 +236,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
+        <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -269,6 +270,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <backColor xsi:type="core:ColorRef">
@@ -557,7 +559,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>КонтрагентыСтрокаПоиска</source>
+      <source>Контрагенты</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -596,7 +598,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>КонтрагентыСостояниеПросмотра</source>
+      <source>Контрагенты</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -635,7 +637,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>КонтрагентыУправлениеПоиском</source>
+      <source>Контрагенты</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -887,6 +889,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -919,6 +922,7 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

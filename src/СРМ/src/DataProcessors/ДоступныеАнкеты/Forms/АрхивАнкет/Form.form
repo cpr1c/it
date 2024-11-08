@@ -32,6 +32,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
@@ -340,7 +341,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ОтвеченныеАнкетыSearchString</source>
+      <source>ОтвеченныеАнкеты</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -379,7 +380,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ОтвеченныеАнкетыViewStatus</source>
+      <source>ОтвеченныеАнкеты</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -418,7 +419,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ОтвеченныеАнкетыSearchControl</source>
+      <source>ОтвеченныеАнкеты</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -509,6 +510,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>

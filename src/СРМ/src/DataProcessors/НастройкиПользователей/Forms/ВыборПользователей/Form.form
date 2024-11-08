@@ -477,7 +477,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ГруппыПользователейSearchString</source>
+        <source>ГруппыПользователей</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -516,7 +516,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ГруппыПользователейViewStatus</source>
+        <source>ГруппыПользователей</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -555,7 +555,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ГруппыПользователейSearchControl</source>
+        <source>ГруппыПользователей</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -900,7 +900,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>СписокПользователейSearchString</source>
+        <source>СписокПользователей</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -939,7 +939,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>СписокПользователейViewStatus</source>
+        <source>СписокПользователей</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -978,7 +978,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>СписокПользователейSearchControl</source>
+        <source>СписокПользователей</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1139,6 +1139,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -1307,6 +1308,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

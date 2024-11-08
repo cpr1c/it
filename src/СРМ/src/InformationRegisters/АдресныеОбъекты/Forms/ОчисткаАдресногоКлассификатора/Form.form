@@ -391,7 +391,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>СубъектыРФСтрокаПоиска</source>
+          <source>СубъектыРФ</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -430,7 +430,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>СубъектыРФСостояниеПросмотра</source>
+          <source>СубъектыРФ</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -469,7 +469,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>СубъектыРФУправлениеПоиском</source>
+          <source>СубъектыРФ</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -662,6 +662,7 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>HorizontalIfPossible</group>
             <horizontalAlign>Right</horizontalAlign>
+            <behavior>Auto</behavior>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
@@ -695,6 +696,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -793,6 +795,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
+          <behavior>Auto</behavior>
           <representation>NormalSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -955,6 +958,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -1102,6 +1106,7 @@
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
           <verticalAlign>Bottom</verticalAlign>
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -1265,6 +1270,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -1363,6 +1369,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <verticalAlign>Bottom</verticalAlign>
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -1453,6 +1460,7 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

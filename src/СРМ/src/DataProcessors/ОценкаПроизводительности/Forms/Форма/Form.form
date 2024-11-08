@@ -214,6 +214,7 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
+        <behavior>Auto</behavior>
         <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
@@ -389,6 +390,7 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
+        <behavior>Auto</behavior>
         <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
@@ -422,6 +424,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -845,7 +848,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ПроизводительностьSearchString</source>
+          <source>Производительность</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -884,7 +887,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ПроизводительностьViewStatus</source>
+          <source>Производительность</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -923,7 +926,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ПроизводительностьSearchControl</source>
+          <source>Производительность</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1295,6 +1298,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1313,9 +1317,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1/0:f54fde64-ca9e-49cc-8dc9-59ecaf4625a8</segments>
-    </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ВариантФильтраКомментарий</segments>
     </settingsSavedData>

@@ -84,6 +84,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <behavior>Auto</behavior>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -309,7 +310,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ПодписиСтрокаПоиска</source>
+      <source>Подписи</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -348,7 +349,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ПодписиСостояниеПросмотра</source>
+      <source>Подписи</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -387,7 +388,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ПодписиУправлениеПоиском</source>
+      <source>Подписи</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -522,6 +523,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

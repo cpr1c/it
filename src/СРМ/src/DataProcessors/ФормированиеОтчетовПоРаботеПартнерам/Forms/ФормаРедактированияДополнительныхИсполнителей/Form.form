@@ -211,7 +211,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ДополнительныеИсполнителиСтрокаПоиска</source>
+      <source>ДополнительныеИсполнители</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -250,7 +250,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ДополнительныеИсполнителиСостояниеПросмотра</source>
+      <source>ДополнительныеИсполнители</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -289,7 +289,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ДополнительныеИсполнителиУправлениеПоиском</source>
+      <source>ДополнительныеИсполнители</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -411,13 +411,14 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>FillCheckProcessingAtServer</event>
-    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>FillCheckProcessingAtServer</event>
+    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

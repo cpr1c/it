@@ -121,6 +121,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
       <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -250,7 +251,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ОбновлениеДляВерсийСтрокаПоиска</source>
+      <source>ОбновлениеДляВерсий</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -289,7 +290,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ОбновлениеДляВерсийСостояниеПросмотра</source>
+      <source>ОбновлениеДляВерсий</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -328,7 +329,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ОбновлениеДляВерсийУправлениеПоиском</source>
+      <source>ОбновлениеДляВерсий</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -469,6 +470,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

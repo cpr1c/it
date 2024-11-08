@@ -6,6 +6,7 @@
     <value>Записать версию документа</value>
   </synonym>
   <source>
+    <types>DocumentObject.ОтчетПоРаботамПартнеру</types>
     <types>DocumentObject.Встреча</types>
     <types>DocumentObject.НазначениеОпросов</types>
     <types>DocumentObject.ЭлектронноеПисьмоВходящее</types>
@@ -18,7 +19,6 @@
     <types>DocumentObject.ТелефонныйЗвонок</types>
     <types>DocumentObject.Задача</types>
     <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
-    <types>DocumentObject.ОтчетПоРаботамПартнеру</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.ВерсионированиеОбъектовСобытия.ЗаписатьВерсиюДокумента</handler>
