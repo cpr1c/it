@@ -39,11 +39,6 @@
             <value>&lt;color #807a59>Включение автоматической проверки может замедлить открытие документов на медленных компьютерах. Для таких компьютеров рекомендуется использовать ручную проверку по кнопке в подменю Еще.&lt;/>
 &lt;link e1cib/app/Обработка.ИнструкцияПоИспользованиюПроверкиКонтрагента>Подробнее о сервисе&lt;/></value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <formatted>true</formatted>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -55,11 +50,6 @@
         <contextMenu>
           <name>ИспользоватьАвтоматическуюПроверкуКонтрагентовКонтекстноеМеню</name>
           <id>157</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -82,11 +72,6 @@
       <extendedTooltip>
         <name>ЛеваяКолонкаПервойГруппыРасширеннаяПодсказка</name>
         <id>130</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -118,11 +103,6 @@
         <extendedTooltip>
           <name>ПроверитьДоступКСервисуРасширеннаяПодсказка</name>
           <id>136</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -132,6 +112,7 @@
         </extendedTooltip>
         <type>UsualButton</type>
         <commandName>Form.Command.ПроверитьДоступКСервису</commandName>
+        <buttonImportance>Normal</buttonImportance>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -153,11 +134,6 @@
         <extendedTooltip>
           <name>ПредупреждениеПроТестовыйРежимПроверкиКонтрагентаРасширеннаяПодсказка</name>
           <id>123</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -168,11 +144,6 @@
         <contextMenu>
           <name>ПредупреждениеПроТестовыйРежимПроверкиКонтрагентаКонтекстноеМеню</name>
           <id>122</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>Label</type>
@@ -200,11 +171,6 @@
       <extendedTooltip>
         <name>ПраваяКолонкаПервойГруппыРасширеннаяПодсказка</name>
         <id>132</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -234,11 +200,6 @@
     <extendedTooltip>
       <name>ПерваяГруппаНастроекРасширеннаяПодсказка</name>
       <id>134</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -269,11 +230,6 @@
       <extendedTooltip>
         <name>ФормаИзменитьФормуРасширеннаяПодсказка</name>
         <id>152</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -282,6 +238,7 @@
         </extInfo>
       </extendedTooltip>
       <commandName>0</commandName>
+      <buttonImportance>Normal</buttonImportance>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -289,23 +246,19 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>
-  <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ПроверкаКонтрагентовВключена</name>
@@ -344,6 +297,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
